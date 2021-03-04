@@ -1,0 +1,69 @@
+$completed: #17c700;
+.Project-header {
+    display: grid;
+    grid-template-columns: 40% 60%;
+    align-items: center;
+    h1 {
+        margin: 10px 0;
+    }
+}
+.Project-settings {
+    text-align: right;
+    background: linear-gradient(45deg, #3af, rgba(115, 23, 235, 0.89));
+    width: max-content;
+    margin: 5px 0 0 auto;
+    padding: 1px;
+    border-radius: 5px;
+    h4 {
+        // display: flex;
+        // float: right;
+        width: max-content;
+        margin: 0 0 0 auto;
+        padding: 4px;
+    }
+    .Project-settings-settings {
+        // display: grid;
+        // grid-template-columns: 100%;
+        // float: right;
+        width: max-content;
+        margin: 0 0 0 auto;
+    }
+    p{
+        margin: 0 0;
+    }
+}
+.Project-title {
+    width: max-content;
+}
+.Delete-project-form {
+    
+    text-align: center;
+    .Delete-project-btn {
+        background-color: #f33;
+        color: #fff;
+        border-radius: 5px;
+    }
+}
+.All-projects-titles-container {
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    text-align: center;
+    margin: 0 0 5px 0;
+    
+    .All-projects-titles-items-container {
+        border: 1px solid #000;
+        border-radius: 5px;
+        padding: 0;
+        margin: 5px;
+        h2 {
+            margin: 0;
+            padding: 0;
+        }
+    }
+    .All-projects-titles-items {
+        margin: 0;
+        padding: 5px;
+        display: block;
+        width: 100%;
+    }
+}

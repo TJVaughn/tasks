@@ -1,0 +1,51 @@
+$completed: #17c700;
+
+.App {
+  display: block;
+  margin: 10px 20%;
+  @media only screen and (max-width: 800px){
+    margin: 10px 20px;
+  } 
+  @media only screen and (max-width: 500px){
+    margin: 10px 10px;
+  } 
+  @media only screen and (max-width: 350px){
+    margin: 10px 5px;
+  } 
+}
+
+.Pointer {
+  cursor: pointer;
+}
+.green {
+  color: $completed;
+}
+.white {
+  color: #fff;
+}
+
+.fade-out {
+  animation: fade-out 500ms linear;
+}
+@keyframes fade-out {
+  from {
+    
+  }
+  to {
+    transform: translate(100px, 0);
+    opacity: 0;
+  }
+}
+.fade-in {
+  animation: fade-in 500ms linear;
+}
+@keyframes fade-in {
+  from {
+    transform: translate(-100px, 0);
+    opacity: 0;
+  }
+  to {
+    transform: translate(0, 0);
+    opacity: 1;
+  }
+}

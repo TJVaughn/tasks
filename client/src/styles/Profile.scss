@@ -1,0 +1,15 @@
+.Profile-container{
+    display: block;
+    margin: 0 auto;
+    width: max-content;
+}
+.Profile-picture {
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    border: 1px solid #ddd;
+    padding: 0;
+}
+.Profile-info {
+    text-align: center;
+}

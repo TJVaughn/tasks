@@ -1,0 +1,15 @@
+{
+  "short_name": "TaskWorks.co",
+  "name": "Manage your product to-do's with this easy to use, free task management software!",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    }
+  ],
+  "start_url": "https://taskworks.co/",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}

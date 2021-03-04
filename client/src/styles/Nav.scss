@@ -1,0 +1,18 @@
+#Site-title {
+    text-decoration: none;
+    text-emphasis: none;
+    color: rgb(23, 199, 0);
+    float: left;
+}
+a{
+    text-decoration: none;
+    color: rgb(23, 199, 0);
+}
+.Site-Navigation {
+    display: flex;
+    align-items: center;
+    a {
+        padding: 0 15px;
+    }
+    
+}

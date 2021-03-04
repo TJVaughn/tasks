@@ -1,0 +1,4179 @@
+{
+    "quotes": [
+        {
+            "_id": "5ef126b6b390b20017e0a970",
+            "message": "They are not dead who live in the hearts they leave behind",
+            "source": "Tuscarora",
+            "type": "Native American",
+            "charity": {
+                "link": "http://www.nativepartnership.org/site/PageServer?pagename=pwna_home",
+                "name": "Partnership With Native Americans"
+            },
+            "qotd": false,
+            "createdAt": "2020-06-22T21:46:30.689Z",
+            "updatedAt": "2020-11-24T13:00:01.621Z",
+            "__v": 0,
+            "lastDateWasQotd": "1606136401758"
+        },
+        {
+            "_id": "5ef126d1b390b20017e0a971",
+            "message": "All plants are our brothers and sisters. They talk to us and if we listen, we can hear them",
+            "source": "Arapaho",
+            "type": "Native American",
+            "charity": {
+                "link": "http://www.nativepartnership.org/site/PageServer?pagename=pwna_home",
+                "name": "Partnership With Native Americans"
+            },
+            "qotd": false,
+            "createdAt": "2020-06-22T21:46:57.990Z",
+            "updatedAt": "2020-06-22T22:10:05.779Z",
+            "__v": 0
+        },
+        {
+            "_id": "5ef1273eb390b20017e0a972",
+            "message": "Day and night cannot dwell together",
+            "source": "Duwamish",
+            "type": "Native American",
+            "charity": {
+                "link": "http://www.nativepartnership.org/site/PageServer?pagename=pwna_home",
+                "name": "Partnership With Native Americans"
+            },
+            "qotd": false,
+            "createdAt": "2020-06-22T21:48:46.985Z",
+            "updatedAt": "2020-06-23T16:38:11.080Z",
+            "__v": 0
+        },
+        {
+            "_id": "5ef1274bb390b20017e0a973",
+            "message": "It is better to have less thunder in the mouth and more lightning in the hand",
+            "source": "Apache",
+            "type": "Native American",
+            "charity": {
+                "link": "http://www.nativepartnership.org/site/PageServer?pagename=pwna_home",
+                "name": "Partnership With Native Americans"
+            },
+            "qotd": false,
+            "createdAt": "2020-06-22T21:48:59.661Z",
+            "updatedAt": "2020-06-22T21:48:59.661Z",
+            "__v": 0
+        },
+        {
+            "_id": "5ef12775b390b20017e0a974",
+            "message": "Tell me and I’ll forget. Show me, and I may not remember. Involve me, and I’ll understand",
+            "source": "Tribe Unknown",
+            "type": "Native American",
+            "charity": {
+                "link": "http://www.nativepartnership.org/site/PageServer?pagename=pwna_home",
+                "name": "Partnership With Native Americans"
+            },
+            "qotd": false,
+            "createdAt": "2020-06-22T21:49:41.250Z",
+            "updatedAt": "2020-06-22T21:49:41.250Z",
+            "__v": 0
+        },
+        {
+            "_id": "5ef12783b390b20017e0a975",
+            "message": "Before eating, always take time to thank the food",
+            "source": "Arapaho",
+            "type": "Native American",
+            "charity": {
+                "link": "http://www.nativepartnership.org/site/PageServer?pagename=pwna_home",
+                "name": "Partnership With Native Americans"
+            },
+            "qotd": false,
+            "createdAt": "2020-06-22T21:49:55.101Z",
+            "updatedAt": "2020-12-01T13:00:02.308Z",
+            "__v": 0,
+            "lastDateWasQotd": "1606741201785"
+        },
+        {
+            "_id": "5ef127adb390b20017e0a976",
+            "message": "Don’t be afraid to cry. It will free your mind of sorrowful thoughts",
+            "source": "Hopi",
+            "type": "Native American",
+            "charity": {
+                "link": "http://www.nativepartnership.org/site/PageServer?pagename=pwna_home",
+                "name": "Partnership With Native Americans"
+            },
+            "qotd": false,
+            "createdAt": "2020-06-22T21:50:37.054Z",
+            "updatedAt": "2020-11-05T13:00:02.904Z",
+            "__v": 0,
+            "lastDateWasQotd": "1604494801495"
+        },
+        {
+            "_id": "5ef127beb390b20017e0a977",
+            "message": "When we show our respect for other living things, they respond with respect for us",
+            "source": "Arapaho",
+            "type": "Native American",
+            "charity": {
+                "link": "http://www.nativepartnership.org/site/PageServer?pagename=pwna_home",
+                "name": "Partnership With Native Americans"
+            },
+            "qotd": false,
+            "createdAt": "2020-06-22T21:50:54.500Z",
+            "updatedAt": "2020-10-10T13:00:01.091Z",
+            "__v": 0,
+            "lastDateWasQotd": "1602248401794"
+        },
+        {
+            "_id": "5ef127c8b390b20017e0a978",
+            "message": "If we wonder often, the gift of knowledge will come",
+            "source": "Arapaho",
+            "type": "Native American",
+            "charity": {
+                "link": "http://www.nativepartnership.org/site/PageServer?pagename=pwna_home",
+                "name": "Partnership With Native Americans"
+            },
+            "qotd": false,
+            "createdAt": "2020-06-22T21:51:04.981Z",
+            "updatedAt": "2020-06-22T21:51:04.981Z",
+            "__v": 0
+        },
+        {
+            "_id": "5ef127d6b390b20017e0a979",
+            "message": "Most of us do not look as handsome to others as we do to ourselves",
+            "source": "Assiniboine",
+            "type": "Native American",
+            "charity": {
+                "link": "http://www.nativepartnership.org/site/PageServer?pagename=pwna_home",
+                "name": "Partnership With Native Americans"
+            },
+            "qotd": false,
+            "createdAt": "2020-06-22T21:51:18.707Z",
+            "updatedAt": "2020-06-22T21:51:18.707Z",
+            "__v": 0
+        },
+        {
+            "_id": "5ef127e4b390b20017e0a97a",
+            "message": "Those that lie down with dogs, get up with fleas",
+            "source": "Blackfoot",
+            "type": "Native American",
+            "charity": {
+                "link": "http://www.nativepartnership.org/site/PageServer?pagename=pwna_home",
+                "name": "Partnership With Native Americans"
+            },
+            "qotd": false,
+            "createdAt": "2020-06-22T21:51:32.143Z",
+            "updatedAt": "2020-10-26T13:00:01.314Z",
+            "__v": 0,
+            "lastDateWasQotd": "1603630801378"
+        },
+        {
+            "_id": "5ef127f1b390b20017e0a97b",
+            "message": "In age, talk; in childhood, tears",
+            "source": "Hopi",
+            "type": "Native American",
+            "charity": {
+                "link": "http://www.nativepartnership.org/site/PageServer?pagename=pwna_home",
+                "name": "Partnership With Native Americans"
+            },
+            "qotd": true,
+            "createdAt": "2020-06-22T21:51:45.085Z",
+            "updatedAt": "2020-12-15T17:14:54.134Z",
+            "__v": 0,
+            "lastDateWasQotd": "1608052494132"
+        },
+        {
+            "_id": "5ef127fcb390b20017e0a97c",
+            "message": "We always return to our first loves",
+            "source": "Tribe Unknown",
+            "type": "Native American",
+            "charity": {
+                "link": "http://www.nativepartnership.org/site/PageServer?pagename=pwna_home",
+                "name": "Partnership With Native Americans"
+            },
+            "qotd": false,
+            "createdAt": "2020-06-22T21:51:56.332Z",
+            "updatedAt": "2020-12-15T17:14:54.109Z",
+            "__v": 0,
+            "lastDateWasQotd": "1607967820940"
+        },
+        {
+            "_id": "5ef12809b390b20017e0a97d",
+            "message": "What is life? It is the flash of a firefly in the night. It is the breath of a buffalo in the wintertime. It is the little shadow which runs across the grass and loses itself in the sunset",
+            "source": "Blackfoot",
+            "type": "Native American",
+            "charity": {
+                "link": "http://www.nativepartnership.org/site/PageServer?pagename=pwna_home",
+                "name": "Partnership With Native Americans"
+            },
+            "qotd": false,
+            "createdAt": "2020-06-22T21:52:09.111Z",
+            "updatedAt": "2020-06-22T21:52:09.111Z",
+            "__v": 0
+        },
+        {
+            "_id": "5ef12814b390b20017e0a97e",
+            "message": "When you were born, you cried and the world rejoiced. Live your life so that when you die, the world cries and you rejoice",
+            "source": "Cherokee",
+            "type": "Native American",
+            "charity": {
+                "link": "http://www.nativepartnership.org/site/PageServer?pagename=pwna_home",
+                "name": "Partnership With Native Americans"
+            },
+            "qotd": false,
+            "createdAt": "2020-06-22T21:52:20.843Z",
+            "updatedAt": "2020-06-22T21:52:20.843Z",
+            "__v": 0
+        },
+        {
+            "_id": "5ef12824b390b20017e0a97f",
+            "message": "Those who have one foot in the canoe, and one foot in the boat, are going to fall into the river",
+            "source": "Tuscarora",
+            "type": "Native American",
+            "charity": {
+                "link": "http://www.nativepartnership.org/site/PageServer?pagename=pwna_home",
+                "name": "Partnership With Native Americans"
+            },
+            "qotd": false,
+            "createdAt": "2020-06-22T21:52:36.186Z",
+            "updatedAt": "2020-06-22T21:52:36.186Z",
+            "__v": 0
+        },
+        {
+            "_id": "5ef1282db390b20017e0a980",
+            "message": "The weakness of the enemy makes our strength",
+            "source": "Cherokee",
+            "type": "Native American",
+            "charity": {
+                "link": "http://www.nativepartnership.org/site/PageServer?pagename=pwna_home",
+                "name": "Partnership With Native Americans"
+            },
+            "qotd": false,
+            "createdAt": "2020-06-22T21:52:45.174Z",
+            "updatedAt": "2020-09-06T13:00:00.852Z",
+            "__v": 0,
+            "lastDateWasQotd": "1599310800936"
+        },
+        {
+            "_id": "5ef12839b390b20017e0a981",
+            "message": "When the white man discovered this country, Indians were running it. No taxes, no debt, women did all the work.  White man thought he could improve on a system like this",
+            "source": "Cherokee",
+            "type": "Native American",
+            "charity": {
+                "link": "http://www.nativepartnership.org/site/PageServer?pagename=pwna_home",
+                "name": "Partnership With Native Americans"
+            },
+            "qotd": false,
+            "createdAt": "2020-06-22T21:52:57.809Z",
+            "updatedAt": "2020-06-22T21:52:57.809Z",
+            "__v": 0
+        },
+        {
+            "_id": "5ef12846b390b20017e0a982",
+            "message": "A good soldier is a poor scout",
+            "source": "Cheyenne",
+            "type": "Native American",
+            "charity": {
+                "link": "http://www.nativepartnership.org/site/PageServer?pagename=pwna_home",
+                "name": "Partnership With Native Americans"
+            },
+            "qotd": false,
+            "createdAt": "2020-06-22T21:53:10.847Z",
+            "updatedAt": "2020-06-22T21:53:10.847Z",
+            "__v": 0
+        },
+        {
+            "_id": "5ef12853b390b20017e0a983",
+            "message": "Poverty is a noose that strangles humility and breeds disrespect for God and man",
+            "source": "Sioux",
+            "type": "Native American",
+            "charity": {
+                "link": "http://www.nativepartnership.org/site/PageServer?pagename=pwna_home",
+                "name": "Partnership With Native Americans"
+            },
+            "qotd": false,
+            "createdAt": "2020-06-22T21:53:23.787Z",
+            "updatedAt": "2020-10-11T13:00:01.238Z",
+            "__v": 0,
+            "lastDateWasQotd": "1602334801111"
+        },
+        {
+            "_id": "5ef1285db390b20017e0a984",
+            "message": "We will be known forever by the tracks we leave",
+            "source": "Dakota",
+            "type": "Native American",
+            "charity": {
+                "link": "http://www.nativepartnership.org/site/PageServer?pagename=pwna_home",
+                "name": "Partnership With Native Americans"
+            },
+            "qotd": false,
+            "createdAt": "2020-06-22T21:53:33.886Z",
+            "updatedAt": "2020-06-22T21:53:33.886Z",
+            "__v": 0
+        },
+        {
+            "_id": "5ef1286ab390b20017e0a985",
+            "message": "Do not judge your neighbor until you walk two moons in his moccasins",
+            "source": "Cheyenne",
+            "type": "Native American",
+            "charity": {
+                "link": "http://www.nativepartnership.org/site/PageServer?pagename=pwna_home",
+                "name": "Partnership With Native Americans"
+            },
+            "qotd": false,
+            "createdAt": "2020-06-22T21:53:46.968Z",
+            "updatedAt": "2020-06-22T21:53:46.968Z",
+            "__v": 0
+        },
+        {
+            "_id": "5ef12876b390b20017e0a986",
+            "message": "There is nothing as eloquent as a rattlesnakes tail",
+            "source": "Navajo",
+            "type": "Native American",
+            "charity": {
+                "link": "http://www.nativepartnership.org/site/PageServer?pagename=pwna_home",
+                "name": "Partnership With Native Americans"
+            },
+            "qotd": false,
+            "createdAt": "2020-06-22T21:53:58.593Z",
+            "updatedAt": "2020-06-22T21:53:58.593Z",
+            "__v": 0
+        },
+        {
+            "_id": "5ef12886b390b20017e0a987",
+            "message": "Force, no matter how concealed, begets resistance",
+            "source": "Lakota",
+            "type": "Native American",
+            "charity": {
+                "link": "http://www.nativepartnership.org/site/PageServer?pagename=pwna_home",
+                "name": "Partnership With Native Americans"
+            },
+            "qotd": false,
+            "createdAt": "2020-06-22T21:54:14.113Z",
+            "updatedAt": "2020-06-22T21:54:14.113Z",
+            "__v": 0
+        },
+        {
+            "_id": "5ef12890b390b20017e0a988",
+            "message": "Our first teacher is our own heart",
+            "source": "Cheyenne",
+            "type": "Native American",
+            "charity": {
+                "link": "http://www.nativepartnership.org/site/PageServer?pagename=pwna_home",
+                "name": "Partnership With Native Americans"
+            },
+            "qotd": false,
+            "createdAt": "2020-06-22T21:54:24.117Z",
+            "updatedAt": "2020-06-22T21:54:24.117Z",
+            "__v": 0
+        },
+        {
+            "_id": "5ef1289fb390b20017e0a989",
+            "message": "Everyone who is successful must have dreamed of something",
+            "source": "Maricopa",
+            "type": "Native American",
+            "charity": {
+                "link": "http://www.nativepartnership.org/site/PageServer?pagename=pwna_home",
+                "name": "Partnership With Native Americans"
+            },
+            "qotd": false,
+            "createdAt": "2020-06-22T21:54:39.648Z",
+            "updatedAt": "2020-12-03T13:00:01.856Z",
+            "__v": 0,
+            "lastDateWasQotd": "1606914002163"
+        },
+        {
+            "_id": "5ef128b1b390b20017e0a98a",
+            "message": "All who have died are equal",
+            "source": "Comanche",
+            "type": "Native American",
+            "charity": {
+                "link": "http://www.nativepartnership.org/site/PageServer?pagename=pwna_home",
+                "name": "Partnership With Native Americans"
+            },
+            "qotd": false,
+            "createdAt": "2020-06-22T21:54:57.247Z",
+            "updatedAt": "2020-06-22T21:54:57.247Z",
+            "__v": 0
+        },
+        {
+            "_id": "5ef128bfb390b20017e0a98b",
+            "message": "Remember that your children are not your own, but are lent to you by the Creator",
+            "source": "Mohawk",
+            "type": "Native American",
+            "charity": {
+                "link": "http://www.nativepartnership.org/site/PageServer?pagename=pwna_home",
+                "name": "Partnership With Native Americans"
+            },
+            "qotd": false,
+            "createdAt": "2020-06-22T21:55:11.920Z",
+            "updatedAt": "2020-06-22T21:55:11.920Z",
+            "__v": 0
+        },
+        {
+            "_id": "5ef128d4b390b20017e0a98c",
+            "message": "One rain does not make a crop",
+            "source": "Creole",
+            "type": "Native American",
+            "charity": {
+                "link": "http://www.nativepartnership.org/site/PageServer?pagename=pwna_home",
+                "name": "Partnership With Native Americans"
+            },
+            "qotd": false,
+            "createdAt": "2020-06-22T21:55:32.354Z",
+            "updatedAt": "2020-10-17T13:00:01.383Z",
+            "__v": 0,
+            "lastDateWasQotd": "1602853201268"
+        },
+        {
+            "_id": "5ef128dfb390b20017e0a98d",
+            "message": "Man’s law changes with his understanding of man. Only the laws of the spirit remain always the same",
+            "source": "Crow",
+            "type": "Native American",
+            "charity": {
+                "link": "http://www.nativepartnership.org/site/PageServer?pagename=pwna_home",
+                "name": "Partnership With Native Americans"
+            },
+            "qotd": false,
+            "createdAt": "2020-06-22T21:55:43.522Z",
+            "updatedAt": "2020-11-11T13:00:01.640Z",
+            "__v": 0,
+            "lastDateWasQotd": "1605013201667"
+        },
+        {
+            "_id": "5ef128eeb390b20017e0a98e",
+            "message": "What the people believe is true",
+            "source": "Anishinabe",
+            "type": "Native American",
+            "charity": {
+                "link": "http://www.nativepartnership.org/site/PageServer?pagename=pwna_home",
+                "name": "Partnership With Native Americans"
+            },
+            "qotd": false,
+            "createdAt": "2020-06-22T21:55:58.632Z",
+            "updatedAt": "2020-06-22T21:55:58.632Z",
+            "__v": 0
+        },
+        {
+            "_id": "5ef128f9b390b20017e0a98f",
+            "message": "You already possess everything necessary to become great",
+            "source": "Crow",
+            "type": "Native American",
+            "charity": {
+                "link": "http://www.nativepartnership.org/site/PageServer?pagename=pwna_home",
+                "name": "Partnership With Native Americans"
+            },
+            "qotd": false,
+            "createdAt": "2020-06-22T21:56:09.808Z",
+            "updatedAt": "2020-06-22T21:56:09.808Z",
+            "__v": 0
+        },
+        {
+            "_id": "5ef1290bb390b20017e0a990",
+            "message": "There is no death, only a change of worlds",
+            "source": "Duwamish",
+            "type": "Native American",
+            "charity": {
+                "link": "http://www.nativepartnership.org/site/PageServer?pagename=pwna_home",
+                "name": "Partnership With Native Americans"
+            },
+            "qotd": false,
+            "createdAt": "2020-06-22T21:56:27.285Z",
+            "updatedAt": "2020-08-20T13:00:00.818Z",
+            "__v": 0,
+            "lastDateWasQotd": "1597842000838"
+        },
+        {
+            "_id": "5ef12915b390b20017e0a991",
+            "message": "Life is not separate from death. It only looks that way",
+            "source": "Blackfoot",
+            "type": "Native American",
+            "charity": {
+                "link": "http://www.nativepartnership.org/site/PageServer?pagename=pwna_home",
+                "name": "Partnership With Native Americans"
+            },
+            "qotd": false,
+            "createdAt": "2020-06-22T21:56:37.459Z",
+            "updatedAt": "2020-06-22T21:56:37.459Z",
+            "__v": 0
+        },
+        {
+            "_id": "5ef12922b390b20017e0a992",
+            "message": "You can’t wake a person who is pretending to be asleep",
+            "source": "Navajo",
+            "type": "Native American",
+            "charity": {
+                "link": "http://www.nativepartnership.org/site/PageServer?pagename=pwna_home",
+                "name": "Partnership With Native Americans"
+            },
+            "qotd": false,
+            "createdAt": "2020-06-22T21:56:50.048Z",
+            "updatedAt": "2020-06-22T21:56:50.048Z",
+            "__v": 0
+        },
+        {
+            "_id": "5ef12930b390b20017e0a993",
+            "message": "It is less of a problem to be poor than to be dishonest",
+            "source": "Anishinabe",
+            "type": "Native American",
+            "charity": {
+                "link": "http://www.nativepartnership.org/site/PageServer?pagename=pwna_home",
+                "name": "Partnership With Native Americans"
+            },
+            "qotd": false,
+            "createdAt": "2020-06-22T21:57:04.689Z",
+            "updatedAt": "2020-06-22T21:57:04.689Z",
+            "__v": 0
+        },
+        {
+            "_id": "5ef1293ab390b20017e0a994",
+            "message": "One finger cannot lift a pebble",
+            "source": "Hopi",
+            "type": "Native American",
+            "charity": {
+                "link": "http://www.nativepartnership.org/site/PageServer?pagename=pwna_home",
+                "name": "Partnership With Native Americans"
+            },
+            "qotd": false,
+            "createdAt": "2020-06-22T21:57:14.713Z",
+            "updatedAt": "2020-11-03T13:00:01.311Z",
+            "__v": 0,
+            "lastDateWasQotd": "1604322001716"
+        },
+        {
+            "_id": "5ef12948b390b20017e0a995",
+            "message": "Beware of the man who does not talk, and the dog that does not bark",
+            "source": "Cheyenne",
+            "type": "Native American",
+            "charity": {
+                "link": "http://www.nativepartnership.org/site/PageServer?pagename=pwna_home",
+                "name": "Partnership With Native Americans"
+            },
+            "qotd": false,
+            "createdAt": "2020-06-22T21:57:28.207Z",
+            "updatedAt": "2020-06-22T21:57:28.207Z",
+            "__v": 0
+        },
+        {
+            "_id": "5ef12951b390b20017e0a996",
+            "message": "All dreams spin out from the same web",
+            "source": "Hopi",
+            "type": "Native American",
+            "charity": {
+                "link": "http://www.nativepartnership.org/site/PageServer?pagename=pwna_home",
+                "name": "Partnership With Native Americans"
+            },
+            "qotd": false,
+            "createdAt": "2020-06-22T21:57:37.596Z",
+            "updatedAt": "2020-08-19T13:00:00.812Z",
+            "__v": 0,
+            "lastDateWasQotd": "1597755600795"
+        },
+        {
+            "_id": "5ef1295fb390b20017e0a997",
+            "message": "Old age is not as honorable as death, but most people want it",
+            "source": "Crow",
+            "type": "Native American",
+            "charity": {
+                "link": "http://www.nativepartnership.org/site/PageServer?pagename=pwna_home",
+                "name": "Partnership With Native Americans"
+            },
+            "qotd": false,
+            "createdAt": "2020-06-22T21:57:51.996Z",
+            "updatedAt": "2020-11-10T13:00:01.638Z",
+            "__v": 0,
+            "lastDateWasQotd": "1604926801579"
+        },
+        {
+            "_id": "5ef1296cb390b20017e0a998",
+            "message": "Even a small mouse has anger",
+            "source": "Tribe Unknown",
+            "type": "Native American",
+            "charity": {
+                "link": "http://www.nativepartnership.org/site/PageServer?pagename=pwna_home",
+                "name": "Partnership With Native Americans"
+            },
+            "qotd": false,
+            "createdAt": "2020-06-22T21:58:04.182Z",
+            "updatedAt": "2020-06-22T21:58:04.182Z",
+            "__v": 0
+        },
+        {
+            "_id": "5ef12976b390b20017e0a999",
+            "message": "If a man is as wise as a serpent, he can afford to be as harmless as a dove",
+            "source": "Cheyenne",
+            "type": "Native American",
+            "charity": {
+                "link": "http://www.nativepartnership.org/site/PageServer?pagename=pwna_home",
+                "name": "Partnership With Native Americans"
+            },
+            "qotd": false,
+            "createdAt": "2020-06-22T21:58:14.999Z",
+            "updatedAt": "2020-06-22T21:58:14.999Z",
+            "__v": 0
+        },
+        {
+            "_id": "5ef12981b390b20017e0a99a",
+            "message": "Treat the earth well: it was not given to you by your parents, it was loaned to you by your children. We do not inherit the Earth from our Ancestors, we borrow it from our Children",
+            "source": "Tribe Unknown",
+            "type": "Native American",
+            "charity": {
+                "link": "http://www.nativepartnership.org/site/PageServer?pagename=pwna_home",
+                "name": "Partnership With Native Americans"
+            },
+            "qotd": false,
+            "createdAt": "2020-06-22T21:58:25.232Z",
+            "updatedAt": "2020-11-07T13:00:01.461Z",
+            "__v": 0,
+            "lastDateWasQotd": "1604667601343"
+        },
+        {
+            "_id": "5ef1298ab390b20017e0a99b",
+            "message": "The rainbow is a sign from Him who is in all things",
+            "source": "Hopi",
+            "type": "Native American",
+            "charity": {
+                "link": "http://www.nativepartnership.org/site/PageServer?pagename=pwna_home",
+                "name": "Partnership With Native Americans"
+            },
+            "qotd": false,
+            "createdAt": "2020-06-22T21:58:34.631Z",
+            "updatedAt": "2020-06-22T21:58:34.631Z",
+            "__v": 0
+        },
+        {
+            "_id": "5ef12994b390b20017e0a99c",
+            "message": "Walk lightly in the spring; Mother Earth is pregnant",
+            "source": "Kiowa",
+            "type": "Native American",
+            "charity": {
+                "link": "http://www.nativepartnership.org/site/PageServer?pagename=pwna_home",
+                "name": "Partnership With Native Americans"
+            },
+            "qotd": false,
+            "createdAt": "2020-06-22T21:58:44.601Z",
+            "updatedAt": "2020-06-22T21:58:44.601Z",
+            "__v": 0
+        },
+        {
+            "_id": "5ef129a9b390b20017e0a99d",
+            "message": "When a man moves away from nature his heart becomes hard",
+            "source": "Lakota",
+            "type": "Native American",
+            "charity": {
+                "link": "http://www.nativepartnership.org/site/PageServer?pagename=pwna_home",
+                "name": "Partnership With Native Americans"
+            },
+            "qotd": false,
+            "createdAt": "2020-06-22T21:59:05.269Z",
+            "updatedAt": "2020-06-22T21:59:05.269Z",
+            "__v": 0
+        },
+        {
+            "_id": "5ef129b4b390b20017e0a99e",
+            "message": "Everything the power does, it does in a circle",
+            "source": "Lakota",
+            "type": "Native American",
+            "charity": {
+                "link": "http://www.nativepartnership.org/site/PageServer?pagename=pwna_home",
+                "name": "Partnership With Native Americans"
+            },
+            "qotd": false,
+            "createdAt": "2020-06-22T21:59:16.026Z",
+            "updatedAt": "2020-06-25T16:40:14.884Z",
+            "__v": 0,
+            "lastDateWasQotd": "1593098124830"
+        },
+        {
+            "_id": "5ef129c1b390b20017e0a99f",
+            "message": "A brave man dies but once, a coward many times.",
+            "source": "Tribe Unknown",
+            "type": "Native American",
+            "charity": {
+                "link": "http://www.nativepartnership.org/site/PageServer?pagename=pwna_home",
+                "name": "Partnership With Native Americans"
+            },
+            "qotd": false,
+            "createdAt": "2020-06-22T21:59:29.337Z",
+            "updatedAt": "2020-06-23T10:00:16.107Z",
+            "__v": 0
+        },
+        {
+            "_id": "5ef129d1b390b20017e0a9a0",
+            "message": "A man or woman with many children has many homes",
+            "source": "Sioux",
+            "type": "Native American",
+            "charity": {
+                "link": "http://www.nativepartnership.org/site/PageServer?pagename=pwna_home",
+                "name": "Partnership With Native Americans"
+            },
+            "qotd": false,
+            "createdAt": "2020-06-22T21:59:45.069Z",
+            "updatedAt": "2020-06-22T21:59:45.069Z",
+            "__v": 0
+        },
+        {
+            "_id": "5ef129dcb390b20017e0a9a1",
+            "message": "Seek wisdom, not knowledge. Knowledge is of the past, Wisdom is of the future",
+            "source": "Lumbee",
+            "type": "Native American",
+            "charity": {
+                "link": "http://www.nativepartnership.org/site/PageServer?pagename=pwna_home",
+                "name": "Partnership With Native Americans"
+            },
+            "qotd": false,
+            "createdAt": "2020-06-22T21:59:56.258Z",
+            "updatedAt": "2020-06-22T21:59:56.258Z",
+            "__v": 0
+        },
+        {
+            "_id": "5ef129e8b390b20017e0a9a2",
+            "message": "If you see no reason for giving thanks, the fault lies in yourself",
+            "source": "Minquass",
+            "type": "Native American",
+            "charity": {
+                "link": "http://www.nativepartnership.org/site/PageServer?pagename=pwna_home",
+                "name": "Partnership With Native Americans"
+            },
+            "qotd": false,
+            "createdAt": "2020-06-22T22:00:08.644Z",
+            "updatedAt": "2020-06-22T22:00:08.644Z",
+            "__v": 0
+        },
+        {
+            "_id": "5ef129f3b390b20017e0a9a3",
+            "message": "A good chief gives, he does not take",
+            "source": "Mohawk",
+            "type": "Native American",
+            "charity": {
+                "link": "http://www.nativepartnership.org/site/PageServer?pagename=pwna_home",
+                "name": "Partnership With Native Americans"
+            },
+            "qotd": false,
+            "createdAt": "2020-06-22T22:00:19.457Z",
+            "updatedAt": "2020-10-09T13:00:01.746Z",
+            "__v": 0,
+            "lastDateWasQotd": "1602162001495"
+        },
+        {
+            "_id": "5ef129ffb390b20017e0a9a4",
+            "message": "Coyote is always out there waiting, and Coyote is always hungry",
+            "source": "Navajo",
+            "type": "Native American",
+            "charity": {
+                "link": "http://www.nativepartnership.org/site/PageServer?pagename=pwna_home",
+                "name": "Partnership With Native Americans"
+            },
+            "qotd": false,
+            "createdAt": "2020-06-22T22:00:31.706Z",
+            "updatedAt": "2020-09-29T13:00:01.155Z",
+            "__v": 0,
+            "lastDateWasQotd": "1601298003926"
+        },
+        {
+            "_id": "5ef12a0eb390b20017e0a9a5",
+            "message": "Listening to a liar is like drinking warm water",
+            "source": "Tribe Unknown",
+            "type": "Native American",
+            "charity": {
+                "link": "http://www.nativepartnership.org/site/PageServer?pagename=pwna_home",
+                "name": "Partnership With Native Americans"
+            },
+            "qotd": false,
+            "createdAt": "2020-06-22T22:00:46.164Z",
+            "updatedAt": "2020-06-22T22:00:46.164Z",
+            "__v": 0
+        },
+        {
+            "_id": "5ef12a1ab390b20017e0a9a6",
+            "message": "Every animal knows more than you do",
+            "source": "Nez Perce",
+            "type": "Native American",
+            "charity": {
+                "link": "http://www.nativepartnership.org/site/PageServer?pagename=pwna_home",
+                "name": "Partnership With Native Americans"
+            },
+            "qotd": false,
+            "createdAt": "2020-06-22T22:00:58.330Z",
+            "updatedAt": "2020-06-22T22:00:58.330Z",
+            "__v": 0
+        },
+        {
+            "_id": "5ef12a2db390b20017e0a9a7",
+            "message": "To touch the earth is to have harmony with nature",
+            "source": "Sioux",
+            "type": "Native American",
+            "charity": {
+                "link": "http://www.nativepartnership.org/site/PageServer?pagename=pwna_home",
+                "name": "Partnership With Native Americans"
+            },
+            "qotd": false,
+            "createdAt": "2020-06-22T22:01:17.921Z",
+            "updatedAt": "2020-06-22T22:01:17.921Z",
+            "__v": 0
+        },
+        {
+            "_id": "5ef12a38b390b20017e0a9a8",
+            "message": "When a fox walks lame, the old rabbit jumps",
+            "source": "Oklahoma",
+            "type": "Native American",
+            "charity": {
+                "link": "http://www.nativepartnership.org/site/PageServer?pagename=pwna_home",
+                "name": "Partnership With Native Americans"
+            },
+            "qotd": false,
+            "createdAt": "2020-06-22T22:01:28.278Z",
+            "updatedAt": "2020-06-22T22:01:28.278Z",
+            "__v": 0
+        },
+        {
+            "_id": "5ef12a42b390b20017e0a9a9",
+            "message": "Many have fallen with the bottle in their hand",
+            "source": "Lakota",
+            "type": "Native American",
+            "charity": {
+                "link": "http://www.nativepartnership.org/site/PageServer?pagename=pwna_home",
+                "name": "Partnership With Native Americans"
+            },
+            "qotd": false,
+            "createdAt": "2020-06-22T22:01:38.456Z",
+            "updatedAt": "2020-06-22T22:01:38.456Z",
+            "__v": 0
+        },
+        {
+            "_id": "5ef12a4cb390b20017e0a9aa",
+            "message": "A starving man will eat with the wolf",
+            "source": "Oklahoma",
+            "type": "Native American",
+            "charity": {
+                "link": "http://www.nativepartnership.org/site/PageServer?pagename=pwna_home",
+                "name": "Partnership With Native Americans"
+            },
+            "qotd": false,
+            "createdAt": "2020-06-22T22:01:48.026Z",
+            "updatedAt": "2020-06-23T16:42:40.992Z",
+            "__v": 0
+        },
+        {
+            "_id": "5ef12a56b390b20017e0a9ab",
+            "message": "A danger foreseen is half-avoided",
+            "source": "Cheyenne",
+            "type": "Native American",
+            "charity": {
+                "link": "http://www.nativepartnership.org/site/PageServer?pagename=pwna_home",
+                "name": "Partnership With Native Americans"
+            },
+            "qotd": false,
+            "createdAt": "2020-06-22T22:01:58.836Z",
+            "updatedAt": "2020-12-02T13:00:02.113Z",
+            "__v": 0,
+            "lastDateWasQotd": "1606827602344"
+        },
+        {
+            "_id": "5ef12a62b390b20017e0a9ac",
+            "message": "The coward shoots with shut eyes",
+            "source": "Oklahoma",
+            "type": "Native American",
+            "charity": {
+                "link": "http://www.nativepartnership.org/site/PageServer?pagename=pwna_home",
+                "name": "Partnership With Native Americans"
+            },
+            "qotd": false,
+            "createdAt": "2020-06-22T22:02:10.876Z",
+            "updatedAt": "2020-06-22T22:02:10.876Z",
+            "__v": 0
+        },
+        {
+            "_id": "5ef12a6eb390b20017e0a9ad",
+            "message": "It is easy to be brave from a distance",
+            "source": "Omaha",
+            "type": "Native American",
+            "charity": {
+                "link": "http://www.nativepartnership.org/site/PageServer?pagename=pwna_home",
+                "name": "Partnership With Native Americans"
+            },
+            "qotd": false,
+            "createdAt": "2020-06-22T22:02:22.133Z",
+            "updatedAt": "2020-09-02T13:00:00.849Z",
+            "__v": 0,
+            "lastDateWasQotd": "1598965200967"
+        },
+        {
+            "_id": "5ef12a7eb390b20017e0a9ae",
+            "message": "The bird who has eaten cannot fly with the bird that is hungry",
+            "source": "Omaha",
+            "type": "Native American",
+            "charity": {
+                "link": "http://www.nativepartnership.org/site/PageServer?pagename=pwna_home",
+                "name": "Partnership With Native Americans"
+            },
+            "qotd": false,
+            "createdAt": "2020-06-22T22:02:38.068Z",
+            "updatedAt": "2020-06-22T22:02:38.068Z",
+            "__v": 0
+        },
+        {
+            "_id": "5ef12a8bb390b20017e0a9af",
+            "message": "Ask questions from your heart and you will be answered from the heart",
+            "source": "Omaha",
+            "type": "Native American",
+            "charity": {
+                "link": "http://www.nativepartnership.org/site/PageServer?pagename=pwna_home",
+                "name": "Partnership With Native Americans"
+            },
+            "qotd": false,
+            "createdAt": "2020-06-22T22:02:51.174Z",
+            "updatedAt": "2020-11-27T13:00:01.781Z",
+            "__v": 0,
+            "lastDateWasQotd": "1606395601513"
+        },
+        {
+            "_id": "5ef12a95b390b20017e0a9b0",
+            "message": "A hungry stomach makes a short prayer",
+            "source": "Paiute",
+            "type": "Native American",
+            "charity": {
+                "link": "http://www.nativepartnership.org/site/PageServer?pagename=pwna_home",
+                "name": "Partnership With Native Americans"
+            },
+            "qotd": false,
+            "createdAt": "2020-06-22T22:03:01.782Z",
+            "updatedAt": "2020-06-22T22:03:01.782Z",
+            "__v": 0
+        },
+        {
+            "_id": "5ef12aa0b390b20017e0a9b1",
+            "message": "Do not wrong or hate your neighbor for it is not he that you wrong but yourself",
+            "source": "Pima",
+            "type": "Native American",
+            "charity": {
+                "link": "http://www.nativepartnership.org/site/PageServer?pagename=pwna_home",
+                "name": "Partnership With Native Americans"
+            },
+            "qotd": false,
+            "createdAt": "2020-06-22T22:03:12.114Z",
+            "updatedAt": "2020-06-22T22:03:12.114Z",
+            "__v": 0
+        },
+        {
+            "_id": "5ef12aadb390b20017e0a9b2",
+            "message": "Make my enemy brave and strong, so that if defeated, I will not be ashamed",
+            "source": "Plains",
+            "type": "Native American",
+            "charity": {
+                "link": "http://www.nativepartnership.org/site/PageServer?pagename=pwna_home",
+                "name": "Partnership With Native Americans"
+            },
+            "qotd": false,
+            "createdAt": "2020-06-22T22:03:25.959Z",
+            "updatedAt": "2020-06-22T22:03:25.959Z",
+            "__v": 0
+        },
+        {
+            "_id": "5ef12ab8b390b20017e0a9b3",
+            "message": "Cherish youth, but trust old age",
+            "source": "Pueblo",
+            "type": "Native American",
+            "charity": {
+                "link": "http://www.nativepartnership.org/site/PageServer?pagename=pwna_home",
+                "name": "Partnership With Native Americans"
+            },
+            "qotd": false,
+            "createdAt": "2020-06-22T22:03:36.796Z",
+            "updatedAt": "2020-06-22T22:03:36.796Z",
+            "__v": 0
+        },
+        {
+            "_id": "5ef12ac2b390b20017e0a9b4",
+            "message": "Sharing and giving are the ways of God",
+            "source": "Sauk",
+            "type": "Native American",
+            "charity": {
+                "link": "http://www.nativepartnership.org/site/PageServer?pagename=pwna_home",
+                "name": "Partnership With Native Americans"
+            },
+            "qotd": false,
+            "createdAt": "2020-06-22T22:03:46.092Z",
+            "updatedAt": "2020-10-16T13:00:01.215Z",
+            "__v": 0,
+            "lastDateWasQotd": "1602766802927"
+        },
+        {
+            "_id": "5ef12acbb390b20017e0a9b5",
+            "message": "We are all one child spinning through Mother Sky",
+            "source": "Shawnee",
+            "type": "Native American",
+            "charity": {
+                "link": "http://www.nativepartnership.org/site/PageServer?pagename=pwna_home",
+                "name": "Partnership With Native Americans"
+            },
+            "qotd": false,
+            "createdAt": "2020-06-22T22:03:55.863Z",
+            "updatedAt": "2020-12-12T16:46:46.246Z",
+            "__v": 0,
+            "lastDateWasQotd": "1607704487328"
+        },
+        {
+            "_id": "5ef12ad6b390b20017e0a9b6",
+            "message": "Each person is his own judge",
+            "source": "Shawnee",
+            "type": "Native American",
+            "charity": {
+                "link": "http://www.nativepartnership.org/site/PageServer?pagename=pwna_home",
+                "name": "Partnership With Native Americans"
+            },
+            "qotd": false,
+            "createdAt": "2020-06-22T22:04:06.030Z",
+            "updatedAt": "2020-06-22T22:04:06.030Z",
+            "__v": 0
+        },
+        {
+            "_id": "5ef12ae0b390b20017e0a9b7",
+            "message": "We are made from Mother Earth and we go back to Mother Earth",
+            "source": "Shenandoah",
+            "type": "Native American",
+            "charity": {
+                "link": "http://www.nativepartnership.org/site/PageServer?pagename=pwna_home",
+                "name": "Partnership With Native Americans"
+            },
+            "qotd": false,
+            "createdAt": "2020-06-22T22:04:16.088Z",
+            "updatedAt": "2020-06-22T22:04:16.088Z",
+            "__v": 0
+        },
+        {
+            "_id": "5ef12ae9b390b20017e0a9b8",
+            "message": "It is no longer good enough to cry peace, we must act peace, live peace and live in peace",
+            "source": "Shenandoah",
+            "type": "Native American",
+            "charity": {
+                "link": "http://www.nativepartnership.org/site/PageServer?pagename=pwna_home",
+                "name": "Partnership With Native Americans"
+            },
+            "qotd": false,
+            "createdAt": "2020-06-22T22:04:25.949Z",
+            "updatedAt": "2020-06-22T22:04:25.949Z",
+            "__v": 0
+        },
+        {
+            "_id": "5ef12afeb390b20017e0a9b9",
+            "message": "There are many good moccasin tracks along the trail of a straight arrow",
+            "source": "Sioux",
+            "type": "Native American",
+            "charity": {
+                "link": "http://www.nativepartnership.org/site/PageServer?pagename=pwna_home",
+                "name": "Partnership With Native Americans"
+            },
+            "qotd": false,
+            "createdAt": "2020-06-22T22:04:46.744Z",
+            "updatedAt": "2020-06-22T22:04:46.744Z",
+            "__v": 0
+        },
+        {
+            "_id": "5ef12b15b390b20017e0a9ba",
+            "message": "A rocky vineyard does not need a prayer, but a pick ax",
+            "source": "Navajo",
+            "type": "Native American",
+            "charity": {
+                "link": "http://www.nativepartnership.org/site/PageServer?pagename=pwna_home",
+                "name": "Partnership With Native Americans"
+            },
+            "qotd": false,
+            "createdAt": "2020-06-22T22:05:09.131Z",
+            "updatedAt": "2020-11-02T13:00:01.695Z",
+            "__v": 0,
+            "lastDateWasQotd": "1604235601723"
+        },
+        {
+            "_id": "5ef12b22b390b20017e0a9bb",
+            "message": "With all things and in all things, we are relatives",
+            "source": "Sioux",
+            "type": "Native American",
+            "charity": {
+                "link": "http://www.nativepartnership.org/site/PageServer?pagename=pwna_home",
+                "name": "Partnership With Native Americans"
+            },
+            "qotd": false,
+            "createdAt": "2020-06-22T22:05:22.933Z",
+            "updatedAt": "2020-06-24T10:00:16.207Z",
+            "__v": 0
+        },
+        {
+            "_id": "5ef12b2db390b20017e0a9bc",
+            "message": "The one who tells the stories rules the world",
+            "source": "Hopi",
+            "type": "Native American",
+            "charity": {
+                "link": "http://www.nativepartnership.org/site/PageServer?pagename=pwna_home",
+                "name": "Partnership With Native Americans"
+            },
+            "qotd": false,
+            "createdAt": "2020-06-22T22:05:33.473Z",
+            "updatedAt": "2020-06-22T22:05:33.473Z",
+            "__v": 0
+        },
+        {
+            "_id": "5ef12b39b390b20017e0a9bd",
+            "message": "The frog does not drink up the pond in which he lives",
+            "source": "Sioux",
+            "type": "Native American",
+            "charity": {
+                "link": "http://www.nativepartnership.org/site/PageServer?pagename=pwna_home",
+                "name": "Partnership With Native Americans"
+            },
+            "qotd": false,
+            "createdAt": "2020-06-22T22:05:45.228Z",
+            "updatedAt": "2020-12-09T16:43:51.006Z",
+            "__v": 0,
+            "lastDateWasQotd": "1607484711326"
+        },
+        {
+            "_id": "5ef12b43b390b20017e0a9be",
+            "message": "A people without a history is like the wind over buffalo grass",
+            "source": "Sioux",
+            "type": "Native American",
+            "charity": {
+                "link": "http://www.nativepartnership.org/site/PageServer?pagename=pwna_home",
+                "name": "Partnership With Native Americans"
+            },
+            "qotd": false,
+            "createdAt": "2020-06-22T22:05:55.418Z",
+            "updatedAt": "2020-08-28T13:00:00.912Z",
+            "__v": 0,
+            "lastDateWasQotd": "1598533201115"
+        },
+        {
+            "_id": "5ef12b53b390b20017e0a9bf",
+            "message": "The moon is not shamed by the barking of dogs",
+            "source": "Southwest",
+            "type": "Native American",
+            "charity": {
+                "link": "http://www.nativepartnership.org/site/PageServer?pagename=pwna_home",
+                "name": "Partnership With Native Americans"
+            },
+            "qotd": false,
+            "createdAt": "2020-06-22T22:06:11.864Z",
+            "updatedAt": "2020-06-22T22:06:11.864Z",
+            "__v": 0
+        },
+        {
+            "_id": "5ef12b5cb390b20017e0a9c0",
+            "message": "Regard Heaven as your father, Earth as your Mother and all things as your Brothers and Sisters",
+            "source": "Tribe Unknown",
+            "type": "Native American",
+            "charity": {
+                "link": "http://www.nativepartnership.org/site/PageServer?pagename=pwna_home",
+                "name": "Partnership With Native Americans"
+            },
+            "qotd": false,
+            "createdAt": "2020-06-22T22:06:20.414Z",
+            "updatedAt": "2020-11-04T13:00:01.474Z",
+            "__v": 0,
+            "lastDateWasQotd": "1604408401331"
+        },
+        {
+            "_id": "5ef12b66b390b20017e0a9c1",
+            "message": "Tell me and I’ll forget. Show me, and I may not remember. Involve me, and I’ll understand",
+            "source": "Tribe Unknown",
+            "type": "Native American",
+            "charity": {
+                "link": "http://www.nativepartnership.org/site/PageServer?pagename=pwna_home",
+                "name": "Partnership With Native Americans"
+            },
+            "qotd": false,
+            "createdAt": "2020-06-22T22:06:30.067Z",
+            "updatedAt": "2020-09-14T13:00:01.038Z",
+            "__v": 0,
+            "lastDateWasQotd": "1600002000913"
+        },
+        {
+            "_id": "5ef12b70b390b20017e0a9c2",
+            "message": "White men have too many chiefs",
+            "source": "Nez Perce",
+            "type": "Native American",
+            "charity": {
+                "link": "http://www.nativepartnership.org/site/PageServer?pagename=pwna_home",
+                "name": "Partnership With Native Americans"
+            },
+            "qotd": false,
+            "createdAt": "2020-06-22T22:06:40.633Z",
+            "updatedAt": "2020-06-22T22:06:40.633Z",
+            "__v": 0
+        },
+        {
+            "_id": "5ef12b7bb390b20017e0a9c3",
+            "message": "If a man is to do something more than human, he must have more than human powers",
+            "source": "Tribe Unknown",
+            "type": "Native American",
+            "charity": {
+                "link": "http://www.nativepartnership.org/site/PageServer?pagename=pwna_home",
+                "name": "Partnership With Native Americans"
+            },
+            "qotd": false,
+            "createdAt": "2020-06-22T22:06:51.528Z",
+            "updatedAt": "2020-09-05T13:00:00.915Z",
+            "__v": 0,
+            "lastDateWasQotd": "1599224401026"
+        },
+        {
+            "_id": "5ef12b84b390b20017e0a9c4",
+            "message": "The soul would have no rainbow if the eye had no tears",
+            "source": "Tribe Unknown",
+            "type": "Native American",
+            "charity": {
+                "link": "http://www.nativepartnership.org/site/PageServer?pagename=pwna_home",
+                "name": "Partnership With Native Americans"
+            },
+            "qotd": false,
+            "createdAt": "2020-06-22T22:07:00.024Z",
+            "updatedAt": "2020-06-22T22:07:00.024Z",
+            "__v": 0
+        },
+        {
+            "_id": "5ef12b8cb390b20017e0a9c5",
+            "message": "Wisdom comes only when you stop looking for it and start living the life the Creator intended for you",
+            "source": "Hopi",
+            "type": "Native American",
+            "charity": {
+                "link": "http://www.nativepartnership.org/site/PageServer?pagename=pwna_home",
+                "name": "Partnership With Native Americans"
+            },
+            "qotd": false,
+            "createdAt": "2020-06-22T22:07:08.649Z",
+            "updatedAt": "2020-06-22T22:07:08.649Z",
+            "__v": 0
+        },
+        {
+            "_id": "5ef12b96b390b20017e0a9c6",
+            "message": "Not every sweet root gives birth to sweet grass",
+            "source": "Tribe Unknown",
+            "type": "Native American",
+            "charity": {
+                "link": "http://www.nativepartnership.org/site/PageServer?pagename=pwna_home",
+                "name": "Partnership With Native Americans"
+            },
+            "qotd": false,
+            "createdAt": "2020-06-22T22:07:18.032Z",
+            "updatedAt": "2020-06-30T13:00:00.380Z",
+            "__v": 0,
+            "lastDateWasQotd": "1593435600484"
+        },
+        {
+            "_id": "5ef12ba0b390b20017e0a9c7",
+            "message": "Take only what you need and leave the land as you found it",
+            "source": "Arapaho",
+            "type": "Native American",
+            "charity": {
+                "link": "http://www.nativepartnership.org/site/PageServer?pagename=pwna_home",
+                "name": "Partnership With Native Americans"
+            },
+            "qotd": false,
+            "createdAt": "2020-06-22T22:07:28.149Z",
+            "updatedAt": "2020-08-06T13:00:00.724Z",
+            "__v": 0,
+            "lastDateWasQotd": "1596632400771"
+        },
+        {
+            "_id": "5ef12babb390b20017e0a9c8",
+            "message": "It takes a thousand voices to tell a single story",
+            "source": "Tribe Unknown",
+            "type": "Native American",
+            "charity": {
+                "link": "http://www.nativepartnership.org/site/PageServer?pagename=pwna_home",
+                "name": "Partnership With Native Americans"
+            },
+            "qotd": false,
+            "createdAt": "2020-06-22T22:07:39.512Z",
+            "updatedAt": "2020-07-04T13:00:00.377Z",
+            "__v": 0,
+            "lastDateWasQotd": "1593781200392"
+        },
+        {
+            "_id": "5ef12bb4b390b20017e0a9c9",
+            "message": "Don’t let yesterday use up too much of today",
+            "source": "Cherokee",
+            "type": "Native American",
+            "charity": {
+                "link": "http://www.nativepartnership.org/site/PageServer?pagename=pwna_home",
+                "name": "Partnership With Native Americans"
+            },
+            "qotd": false,
+            "createdAt": "2020-06-22T22:07:48.476Z",
+            "updatedAt": "2020-07-11T13:00:00.405Z",
+            "__v": 0,
+            "lastDateWasQotd": "1594386000446"
+        },
+        {
+            "_id": "5ef12bc2b390b20017e0a9ca",
+            "message": "No river can return to its source, yet all rivers must have a beginning",
+            "source": "Tribe Unknown",
+            "type": "Native American",
+            "charity": {
+                "link": "http://www.nativepartnership.org/site/PageServer?pagename=pwna_home",
+                "name": "Partnership With Native Americans"
+            },
+            "qotd": false,
+            "createdAt": "2020-06-22T22:08:02.288Z",
+            "updatedAt": "2020-12-05T13:00:01.450Z",
+            "__v": 0,
+            "lastDateWasQotd": "1607086801628"
+        },
+        {
+            "_id": "5ef12bccb390b20017e0a9cb",
+            "message": "Listen, or your tongue will make you deaf",
+            "source": "Tribe Unknown",
+            "type": "Native American",
+            "charity": {
+                "link": "http://www.nativepartnership.org/site/PageServer?pagename=pwna_home",
+                "name": "Partnership With Native Americans"
+            },
+            "qotd": false,
+            "createdAt": "2020-06-22T22:08:12.769Z",
+            "updatedAt": "2020-06-22T22:08:12.769Z",
+            "__v": 0
+        },
+        {
+            "_id": "5ef12bd9b390b20017e0a9cc",
+            "message": "Man has responsibility, not power",
+            "source": "Tuscarora",
+            "type": "Native American",
+            "charity": {
+                "link": "http://www.nativepartnership.org/site/PageServer?pagename=pwna_home",
+                "name": "Partnership With Native Americans"
+            },
+            "qotd": false,
+            "createdAt": "2020-06-22T22:08:25.486Z",
+            "updatedAt": "2020-12-04T13:00:01.607Z",
+            "__v": 0,
+            "lastDateWasQotd": "1607000401888"
+        },
+        {
+            "_id": "5ef12be2b390b20017e0a9cd",
+            "message": "The rain falls on the just and the unjust",
+            "source": "Hopi",
+            "type": "Native American",
+            "charity": {
+                "link": "http://www.nativepartnership.org/site/PageServer?pagename=pwna_home",
+                "name": "Partnership With Native Americans"
+            },
+            "qotd": false,
+            "createdAt": "2020-06-22T22:08:34.722Z",
+            "updatedAt": "2020-11-14T13:00:01.505Z",
+            "__v": 0,
+            "lastDateWasQotd": "1605272401455"
+        },
+        {
+            "_id": "5ef12becb390b20017e0a9ce",
+            "message": "Each bird loves to hear himself sing",
+            "source": "Arapaho",
+            "type": "Native American",
+            "charity": {
+                "link": "http://www.nativepartnership.org/site/PageServer?pagename=pwna_home",
+                "name": "Partnership With Native Americans"
+            },
+            "qotd": false,
+            "createdAt": "2020-06-22T22:08:44.286Z",
+            "updatedAt": "2020-07-15T13:00:00.645Z",
+            "__v": 0,
+            "lastDateWasQotd": "1594731600589"
+        },
+        {
+            "_id": "5ef12bfdb390b20017e0a9cf",
+            "message": "The way of the troublemaker is thorny",
+            "source": "Umpqua",
+            "type": "Native American",
+            "charity": {
+                "link": "http://www.nativepartnership.org/site/PageServer?pagename=pwna_home",
+                "name": "Partnership With Native Americans"
+            },
+            "qotd": false,
+            "createdAt": "2020-06-22T22:09:01.306Z",
+            "updatedAt": "2020-07-28T13:00:00.556Z",
+            "__v": 0,
+            "lastDateWasQotd": "1595854800551"
+        },
+        {
+            "_id": "5ef12c09b390b20017e0a9d0",
+            "message": "God gives us each a song",
+            "source": "Ute",
+            "type": "Native American",
+            "charity": {
+                "link": "http://www.nativepartnership.org/site/PageServer?pagename=pwna_home",
+                "name": "Partnership With Native Americans"
+            },
+            "qotd": false,
+            "createdAt": "2020-06-22T22:09:13.376Z",
+            "updatedAt": "2020-06-22T22:09:13.376Z",
+            "__v": 0
+        },
+        {
+            "_id": "5ef12c13b390b20017e0a9d1",
+            "message": "A man must make his own arrows",
+            "source": "Winnebago",
+            "type": "Native American",
+            "charity": {
+                "link": "http://www.nativepartnership.org/site/PageServer?pagename=pwna_home",
+                "name": "Partnership With Native Americans"
+            },
+            "qotd": false,
+            "createdAt": "2020-06-22T22:09:23.252Z",
+            "updatedAt": "2020-06-22T22:09:23.252Z",
+            "__v": 0
+        },
+        {
+            "_id": "5ef12c1fb390b20017e0a9d2",
+            "message": "After dark all cats are leopards",
+            "source": "Zuni",
+            "type": "Native American",
+            "charity": {
+                "link": "http://www.nativepartnership.org/site/PageServer?pagename=pwna_home",
+                "name": "Partnership With Native Americans"
+            },
+            "qotd": false,
+            "createdAt": "2020-06-22T22:09:35.391Z",
+            "updatedAt": "2020-06-22T22:09:35.391Z",
+            "__v": 0
+        },
+        {
+            "_id": "5ef12c2ab390b20017e0a9d3",
+            "message": "When you die, you will be spoken of as those in the sky, like the stars",
+            "source": "Yurok",
+            "type": "Native American",
+            "charity": {
+                "link": "http://www.nativepartnership.org/site/PageServer?pagename=pwna_home",
+                "name": "Partnership With Native Americans"
+            },
+            "qotd": false,
+            "createdAt": "2020-06-22T22:09:46.875Z",
+            "updatedAt": "2020-09-09T13:00:00.841Z",
+            "__v": 0,
+            "lastDateWasQotd": "1599570001221"
+        },
+        {
+            "_id": "5ef3b22390839500170b481c",
+            "message": "Wisdom is wealth.",
+            "source": "Swahili",
+            "type": "African",
+            "charity": {
+                "link": "https://thewaterproject.org/",
+                "name": "The Water Project"
+            },
+            "qotd": false,
+            "createdAt": "2020-06-24T20:05:55.970Z",
+            "updatedAt": "2020-06-24T20:05:55.970Z",
+            "__v": 0
+        },
+        {
+            "_id": "5ef3b22390839500170b481d",
+            "message": "Wisdom is like a baobab tree; no one individual can embrace it.",
+            "source": "Akan proverb",
+            "type": "African",
+            "charity": {
+                "link": "https://thewaterproject.org/",
+                "name": "The Water Project"
+            },
+            "qotd": false,
+            "createdAt": "2020-06-24T20:05:55.997Z",
+            "updatedAt": "2020-08-09T13:00:00.859Z",
+            "__v": 0,
+            "lastDateWasQotd": "1596891600792"
+        },
+        {
+            "_id": "5ef3b22490839500170b481e",
+            "message": "The fool speaks, the wise man listens.",
+            "source": "Ethiopian proverb",
+            "type": "African",
+            "charity": {
+                "link": "https://thewaterproject.org/",
+                "name": "The Water Project"
+            },
+            "qotd": false,
+            "createdAt": "2020-06-24T20:05:56.011Z",
+            "updatedAt": "2020-06-24T20:05:56.011Z",
+            "__v": 0
+        },
+        {
+            "_id": "5ef3b22490839500170b481f",
+            "message": "Wisdom does not come overnight.",
+            "source": "Somali proverb",
+            "type": "African",
+            "charity": {
+                "link": "https://thewaterproject.org/",
+                "name": "The Water Project"
+            },
+            "qotd": false,
+            "createdAt": "2020-06-24T20:05:56.021Z",
+            "updatedAt": "2020-08-18T13:00:00.751Z",
+            "__v": 0,
+            "lastDateWasQotd": "1597669200810"
+        },
+        {
+            "_id": "5ef3b22490839500170b4820",
+            "message": "The heart of the wise man lies quiet like limpid water.",
+            "source": "Cameroon proverb",
+            "type": "African",
+            "charity": {
+                "link": "https://thewaterproject.org/",
+                "name": "The Water Project"
+            },
+            "qotd": false,
+            "createdAt": "2020-06-24T20:05:56.030Z",
+            "updatedAt": "2020-12-06T15:01:48.536Z",
+            "__v": 0,
+            "lastDateWasQotd": "1607173201491"
+        },
+        {
+            "_id": "5ef3b22490839500170b4821",
+            "message": "Wisdom is like fire. People take it from others.",
+            "source": "Hema (DRC) proverb",
+            "type": "African",
+            "charity": {
+                "link": "https://thewaterproject.org/",
+                "name": "The Water Project"
+            },
+            "qotd": false,
+            "createdAt": "2020-06-24T20:05:56.040Z",
+            "updatedAt": "2020-06-24T20:05:56.040Z",
+            "__v": 0
+        },
+        {
+            "_id": "5ef3b22490839500170b4822",
+            "message": "Only a wise person can solve a difficult problem.",
+            "source": "Akan proverb",
+            "type": "African",
+            "charity": {
+                "link": "https://thewaterproject.org/",
+                "name": "The Water Project"
+            },
+            "qotd": false,
+            "createdAt": "2020-06-24T20:05:56.049Z",
+            "updatedAt": "2020-10-21T13:00:02.799Z",
+            "__v": 0,
+            "lastDateWasQotd": "1603198801209"
+        },
+        {
+            "_id": "5ef3b22490839500170b4823",
+            "message": "Knowledge without wisdom is like water in the sand.",
+            "source": "Guinean proverb",
+            "type": "African",
+            "charity": {
+                "link": "https://thewaterproject.org/",
+                "name": "The Water Project"
+            },
+            "qotd": false,
+            "createdAt": "2020-06-24T20:05:56.059Z",
+            "updatedAt": "2020-08-07T13:00:00.791Z",
+            "__v": 0,
+            "lastDateWasQotd": "1596718800746"
+        },
+        {
+            "_id": "5ef3b22490839500170b4824",
+            "message": "In the moment of crisis, the wise build bridges and the foolish build dams.",
+            "source": "Nigerian proverb",
+            "type": "African",
+            "charity": {
+                "link": "https://thewaterproject.org/",
+                "name": "The Water Project"
+            },
+            "qotd": false,
+            "createdAt": "2020-06-24T20:05:56.067Z",
+            "updatedAt": "2020-06-24T20:05:56.067Z",
+            "__v": 0
+        },
+        {
+            "_id": "5ef3b22490839500170b4825",
+            "message": "If you are filled with pride, then you will have no room for wisdom.",
+            "source": "African proverb",
+            "type": "African",
+            "charity": {
+                "link": "https://thewaterproject.org/",
+                "name": "The Water Project"
+            },
+            "qotd": false,
+            "createdAt": "2020-06-24T20:05:56.075Z",
+            "updatedAt": "2020-06-24T20:05:56.075Z",
+            "__v": 0
+        },
+        {
+            "_id": "5ef3b22490839500170b4826",
+            "message": "A wise person will always find away.",
+            "source": "Tanzanian proverb",
+            "type": "African",
+            "charity": {
+                "link": "https://thewaterproject.org/",
+                "name": "The Water Project"
+            },
+            "qotd": false,
+            "createdAt": "2020-06-24T20:05:56.083Z",
+            "updatedAt": "2020-06-24T20:05:56.083Z",
+            "__v": 0
+        },
+        {
+            "_id": "5ef3b22490839500170b4827",
+            "message": "Nobody is born wise.",
+            "source": "African proverb",
+            "type": "African",
+            "charity": {
+                "link": "https://thewaterproject.org/",
+                "name": "The Water Project"
+            },
+            "qotd": false,
+            "createdAt": "2020-06-24T20:05:56.092Z",
+            "updatedAt": "2020-08-04T13:00:00.705Z",
+            "__v": 0,
+            "lastDateWasQotd": "1596459600928"
+        },
+        {
+            "_id": "5ef3b22490839500170b4828",
+            "message": "A man who uses force is afraid of reasoning.",
+            "source": "Kenyan proverb",
+            "type": "African",
+            "charity": {
+                "link": "https://thewaterproject.org/",
+                "name": "The Water Project"
+            },
+            "qotd": false,
+            "createdAt": "2020-06-24T20:05:56.102Z",
+            "updatedAt": "2020-10-06T13:00:01.024Z",
+            "__v": 0,
+            "lastDateWasQotd": "1601902801232"
+        },
+        {
+            "_id": "5ef3b22490839500170b4829",
+            "message": "Wisdom is not like money to be tied up and hidden.",
+            "source": "Akan proverb",
+            "type": "African",
+            "charity": {
+                "link": "https://thewaterproject.org/",
+                "name": "The Water Project"
+            },
+            "qotd": false,
+            "createdAt": "2020-06-24T20:05:56.111Z",
+            "updatedAt": "2020-06-24T20:05:56.111Z",
+            "__v": 0
+        },
+        {
+            "_id": "5ef3b22490839500170b482a",
+            "message": "Learning expands great souls.",
+            "source": "Namibian proverb",
+            "type": "African",
+            "charity": {
+                "link": "https://thewaterproject.org/",
+                "name": "The Water Project"
+            },
+            "qotd": false,
+            "createdAt": "2020-06-24T20:05:56.120Z",
+            "updatedAt": "2020-06-24T20:05:56.120Z",
+            "__v": 0
+        },
+        {
+            "_id": "5ef3b22490839500170b482b",
+            "message": "To get lost is to learn the way.",
+            "source": "African proverb",
+            "type": "African",
+            "charity": {
+                "link": "https://thewaterproject.org/",
+                "name": "The Water Project"
+            },
+            "qotd": false,
+            "createdAt": "2020-06-24T20:05:56.131Z",
+            "updatedAt": "2020-07-25T13:00:00.595Z",
+            "__v": 0,
+            "lastDateWasQotd": "1595595600606"
+        },
+        {
+            "_id": "5ef3b22490839500170b482c",
+            "message": "By crawling a child learns to stand.",
+            "source": "African proverb",
+            "type": "African",
+            "charity": {
+                "link": "https://thewaterproject.org/",
+                "name": "The Water Project"
+            },
+            "qotd": false,
+            "createdAt": "2020-06-24T20:05:56.144Z",
+            "updatedAt": "2020-10-12T13:00:01.075Z",
+            "__v": 0,
+            "lastDateWasQotd": "1602421201260"
+        },
+        {
+            "_id": "5ef3b22490839500170b482d",
+            "message": "If you close your eyes to facts, you will learn through accidents.",
+            "source": "African proverb",
+            "type": "African",
+            "charity": {
+                "link": "https://thewaterproject.org/",
+                "name": "The Water Project"
+            },
+            "qotd": false,
+            "createdAt": "2020-06-24T20:05:56.159Z",
+            "updatedAt": "2020-06-24T20:05:56.159Z",
+            "__v": 0
+        },
+        {
+            "_id": "5ef3b22490839500170b482e",
+            "message": "He who learns, teaches.",
+            "source": "Ethiopian proverb",
+            "type": "African",
+            "charity": {
+                "link": "https://thewaterproject.org/",
+                "name": "The Water Project"
+            },
+            "qotd": false,
+            "createdAt": "2020-06-24T20:05:56.168Z",
+            "updatedAt": "2020-06-24T20:05:56.168Z",
+            "__v": 0
+        },
+        {
+            "_id": "5ef3b22490839500170b482f",
+            "message": "Wealth, if you use it, comes to an end; learning, if you use it, increases.",
+            "source": "Swahili proverb",
+            "type": "African",
+            "charity": {
+                "link": "https://thewaterproject.org/",
+                "name": "The Water Project"
+            },
+            "qotd": false,
+            "createdAt": "2020-06-24T20:05:56.177Z",
+            "updatedAt": "2020-12-13T16:46:46.137Z",
+            "__v": 0,
+            "lastDateWasQotd": "1607791606276"
+        },
+        {
+            "_id": "5ef3b22490839500170b4830",
+            "message": "By trying often, the monkey learns to jump from the tree.",
+            "source": "Buganda proverb",
+            "type": "African",
+            "charity": {
+                "link": "https://thewaterproject.org/",
+                "name": "The Water Project"
+            },
+            "qotd": false,
+            "createdAt": "2020-06-24T20:05:56.186Z",
+            "updatedAt": "2020-06-24T20:05:56.186Z",
+            "__v": 0
+        },
+        {
+            "_id": "5ef3b22490839500170b4831",
+            "message": "You always learn a lot more when you lose than when you win.",
+            "source": "African proverb",
+            "type": "African",
+            "charity": {
+                "link": "https://thewaterproject.org/",
+                "name": "The Water Project"
+            },
+            "qotd": false,
+            "createdAt": "2020-06-24T20:05:56.195Z",
+            "updatedAt": "2020-06-24T20:05:56.195Z",
+            "__v": 0
+        },
+        {
+            "_id": "5ef3b22490839500170b4832",
+            "message": "You learn how to cut down trees by cutting them down.",
+            "source": "Bateke proverb",
+            "type": "African",
+            "charity": {
+                "link": "https://thewaterproject.org/",
+                "name": "The Water Project"
+            },
+            "qotd": false,
+            "createdAt": "2020-06-24T20:05:56.204Z",
+            "updatedAt": "2020-06-24T20:05:56.204Z",
+            "__v": 0
+        },
+        {
+            "_id": "5ef3b22490839500170b4833",
+            "message": "The wise create proverbs for fools to learn, not to repeat.",
+            "source": "African proverb",
+            "type": "African",
+            "charity": {
+                "link": "https://thewaterproject.org/",
+                "name": "The Water Project"
+            },
+            "qotd": false,
+            "createdAt": "2020-06-24T20:05:56.213Z",
+            "updatedAt": "2020-09-07T13:00:01.221Z",
+            "__v": 0,
+            "lastDateWasQotd": "1599397200872"
+        },
+        {
+            "_id": "5ef3b22490839500170b4834",
+            "message": "What you help a child to love can be more important than what you help him to learn.",
+            "source": "African proverb",
+            "type": "African",
+            "charity": {
+                "link": "https://thewaterproject.org/",
+                "name": "The Water Project"
+            },
+            "qotd": false,
+            "createdAt": "2020-06-24T20:05:56.221Z",
+            "updatedAt": "2020-11-30T13:00:01.758Z",
+            "__v": 0,
+            "lastDateWasQotd": "1606654801719"
+        },
+        {
+            "_id": "5ef3b22490839500170b4835",
+            "message": "By the time the fool has learned the game, the players have dispersed.",
+            "source": "Ashanti proverb",
+            "type": "African",
+            "charity": {
+                "link": "https://thewaterproject.org/",
+                "name": "The Water Project"
+            },
+            "qotd": false,
+            "createdAt": "2020-06-24T20:05:56.230Z",
+            "updatedAt": "2020-10-15T13:00:02.891Z",
+            "__v": 0,
+            "lastDateWasQotd": "1602680401339"
+        },
+        {
+            "_id": "5ef3b22490839500170b4836",
+            "message": "One who causes others misfortune also teaches them wisdom.",
+            "source": "African proverb",
+            "type": "African",
+            "charity": {
+                "link": "https://thewaterproject.org/",
+                "name": "The Water Project"
+            },
+            "qotd": false,
+            "createdAt": "2020-06-24T20:05:56.239Z",
+            "updatedAt": "2020-11-22T13:00:01.743Z",
+            "__v": 0,
+            "lastDateWasQotd": "1605963602404"
+        },
+        {
+            "_id": "5ef3b22490839500170b4837",
+            "message": "You do not teach the paths of the forest to an old gorilla.",
+            "source": "Congolese proverb",
+            "type": "African",
+            "charity": {
+                "link": "https://thewaterproject.org/",
+                "name": "The Water Project"
+            },
+            "qotd": false,
+            "createdAt": "2020-06-24T20:05:56.251Z",
+            "updatedAt": "2020-08-24T13:00:01.061Z",
+            "__v": 0,
+            "lastDateWasQotd": "1598187600779"
+        },
+        {
+            "_id": "5ef3b22490839500170b4838",
+            "message": "What you learn is what you die with.",
+            "source": "African proverb",
+            "type": "African",
+            "charity": {
+                "link": "https://thewaterproject.org/",
+                "name": "The Water Project"
+            },
+            "qotd": false,
+            "createdAt": "2020-06-24T20:05:56.262Z",
+            "updatedAt": "2020-06-24T20:05:56.262Z",
+            "__v": 0
+        },
+        {
+            "_id": "5ef3b22490839500170b4839",
+            "message": "Instruction in youth is like engraving in stone.",
+            "source": "Moroccan Proverb",
+            "type": "African",
+            "charity": {
+                "link": "https://thewaterproject.org/",
+                "name": "The Water Project"
+            },
+            "qotd": false,
+            "createdAt": "2020-06-24T20:05:56.271Z",
+            "updatedAt": "2020-08-11T13:00:00.723Z",
+            "__v": 0,
+            "lastDateWasQotd": "1597064400910"
+        },
+        {
+            "_id": "5ef3b22490839500170b483a",
+            "message": "When you follow in the path of your father, you learn to walk like him.",
+            "source": "Ashanti Proverb",
+            "type": "African",
+            "charity": {
+                "link": "https://thewaterproject.org/",
+                "name": "The Water Project"
+            },
+            "qotd": false,
+            "createdAt": "2020-06-24T20:05:56.280Z",
+            "updatedAt": "2020-09-18T13:00:01.082Z",
+            "__v": 0,
+            "lastDateWasQotd": "1600347601248"
+        },
+        {
+            "_id": "5ef3b22490839500170b483b",
+            "message": "Ears that do not listen to advice, accompany the head when it is chopped off.",
+            "source": "African Proverb",
+            "type": "African",
+            "charity": {
+                "link": "https://thewaterproject.org/",
+                "name": "The Water Project"
+            },
+            "qotd": false,
+            "createdAt": "2020-06-24T20:05:56.289Z",
+            "updatedAt": "2020-10-02T13:00:01.028Z",
+            "__v": 0,
+            "lastDateWasQotd": "1601557201302"
+        },
+        {
+            "_id": "5ef3b22490839500170b483c",
+            "message": "Advice is a stranger; if he’s welcome he stays for the night; if not, he leaves the same day.",
+            "source": "Malagasy Proverb",
+            "type": "African",
+            "charity": {
+                "link": "https://thewaterproject.org/",
+                "name": "The Water Project"
+            },
+            "qotd": false,
+            "createdAt": "2020-06-24T20:05:56.299Z",
+            "updatedAt": "2020-10-20T13:00:01.184Z",
+            "__v": 0,
+            "lastDateWasQotd": "1603112401197"
+        },
+        {
+            "_id": "5ef3b22490839500170b483d",
+            "message": "Traveling is learning.",
+            "source": "Kenyan Proverb",
+            "type": "African",
+            "charity": {
+                "link": "https://thewaterproject.org/",
+                "name": "The Water Project"
+            },
+            "qotd": false,
+            "createdAt": "2020-06-24T20:05:56.308Z",
+            "updatedAt": "2020-09-10T13:00:00.875Z",
+            "__v": 0,
+            "lastDateWasQotd": "1599656400863"
+        },
+        {
+            "_id": "5ef3b22490839500170b483e",
+            "message": "Where there are experts there will be no lack of learners.",
+            "source": "Swahili Proverb",
+            "type": "African",
+            "charity": {
+                "link": "https://thewaterproject.org/",
+                "name": "The Water Project"
+            },
+            "qotd": false,
+            "createdAt": "2020-06-24T20:05:56.317Z",
+            "updatedAt": "2020-07-01T13:00:00.416Z",
+            "__v": 0,
+            "lastDateWasQotd": "1593522000411"
+        },
+        {
+            "_id": "5ef3b22490839500170b483f",
+            "message": "Peace is costly but it is worth the expense.",
+            "source": "Kenyan proverb",
+            "type": "African",
+            "charity": {
+                "link": "https://thewaterproject.org/",
+                "name": "The Water Project"
+            },
+            "qotd": false,
+            "createdAt": "2020-06-24T20:05:56.327Z",
+            "updatedAt": "2020-06-24T20:05:56.327Z",
+            "__v": 0
+        },
+        {
+            "_id": "5ef3b22490839500170b4840",
+            "message": "War has no eyes",
+            "source": "Swahili saying",
+            "type": "African",
+            "charity": {
+                "link": "https://thewaterproject.org/",
+                "name": "The Water Project"
+            },
+            "qotd": false,
+            "createdAt": "2020-06-24T20:05:56.335Z",
+            "updatedAt": "2020-08-01T13:00:00.694Z",
+            "__v": 0,
+            "lastDateWasQotd": "1596200400734"
+        },
+        {
+            "_id": "5ef3b22490839500170b4841",
+            "message": "When a king has good counselors, his reign is peaceful.",
+            "source": "Ashanti proverb",
+            "type": "African",
+            "charity": {
+                "link": "https://thewaterproject.org/",
+                "name": "The Water Project"
+            },
+            "qotd": false,
+            "createdAt": "2020-06-24T20:05:56.344Z",
+            "updatedAt": "2020-08-14T13:00:00.826Z",
+            "__v": 0,
+            "lastDateWasQotd": "1597323600851"
+        },
+        {
+            "_id": "5ef3b22490839500170b4842",
+            "message": "Peace does not make a good ruler.",
+            "source": "Botswana proverb",
+            "type": "African",
+            "charity": {
+                "link": "https://thewaterproject.org/",
+                "name": "The Water Project"
+            },
+            "qotd": false,
+            "createdAt": "2020-06-24T20:05:56.353Z",
+            "updatedAt": "2020-06-24T20:05:56.353Z",
+            "__v": 0
+        },
+        {
+            "_id": "5ef3b22490839500170b4843",
+            "message": "A fight between grasshoppers is a joy to the crow.",
+            "source": "Lesotho proverb",
+            "type": "African",
+            "charity": {
+                "link": "https://thewaterproject.org/",
+                "name": "The Water Project"
+            },
+            "qotd": false,
+            "createdAt": "2020-06-24T20:05:56.361Z",
+            "updatedAt": "2020-07-07T13:00:01.912Z",
+            "__v": 0,
+            "lastDateWasQotd": "1594040400338"
+        },
+        {
+            "_id": "5ef3b22490839500170b4844",
+            "message": "There can be no peace without understanding.",
+            "source": "Senegalese proverb",
+            "type": "African",
+            "charity": {
+                "link": "https://thewaterproject.org/",
+                "name": "The Water Project"
+            },
+            "qotd": false,
+            "createdAt": "2020-06-24T20:05:56.371Z",
+            "updatedAt": "2020-09-28T13:00:03.894Z",
+            "__v": 0,
+            "lastDateWasQotd": "1601211601161"
+        },
+        {
+            "_id": "5ef3b22490839500170b4845",
+            "message": "Milk and honey have different colors, but they share the same house peacefully.",
+            "source": "African proverb",
+            "type": "African",
+            "charity": {
+                "link": "https://thewaterproject.org/",
+                "name": "The Water Project"
+            },
+            "qotd": false,
+            "createdAt": "2020-06-24T20:05:56.382Z",
+            "updatedAt": "2020-12-10T15:26:02.231Z",
+            "__v": 0,
+            "lastDateWasQotd": "1607532231027"
+        },
+        {
+            "_id": "5ef3b22490839500170b4846",
+            "message": "If you can’t resolve your problems in peace, you can’t solve war.",
+            "source": "Somalian proverb",
+            "type": "African",
+            "charity": {
+                "link": "https://thewaterproject.org/",
+                "name": "The Water Project"
+            },
+            "qotd": false,
+            "createdAt": "2020-06-24T20:05:56.390Z",
+            "updatedAt": "2020-11-20T13:00:02.162Z",
+            "__v": 0,
+            "lastDateWasQotd": "1605790801692"
+        },
+        {
+            "_id": "5ef3b22490839500170b4847",
+            "message": "When there is peace in the country, the chief does not carry a shield.",
+            "source": "Ugandan proverb",
+            "type": "African",
+            "charity": {
+                "link": "https://thewaterproject.org/",
+                "name": "The Water Project"
+            },
+            "qotd": false,
+            "createdAt": "2020-06-24T20:05:56.398Z",
+            "updatedAt": "2020-06-24T20:05:56.398Z",
+            "__v": 0
+        },
+        {
+            "_id": "5ef3b22490839500170b4848",
+            "message": "When two elephants fight, it is the grass that gets trampled.",
+            "source": "Swahili saying",
+            "type": "African",
+            "charity": {
+                "link": "https://thewaterproject.org/",
+                "name": "The Water Project"
+            },
+            "qotd": false,
+            "createdAt": "2020-06-24T20:05:56.408Z",
+            "updatedAt": "2020-06-24T20:05:56.408Z",
+            "__v": 0
+        },
+        {
+            "_id": "5ef3b22490839500170b4849",
+            "message": "Speak softly and carry a big stick; you will go far.",
+            "source": "West African proverb",
+            "type": "African",
+            "charity": {
+                "link": "https://thewaterproject.org/",
+                "name": "The Water Project"
+            },
+            "qotd": false,
+            "createdAt": "2020-06-24T20:05:56.417Z",
+            "updatedAt": "2020-10-19T13:00:01.173Z",
+            "__v": 0,
+            "lastDateWasQotd": "1603026001319"
+        },
+        {
+            "_id": "5ef3b22490839500170b484a",
+            "message": "He who thinks he is leading and has no one following him is only taking a walk.",
+            "source": "Malawian proverb",
+            "type": "African",
+            "charity": {
+                "link": "https://thewaterproject.org/",
+                "name": "The Water Project"
+            },
+            "qotd": false,
+            "createdAt": "2020-06-24T20:05:56.426Z",
+            "updatedAt": "2020-11-18T13:00:01.482Z",
+            "__v": 0,
+            "lastDateWasQotd": "1605618001644"
+        },
+        {
+            "_id": "5ef3b22490839500170b484b",
+            "message": "An army of sheep led by a lion can defeat an army of lions led by a sheep.",
+            "source": "Ghanaian proverb",
+            "type": "African",
+            "charity": {
+                "link": "https://thewaterproject.org/",
+                "name": "The Water Project"
+            },
+            "qotd": false,
+            "createdAt": "2020-06-24T20:05:56.435Z",
+            "updatedAt": "2020-09-03T13:00:00.927Z",
+            "__v": 0,
+            "lastDateWasQotd": "1599051600868"
+        },
+        {
+            "_id": "5ef3b22490839500170b484c",
+            "message": "He who is destined for power does not have to fight for it.",
+            "source": "Ugandan proverb",
+            "type": "African",
+            "charity": {
+                "link": "https://thewaterproject.org/",
+                "name": "The Water Project"
+            },
+            "qotd": false,
+            "createdAt": "2020-06-24T20:05:56.443Z",
+            "updatedAt": "2020-11-17T13:00:01.615Z",
+            "__v": 0,
+            "lastDateWasQotd": "1605531601562"
+        },
+        {
+            "_id": "5ef3b22490839500170b484d",
+            "message": "Do not forget what is to be a sailor because of being a captain yourself.",
+            "source": "Tanzanian proverb",
+            "type": "African",
+            "charity": {
+                "link": "https://thewaterproject.org/",
+                "name": "The Water Project"
+            },
+            "qotd": false,
+            "createdAt": "2020-06-24T20:05:56.453Z",
+            "updatedAt": "2020-07-10T13:00:00.425Z",
+            "__v": 0,
+            "lastDateWasQotd": "1594299600400"
+        },
+        {
+            "_id": "5ef3b22490839500170b484e",
+            "message": "Without a leader, black ants are confused.",
+            "source": "Ugandan proverb",
+            "type": "African",
+            "charity": {
+                "link": "https://thewaterproject.org/",
+                "name": "The Water Project"
+            },
+            "qotd": false,
+            "createdAt": "2020-06-24T20:05:56.462Z",
+            "updatedAt": "2020-06-24T20:05:56.462Z",
+            "__v": 0
+        },
+        {
+            "_id": "5ef3b22490839500170b484f",
+            "message": "He who refuses to obey cannot command.",
+            "source": "Kenyan proverb",
+            "type": "African",
+            "charity": {
+                "link": "https://thewaterproject.org/",
+                "name": "The Water Project"
+            },
+            "qotd": false,
+            "createdAt": "2020-06-24T20:05:56.470Z",
+            "updatedAt": "2020-06-24T20:05:56.470Z",
+            "__v": 0
+        },
+        {
+            "_id": "5ef3b22490839500170b4850",
+            "message": "He who fears the sun will not become chief.",
+            "source": "Ugandan proverb",
+            "type": "African",
+            "charity": {
+                "link": "https://thewaterproject.org/",
+                "name": "The Water Project"
+            },
+            "qotd": false,
+            "createdAt": "2020-06-24T20:05:56.479Z",
+            "updatedAt": "2020-11-08T13:00:01.628Z",
+            "__v": 0,
+            "lastDateWasQotd": "1604754001501"
+        },
+        {
+            "_id": "5ef3b22490839500170b4851",
+            "message": "A large chair does not make a king.",
+            "source": "Sudanese proverb",
+            "type": "African",
+            "charity": {
+                "link": "https://thewaterproject.org/",
+                "name": "The Water Project"
+            },
+            "qotd": false,
+            "createdAt": "2020-06-24T20:05:56.487Z",
+            "updatedAt": "2020-06-24T20:05:56.487Z",
+            "__v": 0
+        },
+        {
+            "_id": "5ef3b22490839500170b4852",
+            "message": "Because he lost his reputation, he lost a kingdom.",
+            "source": "Ethiopian proverb",
+            "type": "African",
+            "charity": {
+                "link": "https://thewaterproject.org/",
+                "name": "The Water Project"
+            },
+            "qotd": false,
+            "createdAt": "2020-06-24T20:05:56.498Z",
+            "updatedAt": "2020-06-24T20:05:56.498Z",
+            "__v": 0
+        },
+        {
+            "_id": "5ef3b22490839500170b4853",
+            "message": "Where a woman rules, streams run uphill.",
+            "source": "Ethiopian proverb",
+            "type": "African",
+            "charity": {
+                "link": "https://thewaterproject.org/",
+                "name": "The Water Project"
+            },
+            "qotd": false,
+            "createdAt": "2020-06-24T20:05:56.507Z",
+            "updatedAt": "2020-10-18T13:00:01.259Z",
+            "__v": 0,
+            "lastDateWasQotd": "1602939601407"
+        },
+        {
+            "_id": "5ef3b22490839500170b4854",
+            "message": "A leader who does not take advice is not a leader.",
+            "source": "Kenyan proverb",
+            "type": "African",
+            "charity": {
+                "link": "https://thewaterproject.org/",
+                "name": "The Water Project"
+            },
+            "qotd": false,
+            "createdAt": "2020-06-24T20:05:56.516Z",
+            "updatedAt": "2020-07-31T13:00:00.714Z",
+            "__v": 0,
+            "lastDateWasQotd": "1596114002545"
+        },
+        {
+            "_id": "5ef3b22490839500170b4855",
+            "message": "If the cockroach wants to rule over the chicken, then it must hire the fox as a body-guard.",
+            "source": "Sierra Leone proverb",
+            "type": "African",
+            "charity": {
+                "link": "https://thewaterproject.org/",
+                "name": "The Water Project"
+            },
+            "qotd": false,
+            "createdAt": "2020-06-24T20:05:56.525Z",
+            "updatedAt": "2020-06-24T20:05:56.525Z",
+            "__v": 0
+        },
+        {
+            "_id": "5ef3b22490839500170b4856",
+            "message": "Unity is strength, the division is weakness.",
+            "source": "Swahili proverb",
+            "type": "African",
+            "charity": {
+                "link": "https://thewaterproject.org/",
+                "name": "The Water Project"
+            },
+            "qotd": false,
+            "createdAt": "2020-06-24T20:05:56.533Z",
+            "updatedAt": "2020-11-19T13:00:01.665Z",
+            "__v": 0,
+            "lastDateWasQotd": "1605704401503"
+        },
+        {
+            "_id": "5ef3b22490839500170b4857",
+            "message": "Sticks in a bundle are unbreakable.",
+            "source": "Bondei proverb",
+            "type": "African",
+            "charity": {
+                "link": "https://thewaterproject.org/",
+                "name": "The Water Project"
+            },
+            "qotd": false,
+            "createdAt": "2020-06-24T20:05:56.541Z",
+            "updatedAt": "2020-06-24T20:05:56.541Z",
+            "__v": 0
+        },
+        {
+            "_id": "5ef3b22490839500170b4858",
+            "message": "It takes a village to raise a child.",
+            "source": "African proverb",
+            "type": "African",
+            "charity": {
+                "link": "https://thewaterproject.org/",
+                "name": "The Water Project"
+            },
+            "qotd": false,
+            "createdAt": "2020-06-24T20:05:56.549Z",
+            "updatedAt": "2020-06-24T20:05:56.549Z",
+            "__v": 0
+        },
+        {
+            "_id": "5ef3b22490839500170b4859",
+            "message": "Cross the river in a crowd and the crocodile won’t eat you.",
+            "source": "African proverb",
+            "type": "African",
+            "charity": {
+                "link": "https://thewaterproject.org/",
+                "name": "The Water Project"
+            },
+            "qotd": false,
+            "createdAt": "2020-06-24T20:05:56.557Z",
+            "updatedAt": "2020-06-24T20:05:56.557Z",
+            "__v": 0
+        },
+        {
+            "_id": "5ef3b22490839500170b485a",
+            "message": "Many hands make light work.",
+            "source": "Haya (Tanzania) proverb",
+            "type": "African",
+            "charity": {
+                "link": "https://thewaterproject.org/",
+                "name": "The Water Project"
+            },
+            "qotd": false,
+            "createdAt": "2020-06-24T20:05:56.567Z",
+            "updatedAt": "2020-08-03T13:00:00.887Z",
+            "__v": 0,
+            "lastDateWasQotd": "1596373200737"
+        },
+        {
+            "_id": "5ef3b22490839500170b485b",
+            "message": "Where there are many, nothing goes wrong.",
+            "source": "Swahili proverb",
+            "type": "African",
+            "charity": {
+                "link": "https://thewaterproject.org/",
+                "name": "The Water Project"
+            },
+            "qotd": false,
+            "createdAt": "2020-06-24T20:05:56.575Z",
+            "updatedAt": "2020-06-24T20:05:56.575Z",
+            "__v": 0
+        },
+        {
+            "_id": "5ef3b22490839500170b485c",
+            "message": "Two ants do not fail to pull one grasshopper.",
+            "source": "Tanzanian proverb",
+            "type": "African",
+            "charity": {
+                "link": "https://thewaterproject.org/",
+                "name": "The Water Project"
+            },
+            "qotd": false,
+            "createdAt": "2020-06-24T20:05:56.583Z",
+            "updatedAt": "2020-11-12T13:00:01.633Z",
+            "__v": 0,
+            "lastDateWasQotd": "1605099601662"
+        },
+        {
+            "_id": "5ef3b22490839500170b485d",
+            "message": "A single bracelet does not jingle.",
+            "source": "Congolese proverb",
+            "type": "African",
+            "charity": {
+                "link": "https://thewaterproject.org/",
+                "name": "The Water Project"
+            },
+            "qotd": false,
+            "createdAt": "2020-06-24T20:05:56.591Z",
+            "updatedAt": "2020-10-03T13:00:01.093Z",
+            "__v": 0,
+            "lastDateWasQotd": "1601643601051"
+        },
+        {
+            "_id": "5ef3b22490839500170b485e",
+            "message": "A single stick may smoke, but it will not burn.",
+            "source": "African proverb",
+            "type": "African",
+            "charity": {
+                "link": "https://thewaterproject.org/",
+                "name": "The Water Project"
+            },
+            "qotd": false,
+            "createdAt": "2020-06-24T20:05:56.601Z",
+            "updatedAt": "2020-08-12T13:00:00.732Z",
+            "__v": 0,
+            "lastDateWasQotd": "1597150800744"
+        },
+        {
+            "_id": "5ef3b22490839500170b485f",
+            "message": "If you want to go quickly, go alone. If you want to go far, go together.",
+            "source": "African proverb",
+            "type": "African",
+            "charity": {
+                "link": "https://thewaterproject.org/",
+                "name": "The Water Project"
+            },
+            "qotd": false,
+            "createdAt": "2020-06-24T20:05:56.610Z",
+            "updatedAt": "2020-09-25T13:00:01.067Z",
+            "__v": 0,
+            "lastDateWasQotd": "1600952401002"
+        },
+        {
+            "_id": "5ef3b22490839500170b4860",
+            "message": "A family is like a forest when you are outside it is dense, when you are inside you see that each tree has its place.",
+            "source": "African Proverb",
+            "type": "African",
+            "charity": {
+                "link": "https://thewaterproject.org/",
+                "name": "The Water Project"
+            },
+            "qotd": false,
+            "createdAt": "2020-06-24T20:05:56.618Z",
+            "updatedAt": "2020-09-22T13:00:01.182Z",
+            "__v": 0,
+            "lastDateWasQotd": "1600693201017"
+        },
+        {
+            "_id": "5ef3b22490839500170b4861",
+            "message": "A united family eats from the same plate.",
+            "source": "Baganda proverb",
+            "type": "African",
+            "charity": {
+                "link": "https://thewaterproject.org/",
+                "name": "The Water Project"
+            },
+            "qotd": false,
+            "createdAt": "2020-06-24T20:05:56.627Z",
+            "updatedAt": "2020-06-24T20:05:56.627Z",
+            "__v": 0
+        },
+        {
+            "_id": "5ef3b22490839500170b4862",
+            "message": "A family tie is like a tree, it can bend but it cannot break.",
+            "source": "African proverb",
+            "type": "African",
+            "charity": {
+                "link": "https://thewaterproject.org/",
+                "name": "The Water Project"
+            },
+            "qotd": false,
+            "createdAt": "2020-06-24T20:05:56.635Z",
+            "updatedAt": "2020-06-24T20:05:56.635Z",
+            "__v": 0
+        },
+        {
+            "_id": "5ef3b22490839500170b4863",
+            "message": "If I am in harmony with my family, that’s a success.",
+            "source": "Ute proverb",
+            "type": "African",
+            "charity": {
+                "link": "https://thewaterproject.org/",
+                "name": "The Water Project"
+            },
+            "qotd": false,
+            "createdAt": "2020-06-24T20:05:56.643Z",
+            "updatedAt": "2020-06-24T20:05:56.643Z",
+            "__v": 0
+        },
+        {
+            "_id": "5ef3b22490839500170b4864",
+            "message": "Brothers love each other when they are equally rich.",
+            "source": "African proverb",
+            "type": "African",
+            "charity": {
+                "link": "https://thewaterproject.org/",
+                "name": "The Water Project"
+            },
+            "qotd": false,
+            "createdAt": "2020-06-24T20:05:56.655Z",
+            "updatedAt": "2020-06-24T20:05:56.655Z",
+            "__v": 0
+        },
+        {
+            "_id": "5ef3b22490839500170b4865",
+            "message": "Dine with a stranger but save your love for your family.",
+            "source": "Ethiopian proverb",
+            "type": "African",
+            "charity": {
+                "link": "https://thewaterproject.org/",
+                "name": "The Water Project"
+            },
+            "qotd": false,
+            "createdAt": "2020-06-24T20:05:56.665Z",
+            "updatedAt": "2020-08-15T13:00:00.870Z",
+            "__v": 0,
+            "lastDateWasQotd": "1597410000850"
+        },
+        {
+            "_id": "5ef3b22490839500170b4866",
+            "message": "There is no fool who is disowned by his family.",
+            "source": "African proverb",
+            "type": "African",
+            "charity": {
+                "link": "https://thewaterproject.org/",
+                "name": "The Water Project"
+            },
+            "qotd": false,
+            "createdAt": "2020-06-24T20:05:56.680Z",
+            "updatedAt": "2020-06-24T20:05:56.680Z",
+            "__v": 0
+        },
+        {
+            "_id": "5ef3b22490839500170b4867",
+            "message": "Home affairs are not talked about in the public square.",
+            "source": "African proverb",
+            "type": "African",
+            "charity": {
+                "link": "https://thewaterproject.org/",
+                "name": "The Water Project"
+            },
+            "qotd": false,
+            "createdAt": "2020-06-24T20:05:56.689Z",
+            "updatedAt": "2020-12-09T03:31:51.295Z",
+            "__v": 0,
+            "lastDateWasQotd": "1607372333633"
+        },
+        {
+            "_id": "5ef3b22490839500170b4868",
+            "message": "If relatives help each other, what evil can hurt them?",
+            "source": "African proverb",
+            "type": "African",
+            "charity": {
+                "link": "https://thewaterproject.org/",
+                "name": "The Water Project"
+            },
+            "qotd": false,
+            "createdAt": "2020-06-24T20:05:56.698Z",
+            "updatedAt": "2020-10-28T13:00:01.360Z",
+            "__v": 0,
+            "lastDateWasQotd": "1603803601377"
+        },
+        {
+            "_id": "5ef3b22490839500170b4869",
+            "message": "He who earns calamity eats it with his family.",
+            "source": "African proverb",
+            "type": "African",
+            "charity": {
+                "link": "https://thewaterproject.org/",
+                "name": "The Water Project"
+            },
+            "qotd": false,
+            "createdAt": "2020-06-24T20:05:56.708Z",
+            "updatedAt": "2020-09-24T13:00:00.984Z",
+            "__v": 0,
+            "lastDateWasQotd": "1600866001050"
+        },
+        {
+            "_id": "5ef3b22490839500170b486a",
+            "message": "Dine with a stranger but save your love for your family.",
+            "source": "Ethiopian proverb",
+            "type": "African",
+            "charity": {
+                "link": "https://thewaterproject.org/",
+                "name": "The Water Project"
+            },
+            "qotd": false,
+            "createdAt": "2020-06-24T20:05:56.718Z",
+            "updatedAt": "2020-12-11T16:34:47.261Z",
+            "__v": 0,
+            "lastDateWasQotd": "1607613962281"
+        },
+        {
+            "_id": "5ef3b22490839500170b486b",
+            "message": "The old woman looks after the child to grow its teeth and the young one, in turn, looks after the old woman when she loses her teeth.",
+            "source": "Akan (Ghana, Ivory Coast) proverb",
+            "type": "African",
+            "charity": {
+                "link": "https://thewaterproject.org/",
+                "name": "The Water Project"
+            },
+            "qotd": false,
+            "createdAt": "2020-06-24T20:05:56.726Z",
+            "updatedAt": "2020-10-25T13:00:01.361Z",
+            "__v": 0,
+            "lastDateWasQotd": "1603544401250"
+        },
+        {
+            "_id": "5ef3b22490839500170b486c",
+            "message": "When brothers fight to the death, a stranger inherits their father’s estate.",
+            "source": "Ibo proverb",
+            "type": "African",
+            "charity": {
+                "link": "https://thewaterproject.org/",
+                "name": "The Water Project"
+            },
+            "qotd": false,
+            "createdAt": "2020-06-24T20:05:56.735Z",
+            "updatedAt": "2020-10-30T13:00:01.261Z",
+            "__v": 0,
+            "lastDateWasQotd": "1603976401366"
+        },
+        {
+            "_id": "5ef3b22490839500170b486d",
+            "message": "Children are the reward of life.",
+            "source": "African proverb",
+            "type": "African",
+            "charity": {
+                "link": "https://thewaterproject.org/",
+                "name": "The Water Project"
+            },
+            "qotd": false,
+            "createdAt": "2020-06-24T20:05:56.744Z",
+            "updatedAt": "2020-08-22T13:00:01.808Z",
+            "__v": 0,
+            "lastDateWasQotd": "1598014800899"
+        },
+        {
+            "_id": "5ef3b22490839500170b486e",
+            "message": "To be without a friend is to be poor indeed.",
+            "source": "Tanzanian proverb",
+            "type": "African",
+            "charity": {
+                "link": "https://thewaterproject.org/",
+                "name": "The Water Project"
+            },
+            "qotd": false,
+            "createdAt": "2020-06-24T20:05:56.753Z",
+            "updatedAt": "2020-06-24T20:05:56.753Z",
+            "__v": 0
+        },
+        {
+            "_id": "5ef3b22490839500170b486f",
+            "message": "Hold a true friend with both hands.",
+            "source": "African proverb",
+            "type": "African",
+            "charity": {
+                "link": "https://thewaterproject.org/",
+                "name": "The Water Project"
+            },
+            "qotd": false,
+            "createdAt": "2020-06-24T20:05:56.762Z",
+            "updatedAt": "2020-09-21T13:00:00.996Z",
+            "__v": 0,
+            "lastDateWasQotd": "1600606801101"
+        },
+        {
+            "_id": "5ef3b22490839500170b4870",
+            "message": "The friends of our friends are our friends.",
+            "source": "Congolese proverb",
+            "type": "African",
+            "charity": {
+                "link": "https://thewaterproject.org/",
+                "name": "The Water Project"
+            },
+            "qotd": false,
+            "createdAt": "2020-06-24T20:05:56.771Z",
+            "updatedAt": "2020-10-27T13:00:01.355Z",
+            "__v": 0,
+            "lastDateWasQotd": "1603717201341"
+        },
+        {
+            "_id": "5ef3b22490839500170b4871",
+            "message": "A friend is someone you share the path with.",
+            "source": "African proverb",
+            "type": "African",
+            "charity": {
+                "link": "https://thewaterproject.org/",
+                "name": "The Water Project"
+            },
+            "qotd": false,
+            "createdAt": "2020-06-24T20:05:56.783Z",
+            "updatedAt": "2020-09-04T13:00:00.999Z",
+            "__v": 0,
+            "lastDateWasQotd": "1599138000949"
+        },
+        {
+            "_id": "5ef3b22490839500170b4872",
+            "message": "Show me your friend and I will show you your character.",
+            "source": "African proverb",
+            "type": "African",
+            "charity": {
+                "link": "https://thewaterproject.org/",
+                "name": "The Water Project"
+            },
+            "qotd": false,
+            "createdAt": "2020-06-24T20:05:56.792Z",
+            "updatedAt": "2020-07-29T13:00:00.585Z",
+            "__v": 0,
+            "lastDateWasQotd": "1595941200575"
+        },
+        {
+            "_id": "5ef3b22490839500170b4873",
+            "message": "Return to old watering holes for more than water; friends and dreams are there to meet you.",
+            "source": "African proverb",
+            "type": "African",
+            "charity": {
+                "link": "https://thewaterproject.org/",
+                "name": "The Water Project"
+            },
+            "qotd": false,
+            "createdAt": "2020-06-24T20:05:56.801Z",
+            "updatedAt": "2020-10-07T13:00:01.353Z",
+            "__v": 0,
+            "lastDateWasQotd": "1601989201042"
+        },
+        {
+            "_id": "5ef3b22490839500170b4874",
+            "message": "Between true friends, even water drunk together is sweet enough.",
+            "source": "African proverb",
+            "type": "African",
+            "charity": {
+                "link": "https://thewaterproject.org/",
+                "name": "The Water Project"
+            },
+            "qotd": false,
+            "createdAt": "2020-06-24T20:05:56.811Z",
+            "updatedAt": "2020-11-13T13:00:01.436Z",
+            "__v": 0,
+            "lastDateWasQotd": "1605186001656"
+        },
+        {
+            "_id": "5ef3b22490839500170b4875",
+            "message": "A small house will hold a hundred friends.",
+            "source": "African proverb",
+            "type": "African",
+            "charity": {
+                "link": "https://thewaterproject.org/",
+                "name": "The Water Project"
+            },
+            "qotd": false,
+            "createdAt": "2020-06-24T20:05:56.820Z",
+            "updatedAt": "2020-06-24T20:05:56.820Z",
+            "__v": 0
+        },
+        {
+            "_id": "5ef3b22490839500170b4876",
+            "message": "A close friend can become a close enemy.",
+            "source": "African proverb",
+            "type": "African",
+            "charity": {
+                "link": "https://thewaterproject.org/",
+                "name": "The Water Project"
+            },
+            "qotd": false,
+            "createdAt": "2020-06-24T20:05:56.829Z",
+            "updatedAt": "2020-06-24T20:05:56.829Z",
+            "__v": 0
+        },
+        {
+            "_id": "5ef3b22490839500170b4877",
+            "message": "Bad friends will prevent you from having good friends.",
+            "source": "Gabon proverb",
+            "type": "African",
+            "charity": {
+                "link": "https://thewaterproject.org/",
+                "name": "The Water Project"
+            },
+            "qotd": false,
+            "createdAt": "2020-06-24T20:05:56.838Z",
+            "updatedAt": "2020-06-24T20:05:56.838Z",
+            "__v": 0
+        },
+        {
+            "_id": "5ef3b22490839500170b4878",
+            "message": "Make some money but don’t let money make you.",
+            "source": "Tanzania",
+            "type": "African",
+            "charity": {
+                "link": "https://thewaterproject.org/",
+                "name": "The Water Project"
+            },
+            "qotd": false,
+            "createdAt": "2020-06-24T20:05:56.847Z",
+            "updatedAt": "2020-06-24T20:05:56.847Z",
+            "__v": 0
+        },
+        {
+            "_id": "5ef3b22490839500170b4879",
+            "message": "It is no shame at all to work for money.",
+            "source": "Africa",
+            "type": "African",
+            "charity": {
+                "link": "https://thewaterproject.org/",
+                "name": "The Water Project"
+            },
+            "qotd": false,
+            "createdAt": "2020-06-24T20:05:56.856Z",
+            "updatedAt": "2020-11-23T13:00:01.702Z",
+            "__v": 0,
+            "lastDateWasQotd": "1606050001817"
+        },
+        {
+            "_id": "5ef3b22490839500170b487a",
+            "message": "He who loves money must labor.",
+            "source": "Mauritania",
+            "type": "African",
+            "charity": {
+                "link": "https://thewaterproject.org/",
+                "name": "The Water Project"
+            },
+            "qotd": false,
+            "createdAt": "2020-06-24T20:05:56.865Z",
+            "updatedAt": "2020-06-24T20:05:56.865Z",
+            "__v": 0
+        },
+        {
+            "_id": "5ef3b22490839500170b487b",
+            "message": "By labor comes wealth.",
+            "source": "Yoruba",
+            "type": "African",
+            "charity": {
+                "link": "https://thewaterproject.org/",
+                "name": "The Water Project"
+            },
+            "qotd": false,
+            "createdAt": "2020-06-24T20:05:56.874Z",
+            "updatedAt": "2020-06-25T15:15:24.792Z",
+            "__v": 0,
+            "lastDateWasQotd": "1593079216225"
+        },
+        {
+            "_id": "5ef3b22490839500170b487c",
+            "message": "Poverty is slavery.",
+            "source": "Somalia",
+            "type": "African",
+            "charity": {
+                "link": "https://thewaterproject.org/",
+                "name": "The Water Project"
+            },
+            "qotd": false,
+            "createdAt": "2020-06-24T20:05:56.885Z",
+            "updatedAt": "2020-06-24T20:05:56.885Z",
+            "__v": 0
+        },
+        {
+            "_id": "5ef3b22490839500170b487d",
+            "message": "One cannot both feast and become rich.",
+            "source": "Ashanti",
+            "type": "African",
+            "charity": {
+                "link": "https://thewaterproject.org/",
+                "name": "The Water Project"
+            },
+            "qotd": false,
+            "createdAt": "2020-06-24T20:05:56.896Z",
+            "updatedAt": "2020-11-16T13:00:01.541Z",
+            "__v": 0,
+            "lastDateWasQotd": "1605445201915"
+        },
+        {
+            "_id": "5ef3b22490839500170b487e",
+            "message": "One cannot count on riches.",
+            "source": "Somalia",
+            "type": "African",
+            "charity": {
+                "link": "https://thewaterproject.org/",
+                "name": "The Water Project"
+            },
+            "qotd": false,
+            "createdAt": "2020-06-24T20:05:56.904Z",
+            "updatedAt": "2020-06-24T20:05:56.904Z",
+            "__v": 0
+        },
+        {
+            "_id": "5ef3b22490839500170b487f",
+            "message": "Money is sharper than the sword.",
+            "source": "Ashanti",
+            "type": "African",
+            "charity": {
+                "link": "https://thewaterproject.org/",
+                "name": "The Water Project"
+            },
+            "qotd": false,
+            "createdAt": "2020-06-24T20:05:56.912Z",
+            "updatedAt": "2020-09-30T13:00:01.745Z",
+            "__v": 0,
+            "lastDateWasQotd": "1601384401183"
+        },
+        {
+            "_id": "5ef3b22490839500170b4880",
+            "message": "A man’s wealth may be superior to him.",
+            "source": "Cameroon",
+            "type": "African",
+            "charity": {
+                "link": "https://thewaterproject.org/",
+                "name": "The Water Project"
+            },
+            "qotd": false,
+            "createdAt": "2020-06-24T20:05:56.921Z",
+            "updatedAt": "2020-07-09T13:00:00.377Z",
+            "__v": 0,
+            "lastDateWasQotd": "1594213200460"
+        },
+        {
+            "_id": "5ef3b22490839500170b4881",
+            "message": "The rich are always complaining.",
+            "source": "Zulu",
+            "type": "African",
+            "charity": {
+                "link": "https://thewaterproject.org/",
+                "name": "The Water Project"
+            },
+            "qotd": false,
+            "createdAt": "2020-06-24T20:05:56.929Z",
+            "updatedAt": "2020-06-24T20:05:56.929Z",
+            "__v": 0
+        },
+        {
+            "_id": "5ef3b22490839500170b4882",
+            "message": "The wealth which enslaves the owner isn’t wealth.",
+            "source": "Yoruba",
+            "type": "African",
+            "charity": {
+                "link": "https://thewaterproject.org/",
+                "name": "The Water Project"
+            },
+            "qotd": false,
+            "createdAt": "2020-06-24T20:05:56.982Z",
+            "updatedAt": "2020-06-24T20:05:56.982Z",
+            "__v": 0
+        },
+        {
+            "_id": "5ef3b22490839500170b4883",
+            "message": "The poor man and the rich man do not play together.",
+            "source": "Ashanti",
+            "type": "African",
+            "charity": {
+                "link": "https://thewaterproject.org/",
+                "name": "The Water Project"
+            },
+            "qotd": false,
+            "createdAt": "2020-06-24T20:05:56.991Z",
+            "updatedAt": "2020-06-24T20:05:56.991Z",
+            "__v": 0
+        },
+        {
+            "_id": "5ef3b22590839500170b4884",
+            "message": "Lack of money is lack of friends; if you have money at your disposal, every dog and goat will claim to be related to you.",
+            "source": "Yoruba",
+            "type": "African",
+            "charity": {
+                "link": "https://thewaterproject.org/",
+                "name": "The Water Project"
+            },
+            "qotd": false,
+            "createdAt": "2020-06-24T20:05:57.001Z",
+            "updatedAt": "2020-06-24T20:05:57.001Z",
+            "__v": 0
+        },
+        {
+            "_id": "5ef3b22590839500170b4885",
+            "message": "With wealth one wins a woman.",
+            "source": "Uganda",
+            "type": "African",
+            "charity": {
+                "link": "https://thewaterproject.org/",
+                "name": "The Water Project"
+            },
+            "qotd": false,
+            "createdAt": "2020-06-24T20:05:57.011Z",
+            "updatedAt": "2020-06-24T20:05:57.011Z",
+            "__v": 0
+        },
+        {
+            "_id": "5ef3b22590839500170b4886",
+            "message": "Dogs do not actually prefer bones to meat; it is just that no one ever gives them meat.",
+            "source": "Akan",
+            "type": "African",
+            "charity": {
+                "link": "https://thewaterproject.org/",
+                "name": "The Water Project"
+            },
+            "qotd": false,
+            "createdAt": "2020-06-24T20:05:57.020Z",
+            "updatedAt": "2020-06-24T20:05:57.020Z",
+            "__v": 0
+        },
+        {
+            "_id": "5ef3b22590839500170b4887",
+            "message": "A real family eats the same cornmeal.",
+            "source": "Bayombe",
+            "type": "African",
+            "charity": {
+                "link": "https://thewaterproject.org/",
+                "name": "The Water Project"
+            },
+            "qotd": false,
+            "createdAt": "2020-06-24T20:05:57.045Z",
+            "updatedAt": "2020-06-24T20:05:57.045Z",
+            "__v": 0
+        },
+        {
+            "_id": "5ef3b22590839500170b4888",
+            "message": "If your cornfield is far from your house, the birds will eat your corn.",
+            "source": "Congo",
+            "type": "African",
+            "charity": {
+                "link": "https://thewaterproject.org/",
+                "name": "The Water Project"
+            },
+            "qotd": false,
+            "createdAt": "2020-06-24T20:05:57.056Z",
+            "updatedAt": "2020-11-29T13:00:01.695Z",
+            "__v": 0,
+            "lastDateWasQotd": "1606568401610"
+        },
+        {
+            "_id": "5ef3b22590839500170b4889",
+            "message": "Money can’t talk, yet it can make lies look true.",
+            "source": "South Africa",
+            "type": "African",
+            "charity": {
+                "link": "https://thewaterproject.org/",
+                "name": "The Water Project"
+            },
+            "qotd": false,
+            "createdAt": "2020-06-24T20:05:57.066Z",
+            "updatedAt": "2020-12-07T20:18:53.608Z",
+            "__v": 0,
+            "lastDateWasQotd": "1607266908560"
+        },
+        {
+            "_id": "5ef3b22590839500170b488a",
+            "message": "One cannot count on riches.",
+            "source": "Somalia",
+            "type": "African",
+            "charity": {
+                "link": "https://thewaterproject.org/",
+                "name": "The Water Project"
+            },
+            "qotd": false,
+            "createdAt": "2020-06-24T20:05:57.075Z",
+            "updatedAt": "2020-08-02T13:00:00.706Z",
+            "__v": 0,
+            "lastDateWasQotd": "1596286800720"
+        },
+        {
+            "_id": "5ef3b22590839500170b488b",
+            "message": "Money is not the medicine against death.",
+            "source": "Ghana",
+            "type": "African",
+            "charity": {
+                "link": "https://thewaterproject.org/",
+                "name": "The Water Project"
+            },
+            "qotd": false,
+            "createdAt": "2020-06-24T20:05:57.084Z",
+            "updatedAt": "2020-06-24T20:05:57.084Z",
+            "__v": 0
+        },
+        {
+            "_id": "5ef3b22590839500170b488c",
+            "message": "He who receives a gift does not measure.",
+            "source": "Africa",
+            "type": "African",
+            "charity": {
+                "link": "https://thewaterproject.org/",
+                "name": "The Water Project"
+            },
+            "qotd": false,
+            "createdAt": "2020-06-24T20:05:57.092Z",
+            "updatedAt": "2020-06-24T20:05:57.092Z",
+            "__v": 0
+        },
+        {
+            "_id": "5ef3b22590839500170b488d",
+            "message": "Much wealth brings many enemies.",
+            "source": "Swahili",
+            "type": "African",
+            "charity": {
+                "link": "https://thewaterproject.org/",
+                "name": "The Water Project"
+            },
+            "qotd": false,
+            "createdAt": "2020-06-24T20:05:57.101Z",
+            "updatedAt": "2020-06-24T20:05:57.101Z",
+            "__v": 0
+        },
+        {
+            "_id": "5ef3b22590839500170b488e",
+            "message": "There is no one who became rich because he broke a holiday, no one became fat because he broke a fast.",
+            "source": "Ethiopia",
+            "type": "African",
+            "charity": {
+                "link": "https://thewaterproject.org/",
+                "name": "The Water Project"
+            },
+            "qotd": false,
+            "createdAt": "2020-06-24T20:05:57.111Z",
+            "updatedAt": "2020-07-05T13:00:00.419Z",
+            "__v": 0,
+            "lastDateWasQotd": "1593867600396"
+        },
+        {
+            "_id": "5ef3b22590839500170b488f",
+            "message": "What you give you get, ten times over.",
+            "source": "Yoruba",
+            "type": "African",
+            "charity": {
+                "link": "https://thewaterproject.org/",
+                "name": "The Water Project"
+            },
+            "qotd": false,
+            "createdAt": "2020-06-24T20:05:57.119Z",
+            "updatedAt": "2020-06-26T13:00:00.412Z",
+            "__v": 0,
+            "lastDateWasQotd": "1593103214902"
+        },
+        {
+            "_id": "5ef3b22590839500170b4890",
+            "message": "Greed loses what it has gained.",
+            "source": "Africa",
+            "type": "African",
+            "charity": {
+                "link": "https://thewaterproject.org/",
+                "name": "The Water Project"
+            },
+            "qotd": false,
+            "createdAt": "2020-06-24T20:05:57.129Z",
+            "updatedAt": "2020-11-25T13:00:01.562Z",
+            "__v": 0,
+            "lastDateWasQotd": "1606222801641"
+        },
+        {
+            "_id": "5ef3b22590839500170b4891",
+            "message": "You become wise when you begin to run out of money.",
+            "source": "Ghana",
+            "type": "African",
+            "charity": {
+                "link": "https://thewaterproject.org/",
+                "name": "The Water Project"
+            },
+            "qotd": false,
+            "createdAt": "2020-06-24T20:05:57.138Z",
+            "updatedAt": "2020-06-24T20:05:57.138Z",
+            "__v": 0
+        },
+        {
+            "_id": "5ef3b22590839500170b4892",
+            "message": "If ten cents does not go out, it does not bring in one thousand dollars.",
+            "source": "Ghana",
+            "type": "African",
+            "charity": {
+                "link": "https://thewaterproject.org/",
+                "name": "The Water Project"
+            },
+            "qotd": false,
+            "createdAt": "2020-06-24T20:05:57.146Z",
+            "updatedAt": "2020-06-24T20:05:57.146Z",
+            "__v": 0
+        },
+        {
+            "_id": "5ef3b22590839500170b4893",
+            "message": "You should not hoard your money and die of hunger.",
+            "source": "Ghana",
+            "type": "African",
+            "charity": {
+                "link": "https://thewaterproject.org/",
+                "name": "The Water Project"
+            },
+            "qotd": false,
+            "createdAt": "2020-06-24T20:05:57.156Z",
+            "updatedAt": "2020-06-24T20:05:57.156Z",
+            "__v": 0
+        },
+        {
+            "_id": "5ef3b22590839500170b4894",
+            "message": "Wealth diminishes with usage; learning increases with use.",
+            "source": "Nigeria",
+            "type": "African",
+            "charity": {
+                "link": "https://thewaterproject.org/",
+                "name": "The Water Project"
+            },
+            "qotd": false,
+            "createdAt": "2020-06-24T20:05:57.165Z",
+            "updatedAt": "2020-11-21T13:00:02.375Z",
+            "__v": 0,
+            "lastDateWasQotd": "1605877202186"
+        },
+        {
+            "_id": "5ef3b22590839500170b4895",
+            "message": "Wisdom is not like money to be tied up and hidden.",
+            "source": "Akan",
+            "type": "African",
+            "charity": {
+                "link": "https://thewaterproject.org/",
+                "name": "The Water Project"
+            },
+            "qotd": false,
+            "createdAt": "2020-06-24T20:05:57.174Z",
+            "updatedAt": "2020-06-24T20:05:57.174Z",
+            "__v": 0
+        },
+        {
+            "_id": "5ef3b22590839500170b4896",
+            "message": "Having a good discussion is like having riches",
+            "source": "Kenya",
+            "type": "African",
+            "charity": {
+                "link": "https://thewaterproject.org/",
+                "name": "The Water Project"
+            },
+            "qotd": false,
+            "createdAt": "2020-06-24T20:05:57.182Z",
+            "updatedAt": "2020-08-13T13:00:00.827Z",
+            "__v": 0,
+            "lastDateWasQotd": "1597237200754"
+        },
+        {
+            "_id": "5ef3b22590839500170b4897",
+            "message": "Knowledge is better than riches.",
+            "source": "Cameroon",
+            "type": "African",
+            "charity": {
+                "link": "https://thewaterproject.org/",
+                "name": "The Water Project"
+            },
+            "qotd": false,
+            "createdAt": "2020-06-24T20:05:57.191Z",
+            "updatedAt": "2020-06-24T20:05:57.191Z",
+            "__v": 0
+        },
+        {
+            "_id": "5ef3b22590839500170b4898",
+            "message": "You must act as if it is impossible to fail.",
+            "source": "Ashanti",
+            "type": "African",
+            "charity": {
+                "link": "https://thewaterproject.org/",
+                "name": "The Water Project"
+            },
+            "qotd": false,
+            "createdAt": "2020-06-24T20:05:57.199Z",
+            "updatedAt": "2020-08-05T13:00:00.739Z",
+            "__v": 0,
+            "lastDateWasQotd": "1596546000752"
+        },
+        {
+            "_id": "5ef3b22590839500170b4899",
+            "message": "Do not let what you cannot do tear from your hands what you can.",
+            "source": "Ashanti",
+            "type": "African",
+            "charity": {
+                "link": "https://thewaterproject.org/",
+                "name": "The Water Project"
+            },
+            "qotd": false,
+            "createdAt": "2020-06-24T20:05:57.209Z",
+            "updatedAt": "2020-07-30T13:00:02.451Z",
+            "__v": 0,
+            "lastDateWasQotd": "1596027600605"
+        },
+        {
+            "_id": "5ef3b22590839500170b489a",
+            "message": "One who plants grapes by the road side, and one who marries a pretty woman, share the same problem.",
+            "source": "Ethiopian Proverb",
+            "type": "African",
+            "charity": {
+                "link": "https://thewaterproject.org/",
+                "name": "The Water Project"
+            },
+            "qotd": false,
+            "createdAt": "2020-06-24T20:05:57.218Z",
+            "updatedAt": "2020-12-14T17:43:40.898Z",
+            "__v": 0,
+            "lastDateWasQotd": "1607878006157"
+        },
+        {
+            "_id": "5ef3b22590839500170b489b",
+            "message": "Beautiful from behind, ugly in front.",
+            "source": "Uganda Proverb",
+            "type": "African",
+            "charity": {
+                "link": "https://thewaterproject.org/",
+                "name": "The Water Project"
+            },
+            "qotd": false,
+            "createdAt": "2020-06-24T20:05:57.227Z",
+            "updatedAt": "2020-06-24T20:05:57.227Z",
+            "__v": 0
+        },
+        {
+            "_id": "5ef3b22590839500170b489c",
+            "message": "The skin of the leopard is beautiful, but not his heart.",
+            "source": "Baluba proverb",
+            "type": "African",
+            "charity": {
+                "link": "https://thewaterproject.org/",
+                "name": "The Water Project"
+            },
+            "qotd": false,
+            "createdAt": "2020-06-24T20:05:57.235Z",
+            "updatedAt": "2020-06-24T20:05:57.235Z",
+            "__v": 0
+        },
+        {
+            "_id": "5ef3b22590839500170b489d",
+            "message": "Ugliness with a good character is better than beauty.",
+            "source": "Nigerian Proverb",
+            "type": "African",
+            "charity": {
+                "link": "https://thewaterproject.org/",
+                "name": "The Water Project"
+            },
+            "qotd": false,
+            "createdAt": "2020-06-24T20:05:57.243Z",
+            "updatedAt": "2020-06-24T20:05:57.243Z",
+            "__v": 0
+        },
+        {
+            "_id": "5ef3b22590839500170b489e",
+            "message": "A beautiful one hurts the heart.",
+            "source": "African Proverb",
+            "type": "African",
+            "charity": {
+                "link": "https://thewaterproject.org/",
+                "name": "The Water Project"
+            },
+            "qotd": false,
+            "createdAt": "2020-06-24T20:05:57.252Z",
+            "updatedAt": "2020-11-15T13:00:01.883Z",
+            "__v": 0,
+            "lastDateWasQotd": "1605358801524"
+        },
+        {
+            "_id": "5ef3b22590839500170b489f",
+            "message": "Anyone who sees beauty and does not look at it will soon be poor.",
+            "source": "Yoruba Proverb",
+            "type": "African",
+            "charity": {
+                "link": "https://thewaterproject.org/",
+                "name": "The Water Project"
+            },
+            "qotd": false,
+            "createdAt": "2020-06-24T20:05:57.261Z",
+            "updatedAt": "2020-09-15T13:00:01.104Z",
+            "__v": 0,
+            "lastDateWasQotd": "1600088401059"
+        },
+        {
+            "_id": "5ef3b22590839500170b48a0",
+            "message": "The surface of the water is beautiful, but it is no good to sleep on.",
+            "source": "Ghanaian Proverb",
+            "type": "African",
+            "charity": {
+                "link": "https://thewaterproject.org/",
+                "name": "The Water Project"
+            },
+            "qotd": false,
+            "createdAt": "2020-06-24T20:05:57.270Z",
+            "updatedAt": "2020-10-13T13:00:04.112Z",
+            "__v": 0,
+            "lastDateWasQotd": "1602507601095"
+        },
+        {
+            "_id": "5ef3b22590839500170b48a1",
+            "message": "If there is character, ugliness becomes beauty; if there is none, beauty becomes ugliness.",
+            "source": "Nigerian Proverb",
+            "type": "African",
+            "charity": {
+                "link": "https://thewaterproject.org/",
+                "name": "The Water Project"
+            },
+            "qotd": false,
+            "createdAt": "2020-06-24T20:05:57.278Z",
+            "updatedAt": "2020-07-20T13:00:00.462Z",
+            "__v": 0,
+            "lastDateWasQotd": "1595163600652"
+        },
+        {
+            "_id": "5ef3b22590839500170b48a2",
+            "message": "You are beautiful, but learn to work, for you cannot eat your beauty.",
+            "source": "Congolese Proverb",
+            "type": "African",
+            "charity": {
+                "link": "https://thewaterproject.org/",
+                "name": "The Water Project"
+            },
+            "qotd": false,
+            "createdAt": "2020-06-24T20:05:57.286Z",
+            "updatedAt": "2020-10-14T13:00:01.317Z",
+            "__v": 0,
+            "lastDateWasQotd": "1602594004139"
+        },
+        {
+            "_id": "5ef3b22590839500170b48a3",
+            "message": "The one who loves an unsightly person is the one who makes him beautiful.",
+            "source": "Ganda Proverb",
+            "type": "African",
+            "charity": {
+                "link": "https://thewaterproject.org/",
+                "name": "The Water Project"
+            },
+            "qotd": false,
+            "createdAt": "2020-06-24T20:05:57.294Z",
+            "updatedAt": "2020-06-24T20:05:57.294Z",
+            "__v": 0
+        },
+        {
+            "_id": "5ef3b22590839500170b48a4",
+            "message": "Having beauty doesn’t mean understanding the perseverance of marriage.",
+            "source": "African Proverb",
+            "type": "African",
+            "charity": {
+                "link": "https://thewaterproject.org/",
+                "name": "The Water Project"
+            },
+            "qotd": false,
+            "createdAt": "2020-06-24T20:05:57.302Z",
+            "updatedAt": "2020-06-24T20:05:57.302Z",
+            "__v": 0
+        },
+        {
+            "_id": "5ef3b22590839500170b48a5",
+            "message": "You are beautiful because of your possessions.",
+            "source": "Baguirmi Proverb",
+            "type": "African",
+            "charity": {
+                "link": "https://thewaterproject.org/",
+                "name": "The Water Project"
+            },
+            "qotd": false,
+            "createdAt": "2020-06-24T20:05:57.310Z",
+            "updatedAt": "2020-11-28T13:00:01.590Z",
+            "__v": 0,
+            "lastDateWasQotd": "1606482001820"
+        },
+        {
+            "_id": "5ef3b22590839500170b48a6",
+            "message": "Every woman is beautiful until she speaks.",
+            "source": "Zimbabwean Proverb",
+            "type": "African",
+            "charity": {
+                "link": "https://thewaterproject.org/",
+                "name": "The Water Project"
+            },
+            "qotd": false,
+            "createdAt": "2020-06-24T20:05:57.318Z",
+            "updatedAt": "2020-08-31T13:00:01.187Z",
+            "__v": 0,
+            "lastDateWasQotd": "1598792401448"
+        },
+        {
+            "_id": "5ef3b22590839500170b48a7",
+            "message": "Three things cause sorrow to flee; water, green trees, and a beautiful face.",
+            "source": "Moroccan Proverb",
+            "type": "African",
+            "charity": {
+                "link": "https://thewaterproject.org/",
+                "name": "The Water Project"
+            },
+            "qotd": false,
+            "createdAt": "2020-06-24T20:05:57.326Z",
+            "updatedAt": "2020-10-24T13:00:01.231Z",
+            "__v": 0,
+            "lastDateWasQotd": "1603458001394"
+        },
+        {
+            "_id": "5ef3b22590839500170b48a8",
+            "message": "A beautiful thing is never perfect.",
+            "source": "Egyptian Proverb",
+            "type": "African",
+            "charity": {
+                "link": "https://thewaterproject.org/",
+                "name": "The Water Project"
+            },
+            "qotd": false,
+            "createdAt": "2020-06-24T20:05:57.335Z",
+            "updatedAt": "2020-08-25T13:00:00.830Z",
+            "__v": 0,
+            "lastDateWasQotd": "1598274001095"
+        },
+        {
+            "_id": "5ef3b22590839500170b48a9",
+            "message": "Patience is the mother of a beautiful child.",
+            "source": "Bantu Proverb",
+            "type": "African",
+            "charity": {
+                "link": "https://thewaterproject.org/",
+                "name": "The Water Project"
+            },
+            "qotd": false,
+            "createdAt": "2020-06-24T20:05:57.346Z",
+            "updatedAt": "2020-06-24T20:05:57.346Z",
+            "__v": 0
+        },
+        {
+            "_id": "5ef3b22590839500170b48aa",
+            "message": "There is no beauty but the beauty of action.",
+            "source": "Moroccan Proverb",
+            "type": "African",
+            "charity": {
+                "link": "https://thewaterproject.org/",
+                "name": "The Water Project"
+            },
+            "qotd": false,
+            "createdAt": "2020-06-24T20:05:57.355Z",
+            "updatedAt": "2020-07-24T13:00:00.579Z",
+            "__v": 0,
+            "lastDateWasQotd": "1595509200558"
+        },
+        {
+            "_id": "5ef3b22590839500170b48ab",
+            "message": "Judge not your beauty by the number of people who look at you, but rather by the number of people who smile at you.",
+            "source": "African Proverb",
+            "type": "African",
+            "charity": {
+                "link": "https://thewaterproject.org/",
+                "name": "The Water Project"
+            },
+            "qotd": false,
+            "createdAt": "2020-06-24T20:05:57.364Z",
+            "updatedAt": "2020-06-24T20:05:57.364Z",
+            "__v": 0
+        },
+        {
+            "_id": "5ef3b22590839500170b48ac",
+            "message": "A pretty face and fine clothes do not make the character.",
+            "source": "Congolese Proverb",
+            "type": "African",
+            "charity": {
+                "link": "https://thewaterproject.org/",
+                "name": "The Water Project"
+            },
+            "qotd": false,
+            "createdAt": "2020-06-24T20:05:57.373Z",
+            "updatedAt": "2020-07-06T13:00:00.314Z",
+            "__v": 0,
+            "lastDateWasQotd": "1593954000441"
+        },
+        {
+            "_id": "5ef3b22590839500170b48ad",
+            "message": "Youth is beauty, even in cattle.",
+            "source": "Egyptian Proverb",
+            "type": "African",
+            "charity": {
+                "link": "https://thewaterproject.org/",
+                "name": "The Water Project"
+            },
+            "qotd": false,
+            "createdAt": "2020-06-24T20:05:57.382Z",
+            "updatedAt": "2020-06-24T20:05:57.382Z",
+            "__v": 0
+        },
+        {
+            "_id": "5ef3b22590839500170b48ae",
+            "message": "A pretty basket does not prevent worries.",
+            "source": "Congolese Proverb",
+            "type": "African",
+            "charity": {
+                "link": "https://thewaterproject.org/",
+                "name": "The Water Project"
+            },
+            "qotd": false,
+            "createdAt": "2020-06-24T20:05:57.391Z",
+            "updatedAt": "2020-06-24T20:05:57.391Z",
+            "__v": 0
+        },
+        {
+            "_id": "5ef3b22590839500170b48af",
+            "message": "It’s those ugly caterpillars that turn into beautiful butterflies after seasons.",
+            "source": "African Proverb",
+            "type": "African",
+            "charity": {
+                "link": "https://thewaterproject.org/",
+                "name": "The Water Project"
+            },
+            "qotd": false,
+            "createdAt": "2020-06-24T20:05:57.399Z",
+            "updatedAt": "2020-06-24T20:05:57.399Z",
+            "__v": 0
+        },
+        {
+            "_id": "5ef3b22590839500170b48b0",
+            "message": "The most beautiful fig may contain a worm.",
+            "source": "Zulu Proverb",
+            "type": "African",
+            "charity": {
+                "link": "https://thewaterproject.org/",
+                "name": "The Water Project"
+            },
+            "qotd": false,
+            "createdAt": "2020-06-24T20:05:57.407Z",
+            "updatedAt": "2020-09-08T13:00:01.195Z",
+            "__v": 0,
+            "lastDateWasQotd": "1599483601247"
+        },
+        {
+            "_id": "5ef3b22590839500170b48b1",
+            "message": "It is only a stupid cow that rejoices at the prospect of being taken to a beautiful abattoir.",
+            "source": "African Proverb",
+            "type": "African",
+            "charity": {
+                "link": "https://thewaterproject.org/",
+                "name": "The Water Project"
+            },
+            "qotd": false,
+            "createdAt": "2020-06-24T20:05:57.415Z",
+            "updatedAt": "2020-07-03T13:00:00.360Z",
+            "__v": 0,
+            "lastDateWasQotd": "1593694800446"
+        },
+        {
+            "_id": "5ef3b22590839500170b48b2",
+            "message": "A woman who pursues a man for sex loses her spiritual beauty.",
+            "source": "African Proverb",
+            "type": "African",
+            "charity": {
+                "link": "https://thewaterproject.org/",
+                "name": "The Water Project"
+            },
+            "qotd": false,
+            "createdAt": "2020-06-24T20:05:57.424Z",
+            "updatedAt": "2020-11-06T13:00:01.312Z",
+            "__v": 0,
+            "lastDateWasQotd": "1604581202928"
+        },
+        {
+            "_id": "5ef3b22590839500170b48b3",
+            "message": "A chicken with beautiful plumage does not sit in a corner.",
+            "source": "African Proverb",
+            "type": "African",
+            "charity": {
+                "link": "https://thewaterproject.org/",
+                "name": "The Water Project"
+            },
+            "qotd": false,
+            "createdAt": "2020-06-24T20:05:57.434Z",
+            "updatedAt": "2020-06-24T20:05:57.434Z",
+            "__v": 0
+        },
+        {
+            "_id": "5ef3b22590839500170b48b4",
+            "message": "The cook does not have to be a beautiful woman.",
+            "source": "Shona Proverb",
+            "type": "African",
+            "charity": {
+                "link": "https://thewaterproject.org/",
+                "name": "The Water Project"
+            },
+            "qotd": false,
+            "createdAt": "2020-06-24T20:05:57.444Z",
+            "updatedAt": "2020-06-24T20:05:57.444Z",
+            "__v": 0
+        },
+        {
+            "_id": "5ef3b22590839500170b48b5",
+            "message": "Beautiful words don’t put porridge in the pot.",
+            "source": "Botswana Proverb",
+            "type": "African",
+            "charity": {
+                "link": "https://thewaterproject.org/",
+                "name": "The Water Project"
+            },
+            "qotd": false,
+            "createdAt": "2020-06-24T20:05:57.458Z",
+            "updatedAt": "2020-10-22T13:00:01.467Z",
+            "__v": 0,
+            "lastDateWasQotd": "1603285202945"
+        },
+        {
+            "_id": "5ef3b22590839500170b48b6",
+            "message": "She is beautiful; she has love, understands; she respects herself and others; everyone likes loves and honors her; she is a goddess.",
+            "source": "African Proverb",
+            "type": "African",
+            "charity": {
+                "link": "https://thewaterproject.org/",
+                "name": "The Water Project"
+            },
+            "qotd": false,
+            "createdAt": "2020-06-24T20:05:57.471Z",
+            "updatedAt": "2020-06-24T20:05:57.471Z",
+            "__v": 0
+        },
+        {
+            "_id": "5ef3b22590839500170b48b7",
+            "message": "There is always a winner even in a monkey’s beauty contest.",
+            "source": "African Proverb",
+            "type": "African",
+            "charity": {
+                "link": "https://thewaterproject.org/",
+                "name": "The Water Project"
+            },
+            "qotd": false,
+            "createdAt": "2020-06-24T20:05:57.481Z",
+            "updatedAt": "2020-06-24T20:05:57.481Z",
+            "__v": 0
+        },
+        {
+            "_id": "5ef3b22590839500170b48b8",
+            "message": "Dress up a stick and it’ll be a beautiful bride.",
+            "source": "Egyptian Proverb",
+            "type": "African",
+            "charity": {
+                "link": "https://thewaterproject.org/",
+                "name": "The Water Project"
+            },
+            "qotd": false,
+            "createdAt": "2020-06-24T20:05:57.491Z",
+            "updatedAt": "2020-11-09T13:00:01.531Z",
+            "__v": 0,
+            "lastDateWasQotd": "1604840401652"
+        },
+        {
+            "_id": "5ef3b22590839500170b48b9",
+            "message": "An ugly child of your own is more to you than a beautiful one belonging to your neighbor.",
+            "source": "Ganda Proverb",
+            "type": "African",
+            "charity": {
+                "link": "https://thewaterproject.org/",
+                "name": "The Water Project"
+            },
+            "qotd": false,
+            "createdAt": "2020-06-24T20:05:57.501Z",
+            "updatedAt": "2020-09-11T13:00:01.347Z",
+            "__v": 0,
+            "lastDateWasQotd": "1599742800898"
+        },
+        {
+            "_id": "5ef3b22590839500170b48ba",
+            "message": "Even the colors of a chameleon are for survival not beauty.",
+            "source": "African Proverb",
+            "type": "African",
+            "charity": {
+                "link": "https://thewaterproject.org/",
+                "name": "The Water Project"
+            },
+            "qotd": false,
+            "createdAt": "2020-06-24T20:05:57.510Z",
+            "updatedAt": "2020-06-24T20:05:57.510Z",
+            "__v": 0
+        },
+        {
+            "_id": "5ef3b22590839500170b48bb",
+            "message": "Beautiful discourse is rarer than emerald",
+            "source": "yet it can be found among the servant girls at the grindstones.",
+            "type": "African",
+            "charity": {
+                "link": "https://thewaterproject.org/",
+                "name": "The Water Project"
+            },
+            "qotd": false,
+            "createdAt": "2020-06-24T20:05:57.521Z",
+            "updatedAt": "2020-10-29T13:00:01.342Z",
+            "__v": 0,
+            "lastDateWasQotd": "1603890001384"
+        },
+        {
+            "_id": "5ef3b22590839500170b48bc",
+            "message": "When a once-beautiful piece of cloth has turned into rags, no one remembers that it was woven by Ukwa master weavers.",
+            "source": "Igbo Proverb",
+            "type": "African",
+            "charity": {
+                "link": "https://thewaterproject.org/",
+                "name": "The Water Project"
+            },
+            "qotd": false,
+            "createdAt": "2020-06-24T20:05:57.530Z",
+            "updatedAt": "2020-07-13T13:00:00.476Z",
+            "__v": 0,
+            "lastDateWasQotd": "1594558800484"
+        },
+        {
+            "_id": "5ef3b22590839500170b48bd",
+            "message": "A woman’s polite devotion is her greatest beauty.",
+            "source": "African Proverb",
+            "type": "African",
+            "charity": {
+                "link": "https://thewaterproject.org/",
+                "name": "The Water Project"
+            },
+            "qotd": false,
+            "createdAt": "2020-06-24T20:05:57.540Z",
+            "updatedAt": "2020-11-01T13:00:01.704Z",
+            "__v": 0,
+            "lastDateWasQotd": "1604149202114"
+        },
+        {
+            "_id": "5ef3b22590839500170b48be",
+            "message": "There are many colorful flowers on the path of life, but the prettiest have the sharpest thorns.",
+            "source": "African Proverb",
+            "type": "African",
+            "charity": {
+                "link": "https://thewaterproject.org/",
+                "name": "The Water Project"
+            },
+            "qotd": false,
+            "createdAt": "2020-06-24T20:05:57.548Z",
+            "updatedAt": "2020-06-24T20:05:57.548Z",
+            "__v": 0
+        },
+        {
+            "_id": "5ef3b22590839500170b48bf",
+            "message": "He who marries a beauty marries trouble.",
+            "source": "Nigerian Proverb",
+            "type": "African",
+            "charity": {
+                "link": "https://thewaterproject.org/",
+                "name": "The Water Project"
+            },
+            "qotd": false,
+            "createdAt": "2020-06-24T20:05:57.557Z",
+            "updatedAt": "2020-09-13T13:00:00.893Z",
+            "__v": 0,
+            "lastDateWasQotd": "1599915600898"
+        },
+        {
+            "_id": "5ef3b22590839500170b48c0",
+            "message": "Despite the beauty of the moon, sun and the stars, the sky also has a threatening thunder and striking lightning.",
+            "source": "African Proverb",
+            "type": "African",
+            "charity": {
+                "link": "https://thewaterproject.org/",
+                "name": "The Water Project"
+            },
+            "qotd": false,
+            "createdAt": "2020-06-24T20:05:57.565Z",
+            "updatedAt": "2020-06-24T20:05:57.565Z",
+            "__v": 0
+        },
+        {
+            "_id": "5ef3b22590839500170b48c1",
+            "message": "Getting only a beautiful woman is like planting a vine on the roadside everyone feeds on it.",
+            "source": "African Proverb",
+            "type": "African",
+            "charity": {
+                "link": "https://thewaterproject.org/",
+                "name": "The Water Project"
+            },
+            "qotd": false,
+            "createdAt": "2020-06-24T20:05:57.576Z",
+            "updatedAt": "2020-06-24T20:05:57.576Z",
+            "__v": 0
+        },
+        {
+            "_id": "5ef3b22590839500170b48c2",
+            "message": "Greatness and beauty do not belong to the gods alone.",
+            "source": "Nigerian Proverb",
+            "type": "African",
+            "charity": {
+                "link": "https://thewaterproject.org/",
+                "name": "The Water Project"
+            },
+            "qotd": false,
+            "createdAt": "2020-06-24T20:05:57.585Z",
+            "updatedAt": "2020-10-04T13:00:01.118Z",
+            "__v": 0,
+            "lastDateWasQotd": "1601730001114"
+        },
+        {
+            "_id": "5ef3b22590839500170b48c3",
+            "message": "Roosters’ tail feathers: pretty but always behind.",
+            "source": "Malagasy Proverb",
+            "type": "African",
+            "charity": {
+                "link": "https://thewaterproject.org/",
+                "name": "The Water Project"
+            },
+            "qotd": false,
+            "createdAt": "2020-06-24T20:05:57.594Z",
+            "updatedAt": "2020-06-24T20:05:57.594Z",
+            "__v": 0
+        },
+        {
+            "_id": "5ef3b22590839500170b48c4",
+            "message": "Beauty is not sold and eaten.",
+            "source": "Nigerian Proverb",
+            "type": "African",
+            "charity": {
+                "link": "https://thewaterproject.org/",
+                "name": "The Water Project"
+            },
+            "qotd": false,
+            "createdAt": "2020-06-24T20:05:57.605Z",
+            "updatedAt": "2020-06-24T20:05:57.605Z",
+            "__v": 0
+        },
+        {
+            "_id": "5ef3b22590839500170b48c5",
+            "message": "She is like a road – pretty, but crooked.",
+            "source": "Cameroonian Proverb",
+            "type": "African",
+            "charity": {
+                "link": "https://thewaterproject.org/",
+                "name": "The Water Project"
+            },
+            "qotd": false,
+            "createdAt": "2020-06-24T20:05:57.618Z",
+            "updatedAt": "2020-08-21T13:00:00.857Z",
+            "__v": 0,
+            "lastDateWasQotd": "1597928400847"
+        },
+        {
+            "_id": "5ef3b22590839500170b48c6",
+            "message": "Why they like an ugly person takes long for a beautiful person to know.",
+            "source": "African Proverb",
+            "type": "African",
+            "charity": {
+                "link": "https://thewaterproject.org/",
+                "name": "The Water Project"
+            },
+            "qotd": false,
+            "createdAt": "2020-06-24T20:05:57.628Z",
+            "updatedAt": "2020-06-24T20:05:57.628Z",
+            "__v": 0
+        },
+        {
+            "_id": "5ef3b22590839500170b48c7",
+            "message": "If you find “Miss This Year” beautiful, then you’ll find “Miss Next Year” even more so.",
+            "source": "Nigerian Proverb",
+            "type": "African",
+            "charity": {
+                "link": "https://thewaterproject.org/",
+                "name": "The Water Project"
+            },
+            "qotd": false,
+            "createdAt": "2020-06-24T20:05:57.639Z",
+            "updatedAt": "2020-07-12T13:00:00.465Z",
+            "__v": 0,
+            "lastDateWasQotd": "1594472400439"
+        },
+        {
+            "_id": "5ef3b22590839500170b48c8",
+            "message": "The beauty of a woman becomes useless if there is no one to admire it.",
+            "source": "African Proverb",
+            "type": "African",
+            "charity": {
+                "link": "https://thewaterproject.org/",
+                "name": "The Water Project"
+            },
+            "qotd": false,
+            "createdAt": "2020-06-24T20:05:57.648Z",
+            "updatedAt": "2020-06-24T20:05:57.648Z",
+            "__v": 0
+        },
+        {
+            "_id": "5ef3b22590839500170b48c9",
+            "message": "He who loves the vase loves also what is inside.",
+            "source": "African proverb",
+            "type": "African",
+            "charity": {
+                "link": "https://thewaterproject.org/",
+                "name": "The Water Project"
+            },
+            "qotd": false,
+            "createdAt": "2020-06-24T20:05:57.660Z",
+            "updatedAt": "2020-06-24T20:05:57.660Z",
+            "__v": 0
+        },
+        {
+            "_id": "5ef3b22590839500170b48ca",
+            "message": "It’s much easier to fall in love than to stay in love.",
+            "source": "African proverb",
+            "type": "African",
+            "charity": {
+                "link": "https://thewaterproject.org/",
+                "name": "The Water Project"
+            },
+            "qotd": false,
+            "createdAt": "2020-06-24T20:05:57.669Z",
+            "updatedAt": "2020-06-24T20:05:57.669Z",
+            "__v": 0
+        },
+        {
+            "_id": "5ef3b22590839500170b48cb",
+            "message": "Coffee and love taste best when hot.",
+            "source": "Ethiopian proverb",
+            "type": "African",
+            "charity": {
+                "link": "https://thewaterproject.org/",
+                "name": "The Water Project"
+            },
+            "qotd": false,
+            "createdAt": "2020-06-24T20:05:57.681Z",
+            "updatedAt": "2020-06-24T20:05:57.681Z",
+            "__v": 0
+        },
+        {
+            "_id": "5ef3b22590839500170b48cc",
+            "message": "Where there is love there is no darkness.",
+            "source": "Burundian proverb",
+            "type": "African",
+            "charity": {
+                "link": "https://thewaterproject.org/",
+                "name": "The Water Project"
+            },
+            "qotd": false,
+            "createdAt": "2020-06-24T20:05:57.690Z",
+            "updatedAt": "2020-06-24T20:05:57.690Z",
+            "__v": 0
+        },
+        {
+            "_id": "5ef3b22590839500170b48cd",
+            "message": "If you are ugly you must either learn to dance or make love.",
+            "source": "Zimbabwean Proverb",
+            "type": "African",
+            "charity": {
+                "link": "https://thewaterproject.org/",
+                "name": "The Water Project"
+            },
+            "qotd": false,
+            "createdAt": "2020-06-24T20:05:57.701Z",
+            "updatedAt": "2020-11-26T13:00:01.489Z",
+            "__v": 0,
+            "lastDateWasQotd": "1606309201584"
+        },
+        {
+            "_id": "5ef3b22590839500170b48ce",
+            "message": "Pretend you are dead and you will see who really loves you.",
+            "source": "African proverb",
+            "type": "African",
+            "charity": {
+                "link": "https://thewaterproject.org/",
+                "name": "The Water Project"
+            },
+            "qotd": false,
+            "createdAt": "2020-06-24T20:05:57.709Z",
+            "updatedAt": "2020-06-24T20:05:57.709Z",
+            "__v": 0
+        },
+        {
+            "_id": "5ef3b22590839500170b48cf",
+            "message": "To love the king is not bad, but a king who loves you is better.",
+            "source": "Wolof proverb",
+            "type": "African",
+            "charity": {
+                "link": "https://thewaterproject.org/",
+                "name": "The Water Project"
+            },
+            "qotd": false,
+            "createdAt": "2020-06-24T20:05:57.719Z",
+            "updatedAt": "2020-06-24T20:05:57.719Z",
+            "__v": 0
+        },
+        {
+            "_id": "5ef3b22590839500170b48d0",
+            "message": "A happy man marries the girl he loves, but a happier man loves the girl he marries.",
+            "source": "African proverb",
+            "type": "African",
+            "charity": {
+                "link": "https://thewaterproject.org/",
+                "name": "The Water Project"
+            },
+            "qotd": false,
+            "createdAt": "2020-06-24T20:05:57.728Z",
+            "updatedAt": "2020-08-10T13:00:00.875Z",
+            "__v": 0,
+            "lastDateWasQotd": "1596978000888"
+        },
+        {
+            "_id": "5ef3b22590839500170b48d1",
+            "message": "If you marry a monkey for his wealth, the money goes and the monkey remains as is.",
+            "source": "Egyptian proverb",
+            "type": "African",
+            "charity": {
+                "link": "https://thewaterproject.org/",
+                "name": "The Water Project"
+            },
+            "qotd": false,
+            "createdAt": "2020-06-24T20:05:57.739Z",
+            "updatedAt": "2020-06-24T20:05:57.739Z",
+            "__v": 0
+        },
+        {
+            "_id": "5ef3b22590839500170b48d2",
+            "message": "Love never gets lost it’s only kept.",
+            "source": "African proverb",
+            "type": "African",
+            "charity": {
+                "link": "https://thewaterproject.org/",
+                "name": "The Water Project"
+            },
+            "qotd": false,
+            "createdAt": "2020-06-24T20:05:57.748Z",
+            "updatedAt": "2020-08-30T13:00:01.349Z",
+            "__v": 0,
+            "lastDateWasQotd": "1598706000989"
+        },
+        {
+            "_id": "5ef3b22590839500170b48d3",
+            "message": "Never marry a woman who has bigger feet than you.",
+            "source": "Mozambique proverb",
+            "type": "African",
+            "charity": {
+                "link": "https://thewaterproject.org/",
+                "name": "The Water Project"
+            },
+            "qotd": false,
+            "createdAt": "2020-06-24T20:05:57.760Z",
+            "updatedAt": "2020-08-26T13:00:00.874Z",
+            "__v": 0,
+            "lastDateWasQotd": "1598360400852"
+        },
+        {
+            "_id": "5ef3b22590839500170b48d4",
+            "message": "One thread for the needle, one love for the heart.",
+            "source": "Sudanese proverb",
+            "type": "African",
+            "charity": {
+                "link": "https://thewaterproject.org/",
+                "name": "The Water Project"
+            },
+            "qotd": false,
+            "createdAt": "2020-06-24T20:05:57.773Z",
+            "updatedAt": "2020-06-24T20:05:57.773Z",
+            "__v": 0
+        },
+        {
+            "_id": "5ef3b22590839500170b48d5",
+            "message": "Love has to be shown by deeds not words.",
+            "source": "Swahili proverb",
+            "type": "African",
+            "charity": {
+                "link": "https://thewaterproject.org/",
+                "name": "The Water Project"
+            },
+            "qotd": false,
+            "createdAt": "2020-06-24T20:05:57.786Z",
+            "updatedAt": "2020-08-29T13:00:00.958Z",
+            "__v": 0,
+            "lastDateWasQotd": "1598619600940"
+        },
+        {
+            "_id": "5ef3b22590839500170b48d6",
+            "message": "Love is a despot who spares no one.",
+            "source": "Namibian proverb",
+            "type": "African",
+            "charity": {
+                "link": "https://thewaterproject.org/",
+                "name": "The Water Project"
+            },
+            "qotd": false,
+            "createdAt": "2020-06-24T20:05:57.797Z",
+            "updatedAt": "2020-07-21T13:00:00.496Z",
+            "__v": 0,
+            "lastDateWasQotd": "1595250000502"
+        },
+        {
+            "_id": "5ef3b22590839500170b48d7",
+            "message": "Marriage is like a groundnut; you have to crack it to see what is inside.",
+            "source": "Ghanaian proverb",
+            "type": "African",
+            "charity": {
+                "link": "https://thewaterproject.org/",
+                "name": "The Water Project"
+            },
+            "qotd": false,
+            "createdAt": "2020-06-24T20:05:57.808Z",
+            "updatedAt": "2020-06-24T20:05:57.808Z",
+            "__v": 0
+        }
+    ]
+}
