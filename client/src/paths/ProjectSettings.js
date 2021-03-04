@@ -64,7 +64,8 @@ class ProjectSettings extends Component {
     render(){
     	return(
     		<div className="Project-header">
-                <div onClick={this.handleTitleClick} className="Project-title Pointer green">
+                {/* <div onClick={this.handleTitleClick} className="Project-title Pointer green"> */}
+                    <div className="Project-title Pointer green">
                     {this.state.titleToggle
                     ? <h2>
                         <form onSubmit={this.handleUpdateSubmit}>
@@ -84,6 +85,7 @@ class ProjectSettings extends Component {
                     {this.state.toggle
                     ?<div className="Project-settings-settings">
                         <p className="Pointer white" onClick={this.handleTitleClick}>Update Title</p>
+                        {/* <p className="Pointer white">Update Title</p> */}
                         <p className="Pointer white" onClick={this.handleDeleteProjectClick} >Delete Project</p>
                         {this.state.delProjToggle
                         ?<DeleteProjectForm id={this.props.id} />
