@@ -22,6 +22,8 @@ class Tasks extends Component {
         this.handleUpdateTaskCompleted = this.handleUpdateTaskCompleted.bind(this)
         this.handleDeleteTask = this.handleDeleteTask.bind(this)
         this.handleLoadMore = this.handleLoadMore.bind(this)
+        this.handleDragOver = this.handleDragOver.bind(this)
+        this.handleDragDrop = this.handleDragDrop.bind(this)
     }
     async callGetAllTasks(){
         const allTasksArray = await getAllTasks(this.props.id);
@@ -66,9 +68,20 @@ class Tasks extends Component {
         }
         return this.setState({loadMoreToggle: false})
     }
+
+    handleDragOver(e){
+        console.log("Dragging over")
+        console.log(e)
+    }
+    handleDragDrop(e){
+        console.log("Drag Drop")
+        console.log(e)
+    }
     render(){
         const allTasksMap = this.state.allTasksArr.map(item =>
-            <div className={`Tasks-task ${item.completed ? 'completed':''}`} key={item._id}>
+            <div onDragOver={(e) => {this.handleDragOver(e)}}
+                onDrop={(e) => {this.handleDragdrop(e)}}
+            className={`Tasks-task ${item.completed ? 'completed':''}`} key={item._id}>
                 <div className="Task-btn-con">
                     <button value={item._id} 
                         onClick={this.handleUpdateTaskCompleted} 

@@ -8,6 +8,12 @@ $completed: #17c700;
         margin: 0;
         padding: 3px;
     }
+    // p:hover {
+    //     background: #bbb;
+    // }
+}
+.Tasks-task:hover {
+    background: rgb(220, 220, 220);
 }
 .completed {
     background-color: $completed;

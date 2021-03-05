@@ -30,8 +30,8 @@ if (process.env.NODE_ENV === 'production') {
   
 
 process.on('SIGINT', () => {
+  console.log("Server is shitting down")
   setTimeout(() => {
-    console.log("Server is shitting down")
     app.on("close", process.exit())
   }, 1000)
 })
