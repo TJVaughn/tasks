@@ -8,6 +8,7 @@ const sendVerificationEmail = require('../email/sendVerificationEmail')
 const sendSingleEmail = require('../email/sendSingleEmail')
 const router = new express.Router()
 const agenda = require('../jobs/agenda')
+const QuoteEmailList = require('../models/QuoteEmailList')
 
 router.post('/api/add-all-quotes', async (req, res) => {
     try {
@@ -62,16 +63,16 @@ router.post('/api/pick-new-quote', async (req, res) => {
 })
 
 //email signup
-router.post('/api/signup', async (req, res) => {
+router.post('/api/quote/email-signup', async (req, res) => {
     try {
         //is the email already in the database
         //if so, send error
-        const user = new User({
+        const user = new QuoteEmailList({
             email: req.body.email,
             verificationCode: new mongoose.Types.ObjectId(),
             isVerified: false
         })
-        let users = await User.find({})
+        let users = await QuoteEmailList.find({})
         for (let i = 0; i < users.length; i++) {
             if (user.email === users[i].email) {
                 return res.send({ error: "Email already exists." })

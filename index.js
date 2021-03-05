@@ -1,20 +1,7 @@
 const app = require('./server/src/app')
 const port = process.env.PORT
 const express = require('express');
-// const userRouter = require('./server/src/routers/User');
-// const taskRouter = require('./server/src/routers/Task')
-// const weatherRouter = require('./server/src/routers/Weather')
-// const projectRouter = require('./server/src/routers/Project')
-// const recaptchaRouter = require('./server/src/routers/Recaptcha')
-//  $ mongoDB/bin/mongod.exe --dbpath=mongodb-data/
 const path = require('path')
-
-// app.use(express.json())
-// app.use(userRouter)
-// app.use(taskRouter)
-// app.use(weatherRouter)
-// app.use(projectRouter)
-// app.use(recaptchaRouter)
 
 const forceSSL = (req, res, next) => {
   if(process.env.NODE_ENV === 'production'){
@@ -41,6 +28,14 @@ if (process.env.NODE_ENV === 'production') {
     });
   }
   
+
+process.on('SIGINT', () => {
+  setTimeout(() => {
+    console.log("Server is shitting down")
+    app.on("close", process.exit())
+  }, 1000)
+})
+
 app.listen(port, () => {
     console.log(`Server listening on port ${port}`)
 })
