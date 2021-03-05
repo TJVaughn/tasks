@@ -3761,11 +3761,6 @@ react-is@^16.8.4:
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.13.1.tgz#789729a4dc36de2999dc156dd6c1d9c18cea56a4"
   integrity sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==
 
-react-recaptcha-v3@^1.1.0:
-  version "1.2.0"
-  resolved "https://registry.yarnpkg.com/react-recaptcha-v3/-/react-recaptcha-v3-1.2.0.tgz#2c6707f0a737f6fc2b7a21a4d437d82c6e6f6e3e"
-  integrity sha512-nF4pXGgbIrG7U8LXvQ3ksVlb0J4hrEMt9LiX43uJGIKftHW/cw0rMMe9LSbjE8SH1ojeZJ/7VDw2Fp9gHXIJhw==
-
 read-pkg-up@^4.0.0:
   version "4.0.0"
   resolved "https://registry.yarnpkg.com/read-pkg-up/-/read-pkg-up-4.0.0.tgz#1b221c6088ba7799601c808f91161c66e58f8978"
