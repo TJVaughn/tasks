@@ -104,6 +104,8 @@ class AppRouter extends Component {
                         <Route path={'/project/:id'} component={SingleProjectRouter}/>
                     </Switch>
                 </Router>
+                <div className="margin-bottom-50" style={{ "color": "#ffffff00" }}>z</div>
+                <div className="margin-bottom-50" style={{ "color": "#ffffff00" }}>z</div>
                 <Quote />
             </div>
         )

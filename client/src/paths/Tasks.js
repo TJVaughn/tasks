@@ -133,7 +133,6 @@ class Tasks extends Component {
                 </div>
                 :<p className="Pointer green" onClick={this.handleLoadMore}>...load more</p>}
                 
-                
     		</div>
     	);
     }
