@@ -26,6 +26,7 @@ function Index(){
             {loggedIn()
             ? <div>
                 <ProjectRouter />
+                    <Quote />
             </div>
             : <div>
                 <Landing />
@@ -98,7 +99,7 @@ class AppRouter extends Component {
         return (
             <div>
                 <Router>
-                {this.navbarMenu()}
+                    {this.navbarMenu()}
                     <Switch>
                         <Route path={'/'} exact component={Index} />
                         <Route path={'/profile/'} component={ProfileRouter} />
@@ -109,7 +110,6 @@ class AppRouter extends Component {
                         <Route path={'/subscribe-to-quotes'} component={Signup} />
                         <Route path={'/email/verify'} component={VerifyEmail} />
                     </Switch>
-                    <Quote />
                 </Router>
                 <div className="margin-bottom-50" style={{ "color": "#ffffff00" }}>z</div>
                 <div className="margin-bottom-50" style={{ "color": "#ffffff00" }}>z</div>

@@ -14,7 +14,7 @@ class Tasks extends Component {
             allTasksArr: [],
             errormsg: '',
             project: '',
-            pageTwoArr: [],
+            // pageTwoArr: [],
             loadMoreToggle: false
         }
         this.handleNewTaskChange = this.handleNewTaskChange.bind(this)
@@ -27,12 +27,13 @@ class Tasks extends Component {
     }
     async callGetAllTasks(){
         const allTasksArray = await getAllTasks(this.props.id);
-        let pageTwoArray = []
-        if(allTasksArray.length > 13){
-            const deleteCount = allTasksArray.length - 13;
-            pageTwoArray = allTasksArray.splice(13, deleteCount)
-        }
-        this.setState({allTasksArr: allTasksArray, pageTwoArr: pageTwoArray})
+        // let pageTwoArray = []
+        // if(allTasksArray.length > 13){
+        //     const deleteCount = allTasksArray.length - 13;
+        //     pageTwoArray = allTasksArray.splice(13, deleteCount)
+        // }
+        // this.setState({allTasksArr: allTasksArray, pageTwoArr: pageTwoArray})
+        this.setState({allTasksArr: allTasksArray})
     }
     async componentDidMount(){
         this.callGetAllTasks()
@@ -100,26 +101,26 @@ class Tasks extends Component {
                 </div>
             </div>
         )
-        const pageTwoMap = this.state.pageTwoArr.map(item =>
-            <div className={`Tasks-task ${item.completed ? 'completed':''}`} key={item._id}>
-                <div className="Task-btn-con">
-                    <button value={item._id} 
-                        onClick={this.handleUpdateTaskCompleted} 
-                        className={`Task-complete-btn Pointer Task-complete-btn-${item.completed ? 'complete':'incomplete' }`}>
-                    </button>
-                    {item.completed 
-                    ?<div className="Checkmark"><div className="Checkmark-2"></div></div>
-                    :''}
+        // const pageTwoMap = this.state.pageTwoArr.map(item =>
+        //     <div className={`Tasks-task ${item.completed ? 'completed':''}`} key={item._id}>
+        //         <div className="Task-btn-con">
+        //             <button value={item._id} 
+        //                 onClick={this.handleUpdateTaskCompleted} 
+        //                 className={`Task-complete-btn Pointer Task-complete-btn-${item.completed ? 'complete':'incomplete' }`}>
+        //             </button>
+        //             {item.completed 
+        //             ?<div className="Checkmark"><div className="Checkmark-2"></div></div>
+        //             :''}
                     
-                </div>
-                <p>
-                    {item.description}
-                </p>
-                <div className="Task-btn-con">
-                    <button className="Task-delete-btn Pointer" value={item._id} onClick={this.handleDeleteTask}>X</button>
-                </div>
-            </div>
-        )
+        //         </div>
+        //         <p>
+        //             {item.description}
+        //         </p>
+        //         <div className="Task-btn-con">
+        //             <button className="Task-delete-btn Pointer" value={item._id} onClick={this.handleDeleteTask}>X</button>
+        //         </div>
+        //     </div>
+        // )
     	return(
     		<div>
                 <ProjectSettings id={this.props.id} />
@@ -138,14 +139,14 @@ class Tasks extends Component {
                 <div>
                     {allTasksMap}
                 </div>
-                    
+{/*                     
                 {this.state.loadMoreToggle
                 ? <div>
                     {pageTwoMap}
                     <p className="Pointer green" onClick={this.handleLoadMore}>...load less</p>
                 </div>
                 :<p className="Pointer green" onClick={this.handleLoadMore}>...load more</p>}
-                
+                 */}
     		</div>
     	);
     }
