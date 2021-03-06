@@ -9,6 +9,8 @@ import LoginSignupContainer from './paths/LoginSignupContainer'
 import ProfileSettings from './paths/ProfileSettings'
 import Quote from './modules/Quote';
 import AllQuotes from './paths/AllQuotes'
+import Signup from './paths/SubscribeToQuotes'
+import VerifyEmail from './paths/VerifyEmail'
 // import RecaptchaComponent from './utils/RecaptchaComponent'
 
 const loggedIn = () => {
@@ -104,6 +106,8 @@ class AppRouter extends Component {
                         <Route path={'/profile-settings/'} component={ProfileSettingsRouter} />
                         <Route path={'/project/:id'} component={SingleProjectRouter}/>
                         <Route path={'/all-quotes'} component={AllQuotes} />
+                        <Route path={'/subscribe-to-quotes'} component={Signup} />
+                        <Route path={'/email/verify'} component={VerifyEmail} />
                     </Switch>
                     <Quote />
                 </Router>

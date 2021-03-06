@@ -100,7 +100,7 @@ router.get('/api/email/verify-email', async (req, res) => {
 
         const email = req.query.email
         const code = req.query.id
-        const user = await User.findOne({ email: email })
+        const user = await QuoteEmailList.findOne({ email: email })
         if (!user) {
             return res.status(404).send({ error: 'user not found' })
         }

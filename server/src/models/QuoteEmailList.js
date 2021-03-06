@@ -15,7 +15,7 @@ const quoteEmailListSchema = new mongoose.Schema({
         }
     },
     verificationCode: {
-        type: mongoose.Schema.Types.ObjectId
+        type: String
     },
     isVerified: {
         type: Boolean

@@ -30,8 +30,9 @@ export default function Quote() {
             onClick={() => {setAllQuotes(!allQuotes)}}
         className="Quote">
             {allQuotes 
-            ? <div>
+            ? <div id="All-quotes-links">
                 <Link to={'/all-quotes'}>See all quotes</Link>
+                <Link to={'/subscribe-to-quotes'}>Subscribe</Link>
             </div>
             :''
             }
