@@ -184,10 +184,10 @@ router.get('/api/email/unsubscribe-email', async (req, res) => {
     }
 })
 
-router.post('/api/read-all-quotes', async (req, res) => {
-    if (req.body.username !== process.env.USERNAME || req.body.password !== process.env.PASSWORD) {
-        return res.send({ error: "nah" })
-    }
+router.get('/api/read-all-quotes', async (req, res) => {
+    // if (req.body.username !== process.env.USERNAME || req.body.password !== process.env.PASSWORD) {
+    //     return res.send({ error: "nah" })
+    // }
     const quotes = await Quote.find()
     return res.send({ quotes })
 })

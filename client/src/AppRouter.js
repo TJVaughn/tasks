@@ -8,6 +8,7 @@ import ProjectRouter from './paths/ProjectRouter'
 import LoginSignupContainer from './paths/LoginSignupContainer'
 import ProfileSettings from './paths/ProfileSettings'
 import Quote from './modules/Quote';
+import AllQuotes from './paths/AllQuotes'
 // import RecaptchaComponent from './utils/RecaptchaComponent'
 
 const loggedIn = () => {
@@ -102,11 +103,12 @@ class AppRouter extends Component {
                         <Route path={'/login-signup/'} component={LoginSignupRouter} />
                         <Route path={'/profile-settings/'} component={ProfileSettingsRouter} />
                         <Route path={'/project/:id'} component={SingleProjectRouter}/>
+                        <Route path={'/all-quotes'} component={AllQuotes} />
                     </Switch>
+                    <Quote />
                 </Router>
                 <div className="margin-bottom-50" style={{ "color": "#ffffff00" }}>z</div>
                 <div className="margin-bottom-50" style={{ "color": "#ffffff00" }}>z</div>
-                <Quote />
             </div>
         )
     }
