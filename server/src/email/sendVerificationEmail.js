@@ -5,7 +5,7 @@ sgMail.setApiKey(process.env.SENDGRID_API_KEY);
 const sendVerificationEmail = async (email, code) => {
     let url = ''
     if (process.env.NODE_ENV === 'production') {
-        url = 'https://tjvaughn-zen.herokuapp.com/'
+        url = 'https://tjvaughn-zen.herokuapp.com'
     } else {
         url = 'http://localhost:3000'
     }
