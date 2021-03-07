@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import axios from 'axios'
+import { Link } from 'react-router-dom'
 
 export default function AllQuotes () {
     const [allQuotes, setAllQuotes] = useState([{message: "", source: ""}])
@@ -27,6 +28,7 @@ export default function AllQuotes () {
         )
     return (
         <div>
+            <h2 style={{"textAlign": "center"}}><Link to={'/subscribe-to-quotes'}>Subscribe To Quotes</Link></h2>
             {allQuotesMap}
         </div>
     )

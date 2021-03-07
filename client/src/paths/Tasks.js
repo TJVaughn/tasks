@@ -15,7 +15,8 @@ class Tasks extends Component {
             errormsg: '',
             project: '',
             // pageTwoArr: [],
-            loadMoreToggle: false
+            loadMoreToggle: false,
+            loading: true
         }
         this.handleNewTaskChange = this.handleNewTaskChange.bind(this)
         this.handleCreateTask = this.handleCreateTask.bind(this)
@@ -33,7 +34,7 @@ class Tasks extends Component {
         //     pageTwoArray = allTasksArray.splice(13, deleteCount)
         // }
         // this.setState({allTasksArr: allTasksArray, pageTwoArr: pageTwoArray})
-        this.setState({allTasksArr: allTasksArray})
+        this.setState({allTasksArr: allTasksArray, loading: false})
     }
     async componentDidMount(){
         this.callGetAllTasks()
@@ -137,7 +138,8 @@ class Tasks extends Component {
                 ? <Redirect push to='/login-signup'/>
                 :''}
                 <div>
-                    {allTasksMap}
+                    {this.state.loading ? "...loading" :  allTasksMap }
+                    
                 </div>
 {/*                     
                 {this.state.loadMoreToggle

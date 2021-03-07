@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom'
 export default function Quote() {
     const [message, setMessage] = useState("")
     const [source, setSource] = useState("")
-    const [allQuotes, setAllQuotes] = useState(false)
+    const [allQuotes, setAllQuotes] = useState(true)
 
     const getQuote = async () => {
         const quote = await axios({
@@ -36,7 +36,7 @@ export default function Quote() {
             </div>
             :''
             }
-            <blockquote>
+            <blockquote style={{"fontWeight": 700}}>
                 "{message}"
                 <br />
 

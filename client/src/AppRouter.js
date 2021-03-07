@@ -80,7 +80,7 @@ class AppRouter extends Component {
             <div className="Site-Navigation">
                 <div>
                     
-                    <Link to={'/'} ><h1 id="Site-title">TaskWorks.co</h1></Link>
+                    <Link to={'/'} ><h1 id="Site-title">Check Off</h1></Link>
                 </div>
                 {loggedIn()
                 ? <div>

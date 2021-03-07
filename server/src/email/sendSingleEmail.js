@@ -13,13 +13,13 @@ const sendSingleEmail = async (subject, message) => {
 const sendEmail = async (email, subject, message) => {
     let url = ''
     if (process.env.NODE_ENV === 'production') {
-        url = 'https://tjvaughn-zen.herokuapp.com/'
+        url = 'https://tjvaughn-zen.herokuapp.com'
     } else {
         url = 'http://localhost:3000'
     }
     const msg = {
         to: email,
-        from: 'quote@ancientwisdom.io',
+        from: process.env.FROM_EMAIL,
         subject: subject,
         html: message
     };

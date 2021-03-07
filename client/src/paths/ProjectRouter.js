@@ -12,7 +12,8 @@ class ProjectRouter extends Component {
             title: '',
             singleProject: {},
             projectID: '',
-            error: ''
+            error: '',
+            loading: true
         }
         this.handleTitleChange = this.handleTitleChange.bind(this)
         this.handleCreateProject = this.handleCreateProject.bind(this)
@@ -24,7 +25,7 @@ class ProjectRouter extends Component {
             setCookie('isLoggedIn', false)
             return window.location.replace('/login-signup')
         }
-        this.setState({projects: response, title: ''})
+        this.setState({ projects: response, title: '', loading: false })
     }
     componentDidMount(){
         this.handleGetAllProjects()
@@ -62,7 +63,7 @@ class ProjectRouter extends Component {
                 :''}
                 
                 <div className="All-projects-titles-container">
-                    {allProjectsMap}
+                    {this.state.loading ? "...loading" : allProjectsMap }
                 </div>
                 <form onSubmit={this.handleCreateProject}>
                     <label>Create a new project: </label>

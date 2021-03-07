@@ -11,7 +11,7 @@ const sendVerificationEmail = async (email, code) => {
     }
     const msg = {
         to: email,
-        from: 'quote@ancientwisdom.io',
+        from: process.env.FROM_EMAIL,
         subject: 'Verify your email!',
         html: `
         <h1>Thank you for signing up!</h1>

@@ -1,9 +1,9 @@
 const sgMail = require('@sendgrid/mail');
 sgMail.setApiKey(process.env.SENDGRID_API_KEY);
-const User = require('../models/User')
+const QuoteEmailList = require('../models/QuoteEmailList')
 
 const sendDailyQuote = async (quote) => {
-    const allUsers = await User.find({ isVerified: true })
+    const allUsers = await QuoteEmailList.find({ isVerified: true })
     for (let i = 0; i < allUsers.length; i++) {
         await sendEmail(allUsers[i].email, quote)
     }
@@ -81,14 +81,14 @@ const chooseCharity = () => {
 const sendEmail = async (email, quote) => {
     let url = ''
     if (process.env.NODE_ENV === 'production') {
-        url = 'https://ancientwisdom.io'
+        url = 'https://tjvaughn-zen.herokuapp.com'
     } else {
         url = 'http://localhost:3000'
     }
     let { name, link, snippet } = chooseCharity()
     const msg = {
         to: email,
-        from: 'quote@ancientwisdom.io',
+        from: process.env.FROM_EMAIL,
         subject: 'Your Daily Quote',
         html: `
         <h1>Your Quote: </h1>

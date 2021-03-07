@@ -5,11 +5,12 @@
     // position: fixed;
     // top: 3px;
     margin: 20px 0;
-    background: linear-gradient(90deg, blue, purple);
+    background: linear-gradient(90deg, rgb(8, 0, 79), blue);
     padding: 5px;
 
 }
 #All-quotes-links {
     display: grid;
-    grid-template-columns: repeat(3, 33.33%);
+    grid-template-columns: repeat(2, 50%);
+    text-align: center;
 }

@@ -6,15 +6,15 @@ const Task = require('../models/Task')
 
 //CREATE
 router.post('/projects', auth, async (req, res) => {
-    const project = new Project({
-        ...req.body,
-        creator: req.user._id
-    })
     try {
+        const project = new Project({
+            ...req.body,
+            creator: req.user._id
+        })
         await project.save()
         res.status(201).send(project)
     } catch (error) {
-        res.status(400).send(error)
+        res.status(500).send({ error: "Error in create project: " + error })
     }
 })
 //READ ALL
@@ -23,7 +23,7 @@ router.get('/projects', auth, async (req, res) => {
         const projects = await Project.find({ creator: req.user._id })
         res.send(projects)
     } catch (error) {
-        res.status(500).send(error)
+        res.status(500).send({error: "Error in get all projects: " + error})
     }
 })
 //READ SINGLE
@@ -36,7 +36,7 @@ router.get('/projects/:id', auth, async (req, res) => {
         }
         res.send(project)
     } catch (error) {
-        res.status(500).send(error)
+        res.status(500).send({ error: "Error in read single project: " + error })
     }
 })
 //UPDATE
@@ -63,7 +63,7 @@ router.patch('/projects/:id', auth, async (req, res) => {
         res.send(project)
         
     } catch (error) {
-        res.status(500).send(error)
+        res.status(500).send(res.status(500).send({ error: "Error in update project: " + error }))
     }
 })
 //DELETE
@@ -78,7 +78,7 @@ router.delete('/projects/:id', auth, async (req, res) => {
 
         res.send({project, assocTasks})
     } catch (error) {
-        res.status(500).send(error)
+        res.status(500).send({ error: "Error in delete project: " + error })
     }
 })
 module.exports = router
