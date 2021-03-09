@@ -2,13 +2,6 @@ const sgMail = require('@sendgrid/mail');
 sgMail.setApiKey(process.env.SENDGRID_API_KEY);
 const QuoteEmailList = require('../models/QuoteEmailList')
 
-const sendDailyQuote = async (quote) => {
-    const allUsers = await QuoteEmailList.find({ isVerified: true })
-    for (let i = 0; i < allUsers.length; i++) {
-        await sendEmail(allUsers[i].email, quote)
-    }
-}
-
 const chooseCharity = () => {
     let today = new Date()
     let charity = {
@@ -101,6 +94,7 @@ const sendEmail = async (email, quote) => {
         <p>
         ...
         </p>
+        ${process.env.NODE_ENV === 'production' ? '' : 'development'}
         
         <p style="font-size: 0.8em;" >
             We'd hate to see you go, but if you wish to <a href="${url}/email/unsubscribe?email=${email}" >unsubscribe</a>, we understand.
@@ -108,6 +102,13 @@ const sendEmail = async (email, quote) => {
         `,
     };
     sgMail.send(msg);
+}
+
+const sendDailyQuote = async (quote) => {
+    const allUsers = await QuoteEmailList.find({ isVerified: true })
+    for (let i = 0; i < allUsers.length; i++) {
+        await sendEmail(allUsers[i].email, quote)
+    }
 }
 
 module.exports = sendDailyQuote

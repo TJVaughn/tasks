@@ -52,14 +52,14 @@ router.post('/api/pick-new-quote', async (req, res) => {
     if (req.body.username !== process.env.USERNAME || req.body.password !== process.env.PASSWORD) {
         return res.send({ error: "nah" })
     }
-    if (req.body.oneOff) {
+    // if (req.body.oneOff) {
         await agenda.start()
         // await agenda.every('10 seconds', 'pickQOTD')
         await agenda.schedule('1 second', 'pickQOTD', { oneOff: true })
         return res.send({ message: "starting..." })
-    }
+    // }
     //daily is in index.js
-    return res.send({error: "Check the post body"})
+    // return res.send({error: "Check the post body"})
 })
 
 //email signup
