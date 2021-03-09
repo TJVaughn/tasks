@@ -1,19 +1,23 @@
 const express = require('express')
 const fs = require('fs')
 const path = require('path')
+const mongoose = require('mongoose')
+
+const router = new express.Router()
+
 const Quote = require('../models/Quote')
 const User = require('../models/User')
-const mongoose = require('mongoose')
+const QuoteEmailList = require('../models/QuoteEmailList')
+
+const agenda = require('../jobs/agenda')
+
 const sendVerificationEmail = require('../email/sendVerificationEmail')
 const sendSingleEmail = require('../email/sendSingleEmail')
-const router = new express.Router()
-const agenda = require('../jobs/agenda')
-const QuoteEmailList = require('../models/QuoteEmailList')
 
 router.post('/api/add-all-quotes', async (req, res) => {
     try {
         if (req.body.username !== process.env.USERNAME || req.body.password !== process.env.PASSWORD) {
-            return res.send({ error: "nah" })
+            return res.status(401).send({ error: "nah" })
         }
         let filePath = path.join(__dirname, '../assets/allQuotes.json')
         // console.log(filePath)
@@ -31,32 +35,37 @@ router.post('/api/add-all-quotes', async (req, res) => {
         }
         return res.send({allQuotes})
     }catch(error){
-        return res.send({ error: "Error from add-all-quotes: " + error })
+        return res.status(500).send({ error: "Error from add-all-quotes: " + error })
     }
 })
 
 router.post('/api/send-single-email', async (req, res) => {
     try {
         if (req.body.username !== process.env.USERNAME || req.body.password !== process.env.PASSWORD) {
-            return res.send({ error: "nah" })
+            return res.status(401).send({ error: "nah" })
         }
         const users = await User.find()
         await sendSingleEmail(req.body.subject, req.body.message)
         return res.send(users)
     } catch (error) {
-        return res.send({ error: "Error from singlequote: " + error })
+        return res.status(500).send({ error: "Error from singlequote: " + error })
     }
 })
 router.post('/api/pick-new-quote', async (req, res) => {
-    //only one user, no need to add a whole thing for auth
-    if (req.body.username !== process.env.USERNAME || req.body.password !== process.env.PASSWORD) {
-        return res.send({ error: "nah" })
-    }
-    // if (req.body.oneOff) {
+    try {
+        if (req.body.username !== process.env.USERNAME || req.body.password !== process.env.PASSWORD) {
+            return res.status(401).send({ error: "nah" })
+        }
         await agenda.start()
-        // await agenda.every('10 seconds', 'pickQOTD')
         await agenda.schedule('1 second', 'pickQOTD', { oneOff: true })
         return res.send({ message: "starting..." })
+    } catch (error) {
+        return res.status(500).send({error: "Error in pick new quote: " + error})
+    }
+    //only one user, no need to add a whole thing for auth
+
+    // if (req.body.oneOff) {
+
     // }
     //daily is in index.js
     // return res.send({error: "Check the post body"})
@@ -91,7 +100,7 @@ router.post('/api/quote/email-signup', async (req, res) => {
 
         // let user = await new 
     } catch (error) {
-        return { error: "Error from signup: " + error }
+        return res.status(500).send({ error: "Error from signup: " + error })
     }
 })
 //verify email route
@@ -111,7 +120,7 @@ router.get('/api/email/verify-email', async (req, res) => {
         await user.save()
         return res.send({ success: "Successfully verified!" })
     } catch (error) {
-        return { error: "Error from verify email: " + error }
+        return res.status(500).send({ error: "Error from verify email: " + error })
     }
 })
 
@@ -121,7 +130,7 @@ router.post('/api/quote/add', async (req, res) => {
         // console.log(req.body.username)
         //only one user, no need to add a whole thing for auth
         if (req.body.username !== process.env.USERNAME || req.body.password !== process.env.PASSWORD) {
-            return res.send({ error: "nah" })
+            return res.status(401).send({ error: "nah" })
         }
         let charity = {
             link: '',
@@ -155,7 +164,7 @@ router.post('/api/quote/add', async (req, res) => {
 
         return res.send({ quote })
     } catch (error) {
-        return { error: "Error from add quote: " + error }
+        return res.status(500).send({ error: "Error from add quote: " + error })
     }
 
 })
@@ -165,7 +174,7 @@ router.get('/api/quote', async (req, res) => {
         const [quote] = await Quote.find({ qotd: true })
         return res.send({ quote })
     } catch (error) {
-        return { error: "Error from read quote: " + error }
+        return res.status(500).send({ error: "Error from read quote: " + error })
     }
 })
 
@@ -180,16 +189,17 @@ router.get('/api/email/unsubscribe-email', async (req, res) => {
         await user.remove()
         return res.send({ success: `${email} has been unsubscribed.` })
     } catch (error) {
-        return { error: "Error from unsubscribe: " + error }
+        return res.status(500).send({ error: "Error from unsubscribe: " + error })
     }
 })
 
 router.get('/api/read-all-quotes', async (req, res) => {
-    // if (req.body.username !== process.env.USERNAME || req.body.password !== process.env.PASSWORD) {
-    //     return res.send({ error: "nah" })
-    // }
-    const quotes = await Quote.find()
-    return res.send({ quotes })
+    try {
+        const quotes = await Quote.find()
+        return res.send({ quotes })
+    } catch (error) {
+        return res.status(500).send({ error: "Error from read all quotes: " + error })
+    }
 })
 
 

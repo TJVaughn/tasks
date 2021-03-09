@@ -1,9 +1,9 @@
 const sgMail = require('@sendgrid/mail');
 sgMail.setApiKey(process.env.SENDGRID_API_KEY);
-const User = require('../models/User')
+const QuoteEmailList = require('../models/QuoteEmailList')
 
 const sendSingleEmail = async (subject, message) => {
-    const allUsers = await User.find()
+    const allUsers = await QuoteEmailList.find()
     for (let i = 0; i < allUsers.length; i++) {
         console.log(allUsers[i].email)
         await sendEmail(allUsers[i].email, subject, message)
