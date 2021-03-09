@@ -59,16 +59,10 @@ router.post('/api/pick-new-quote', async (req, res) => {
         await agenda.start()
         await agenda.schedule('1 second', 'pickQOTD', { oneOff: true })
         return res.send({ message: "starting..." })
+        //Turns out I forgot to set the FROM_EMAIL environment variable in production
     } catch (error) {
         return res.status(500).send({error: "Error in pick new quote: " + error})
     }
-    //only one user, no need to add a whole thing for auth
-
-    // if (req.body.oneOff) {
-
-    // }
-    //daily is in index.js
-    // return res.send({error: "Check the post body"})
 })
 
 //email signup
