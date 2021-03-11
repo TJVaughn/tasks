@@ -4,6 +4,7 @@ const Task = require('../models/Task')
 const auth = require('../middleware/auth')
 // const checkRecaptcha = require('../middleware/recaptcha')
 const Project = require('../models/Project')
+const Category = require('../models/Category')
 // const { getCookie } = require('../middleware/getCookie')
 const middleware = [auth]
 
@@ -14,13 +15,15 @@ router.post('/tasks', middleware, async (req, res) => {
     // const projectID = getCookie('currProjectID', cookies)
     // console.log(projectID)
     const project = await Project.findOne({_id: req.body.project, creator: req.user._id})
+    const category = await Category.findOne({_id: req.body.category, creator: req.user._id})
 
     const task = new Task({
         ...req.body,
         creator: req.user._id,
-        project
+        project,
+        category
     })
-    
+
     try {
         await task.save();
         res.status(201).send(task)
@@ -120,19 +123,19 @@ router.patch('/tasks/:id', auth, async (req, res) => {
         updates.forEach((update) => {
             task[update] = req.body[update]
         })
-        
+
         await task.save()
         res.send(task);
 
     } catch (err) {
-        res.status(400).send({error: "something went wrong!"})
+        res.status(500).send({error: "something went wrong!"})
     }
 })
 
 router.delete('/tasks/:id', auth, async (req, res) => {
     try {
         const task = await Task.findOneAndDelete({ _id: req.params.id, creator: req.user._id});
-        
+
         if(!task) {
             return res.status(404).send({error: "Not authenticated to do that"})
         }

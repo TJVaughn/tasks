@@ -1,10 +1,11 @@
 import React, { Component } from 'react';
 import { BrowserRouter as Redirect } from "react-router-dom";
-import { getAllTasks } from './Task-requests/GetAllTasks'
+import { getAllIncompleteTasks } from './Task-requests/GetAllTasks'
 import { createTask } from './Task-requests/CreateTask'
 import { deleteTask } from './Task-requests/DeleteTask'
 import { updateTask } from './Task-requests/UpdateTask'
 import ProjectSettings from './ProjectSettings'
+import CompletedTasks from '../modules/CompletedTasks'
 
 class Tasks extends Component {
     constructor(props){
@@ -27,7 +28,8 @@ class Tasks extends Component {
         this.handleDragDrop = this.handleDragDrop.bind(this)
     }
     async callGetAllTasks(){
-        const allTasksArray = await getAllTasks(this.props.id);
+        const allTasksArray = await getAllIncompleteTasks(this.props.id);
+
         // let pageTwoArray = []
         // if(allTasksArray.length > 13){
         //     const deleteCount = allTasksArray.length - 13;
@@ -43,7 +45,7 @@ class Tasks extends Component {
     handleNewTaskChange(evt){
         this.setState({addNewTask: evt.target.value})
     }
-    
+
     handleCreateTask(evt){
         evt.preventDefault()
         // console.log(this.props.id)
@@ -56,8 +58,8 @@ class Tasks extends Component {
         evt.preventDefault()
         deleteTask(evt.target.value)
         this.callGetAllTasks()
-    }    
-    
+    }
+
     async handleUpdateTaskCompleted(evt){
         evt.preventDefault()
         await updateTask(evt.target.value)
@@ -85,14 +87,14 @@ class Tasks extends Component {
                 onDrop={(e) => {this.handleDragdrop(e)}}
             className={`Tasks-task ${item.completed ? 'completed':''}`} key={item._id}>
                 <div className="Task-btn-con">
-                    <button value={item._id} 
-                        onClick={this.handleUpdateTaskCompleted} 
+                    <button value={item._id}
+                        onClick={this.handleUpdateTaskCompleted}
                         className={`Task-complete-btn Pointer Task-complete-btn-${item.completed ? 'complete':'incomplete' }`}>
                     </button>
-                    {item.completed 
+                    {item.completed
                     ?<div className="Checkmark"><div className="Checkmark-2"></div></div>
                     :''}
-                    
+
                 </div>
                 <p>
                     {item.description}
@@ -105,14 +107,14 @@ class Tasks extends Component {
         // const pageTwoMap = this.state.pageTwoArr.map(item =>
         //     <div className={`Tasks-task ${item.completed ? 'completed':''}`} key={item._id}>
         //         <div className="Task-btn-con">
-        //             <button value={item._id} 
-        //                 onClick={this.handleUpdateTaskCompleted} 
+        //             <button value={item._id}
+        //                 onClick={this.handleUpdateTaskCompleted}
         //                 className={`Task-complete-btn Pointer Task-complete-btn-${item.completed ? 'complete':'incomplete' }`}>
         //             </button>
-        //             {item.completed 
+        //             {item.completed
         //             ?<div className="Checkmark"><div className="Checkmark-2"></div></div>
         //             :''}
-                    
+
         //         </div>
         //         <p>
         //             {item.description}
@@ -126,22 +128,32 @@ class Tasks extends Component {
     		<div>
                 <ProjectSettings id={this.props.id} />
                 <div>
+                    <h2>Categories</h2>
+                </div>
+                <div className="Category-container">
+                    <h3>GUI</h3>
                     <form className="Task-add-task-form" onSubmit={this.handleCreateTask}>
                         <button>Add new task: </button>
                         <input className="Input" value={this.state.addNewTask} onChange={this.handleNewTaskChange} />
-                        
                     </form>
+                    {this.state.errormsg === 'Authentication error'
+                        ? <Redirect push to='/login-signup' />
+                        : ''}
+                    <div>
+                        {this.state.loading ? "...loading" : allTasksMap}
+
+                    </div>
                 </div>
-                
-                <hr />
-                {this.state.errormsg === 'Authentication error'
-                ? <Redirect push to='/login-signup'/>
-                :''}
-                <div>
-                    {this.state.loading ? "...loading" :  allTasksMap }
-                    
+                <div className="Category-container">
+                    <h3>Done</h3>
+                    {<CompletedTasks id={this.props.id}/>}
+                    <form className="Task-add-task-form" onSubmit={this.handleCreateTask}>
+                        <button>Add new task: </button>
+                        <input className="Input" value={this.state.addNewTask} onChange={this.handleNewTaskChange} />
+                    </form>
+                    <hr />
                 </div>
-{/*                     
+{/*
                 {this.state.loadMoreToggle
                 ? <div>
                     {pageTwoMap}

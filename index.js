@@ -27,6 +27,7 @@ const forceSSL = (req, res, next) => {
 }
 app.use(forceSSL)
 
+
 if (process.env.NODE_ENV === 'production') {
     
     // Serve any static files

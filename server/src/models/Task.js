@@ -18,11 +18,16 @@ const taskSchema = new mongoose.Schema({
         type: mongoose.Schema.Types.ObjectId,
         required: true,
         ref: 'User'
-    }, 
+    },
     project: {
         type: mongoose.Schema.Types.ObjectId,
         required: true,
         ref: 'Project'
+    },
+    category: {
+        type: mongoose.Schema.Types.ObjectId,
+        required: true,
+        ref: 'Category'
     }
 }, {
     timestamps: true

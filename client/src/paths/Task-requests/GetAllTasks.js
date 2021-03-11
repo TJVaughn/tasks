@@ -7,6 +7,7 @@ const getAllCompletedTasks = async (id) => {
     })
     const body = await response.json()
     // console.log("Completed: ", body)
+    console.log(body)
     if(typeof body != 'object'){
         console.log('error')
     }
@@ -27,6 +28,7 @@ const getAllIncompleteTasks = async (id) =>{
     if(body.error){
         return []
     }
+    console.log(body)
     return body
 }
 const getAllTasks = async (id) => {
