@@ -17,7 +17,8 @@ class Tasks extends Component {
             project: '',
             // pageTwoArr: [],
             loadMoreToggle: false,
-            loading: true
+            loading: true,
+            completedTasksData: []
         }
         this.handleNewTaskChange = this.handleNewTaskChange.bind(this)
         this.handleCreateTask = this.handleCreateTask.bind(this)
@@ -29,14 +30,13 @@ class Tasks extends Component {
     }
     async callGetAllTasks(){
         const allTasksArray = await getAllIncompleteTasks(this.props.id);
-
         // let pageTwoArray = []
         // if(allTasksArray.length > 13){
         //     const deleteCount = allTasksArray.length - 13;
         //     pageTwoArray = allTasksArray.splice(13, deleteCount)
         // }
         // this.setState({allTasksArr: allTasksArray, pageTwoArr: pageTwoArray})
-        this.setState({allTasksArr: allTasksArray, loading: false})
+        this.setState({allTasksArr: allTasksArray, loading: false, completedTasksData: []})
     }
     async componentDidMount(){
         this.callGetAllTasks()
@@ -83,9 +83,7 @@ class Tasks extends Component {
     }
     render(){
         const allTasksMap = this.state.allTasksArr.map(item =>
-            <div onDragOver={(e) => {this.handleDragOver(e)}}
-                onDrop={(e) => {this.handleDragdrop(e)}}
-            className={`Tasks-task ${item.completed ? 'completed':''}`} key={item._id}>
+            <div className={`Tasks-task ${item.completed ? 'completed':''}`} key={item._id}>
                 <div className="Task-btn-con">
                     <button value={item._id}
                         onClick={this.handleUpdateTaskCompleted}
@@ -146,7 +144,7 @@ class Tasks extends Component {
                 </div>
                 <div className="Category-container">
                     <h3>Done</h3>
-                    {<CompletedTasks id={this.props.id}/>}
+                    {<CompletedTasks id={this.props.id} data={this.state.completedTasksData} />}
                     <form className="Task-add-task-form" onSubmit={this.handleCreateTask}>
                         <button>Add new task: </button>
                         <input className="Input" value={this.state.addNewTask} onChange={this.handleNewTaskChange} />

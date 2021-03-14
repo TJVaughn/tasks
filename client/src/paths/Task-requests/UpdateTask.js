@@ -1,18 +1,12 @@
 import { getTaskById } from './GetTaskById'
+import axios from 'axios'
 
 const setTaskToTrue = async (id) => {
     const data = {
         "completed": true
     }
-    const response = await fetch(`/tasks/${id}`, {
-        method: 'PATCH',
-        headers: {
-            "Content-Type": "application/json"
-        },
-        body: JSON.stringify(data)
-    })
-    await response.json()
-    // console.log(body)
+    let res = await axios.patch(`/tasks/${id}`, data)
+    console.log(res)
 }
 const setTaskToFalse = async (id) => {
     const data = {
@@ -26,7 +20,7 @@ const setTaskToFalse = async (id) => {
         body: JSON.stringify(data)
     })
     await response.json()
-    // console.log(body)
+    // console.log(response)
 }
 
 const updateTask = async (id) => {

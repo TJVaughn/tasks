@@ -1,19 +1,15 @@
 // import { getCookie} from '../../utils/cookies'
 // const currentProjectID = getCookie("currProjectID")
 // console.log(currentProjectID)
+import axios from 'axios'
 
-const createTask = async (input, projectID) => {
+const createTask = async (description, project, category) => {
     const data = {
-        "description": input,
-        "project": projectID
+        description,
+        project,
+        category
     }
-    const response = await fetch('/tasks', {
-        method: 'POST',
-        headers: {
-            "Content-Type": "application/json"
-        },
-        body: JSON.stringify(data)
-    })
-    await response.json()
+    await axios.post(`/tasks`, data)
+    // console.log(res.data)
 }
 export { createTask }

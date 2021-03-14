@@ -3,7 +3,8 @@ const validator = require('validator');
 const bcrypt = require('bcryptjs')
 const jwt = require('jsonwebtoken');
 const Task = require('./Task')
-const Project = require('./Project')
+const Project = require('./Project');
+const Category = require('./Category');
 
 const userSchema = new mongoose.Schema({
     name: {
@@ -128,6 +129,12 @@ userSchema.pre('remove', async function(next){
     next()
 })
 
+userSchema.pre('remove', async function(next){
+    const user = this;
+    await Category.deleteMany({ creator: user._id })
+
+    next()
+})
 const User = mongoose.model('User', userSchema)
 
 module.exports = User;

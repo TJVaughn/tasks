@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import { BrowserRouter as Router, Switch, Route, Link, Redirect } from "react-router-dom";
 import Profile from './paths/Profile'
 import { getCookie } from './utils/cookies'
-import Tasks from './paths/Tasks'
+// import Tasks from './paths/Tasks'
 import Landing from './paths/Landing'
 import ProjectRouter from './paths/ProjectRouter'
 import LoginSignupContainer from './paths/LoginSignupContainer'
@@ -11,6 +11,7 @@ import Quote from './modules/Quote';
 import AllQuotes from './paths/AllQuotes'
 import Signup from './paths/SubscribeToQuotes'
 import VerifyEmail from './paths/VerifyEmail'
+import Categories from './modules/Categories'
 // import RecaptchaComponent from './utils/RecaptchaComponent'
 
 const loggedIn = () => {
@@ -38,7 +39,8 @@ function Index(){
 function SingleProjectRouter(props){
     return (
         <div>
-            <Tasks id={props.match.params.id} />
+            {/*<Tasks id={props.match.params.id} /> */}
+            <Categories id={props.match.params.id}/>
         </div>
     )
 }
@@ -56,14 +58,14 @@ function ProfileSettingsRouter(){
             {loggedIn()
             ?<ProfileSettings />
             :<Redirect to={'/login-signup/'}/>}
-            
+
         </div>
     )
 }
 
 function LoginSignupRouter(){
     // useScript("https://www.google.com/recaptcha/api.js?render=6LfHztYUAAAAAEW6kZhpPmc3bWdxePGiLWZ7dAY_")
-    
+
     return (
         <div>
             {/* <RecaptchaComponent /> */}
@@ -79,7 +81,7 @@ class AppRouter extends Component {
         return (
             <div className="Site-Navigation">
                 <div>
-                    
+
                     <Link to={'/'} ><h1 id="Site-title">Check Off</h1></Link>
                 </div>
                 {loggedIn()
@@ -89,8 +91,8 @@ class AppRouter extends Component {
                 :<div>
                     <Link to={'/login-signup/'}>Login/signup</Link>
                 </div>}
-                
-                
+
+
             </div>
         )
     }

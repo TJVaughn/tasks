@@ -20,4 +20,19 @@ router.post('/api/category/new', auth, async(req, res) => {
     }
 })  
 
+router.get('/api/category/all', auth, async(req, res) => {
+    try {
+        if(!req.query.project) {
+            return res.send({error: "Please provide project as query"})
+        }
+        const allCategories = await Category.find({
+            creator: req.user._id, 
+            project: req.query.project
+        })
+        allCategories.reverse()
+        return res.send(allCategories)
+    } catch (error) {
+        return res.send({error: "in get all categories: " + error})
+    }
+})
 module.exports = router

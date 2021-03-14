@@ -1,17 +1,21 @@
+import axios from 'axios'
 const getAllCompletedTasks = async (id) => {
-    const response = await fetch(`/tasks?completed=true&sort=createdAt:asc&project=${id}`, {
-        method: "GET",
-        headers: {
-            "Content-Type": "application/json"
-        }
-    })
-    const body = await response.json()
-    // console.log("Completed: ", body)
-    console.log(body)
-    if(typeof body != 'object'){
-        console.log('error')
-    }
-    return body
+  let res = await axios.get(`/tasks?completed=true&sort=createdAt:asc&project=${id}`)
+  console.log(res)
+  return res.data
+    // const response = await fetch(`/tasks?completed=true&sort=createdAt:asc&project=${id}`, {
+    //     method: "GET",
+    //     headers: {
+    //         "Content-Type": "application/json"
+    //     }
+    // })
+    // const body = await response.json()
+    // // console.log("Completed: ", body)
+    // // console.log(body)
+    // if(typeof body != 'object'){
+    //     console.log('error')
+    // }
+    // return body
 }
 const getAllIncompleteTasks = async (id) =>{
     const response = await fetch(`/tasks?completed=false&sort=createdAt:asc&project=${id}`, {
@@ -28,7 +32,7 @@ const getAllIncompleteTasks = async (id) =>{
     if(body.error){
         return []
     }
-    console.log(body)
+    // console.log(body)
     return body
 }
 const getAllTasks = async (id) => {
@@ -37,15 +41,15 @@ const getAllTasks = async (id) => {
     if(completed.error || incomplete.error){
         return []
     }
-    incomplete.forEach(item => {
-        completed.push(item)
-    })
+    // incomplete.forEach(item => {
+    //     completed.push(item)
+    // })
     completed.reverse()
     // console.log("Whole thing: ", array)
-    return completed
+    return [incomplete, completed]
 }
 export {
     getAllCompletedTasks,
-    getAllIncompleteTasks, 
+    getAllIncompleteTasks,
     getAllTasks
 }

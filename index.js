@@ -42,9 +42,9 @@ if (process.env.NODE_ENV === 'production') {
 
 process.on('SIGINT', () => {
   console.log("Server is shitting down")
-  setTimeout(() => {
+  // setTimeout(() => {
     app.on("close", process.exit(1))
-  }, 100)
+  // }, 100)
 })
 
 app.listen(port, () => {

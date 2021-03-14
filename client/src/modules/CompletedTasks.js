@@ -1,13 +1,13 @@
 import React,  { useState, useEffect } from 'react'
-
 import { getAllCompletedTasks } from '../paths/Task-requests/GetAllTasks'
+import { deleteTask } from '../paths/Task-requests/DeleteTask'
 
 function CompletedTasks(props){
   const [tasks, setTasks] = useState([{description: '...loading', _id: '483572394085672908'}])
 
   const getTasks = async () => {
     let res = await getAllCompletedTasks(props.id)
-    console.log(res)
+    // console.log(res)
     setTasks(res)
     return
   }
@@ -18,8 +18,10 @@ function CompletedTasks(props){
     const handleUpdateTaskCompleted = () => {
 
     }
-    const handleDeleteTask = () => {
-
+    const handleDeleteTask = (evt) => {
+      evt.preventDefault()
+      deleteTask(evt.target.value)
+      getTasks()
     }
     return (
       <div>
@@ -40,7 +42,7 @@ function CompletedTasks(props){
                     {item.description}
                 </p>
                 <div className="Task-btn-con">
-                    <button className="Task-delete-btn Pointer" value={item._id} onClick={() => {handleDeleteTask()}}>X</button>
+                    <button className="Task-delete-btn Pointer" value={item._id} onClick={handleDeleteTask}>X</button>
                 </div>
             </div>
           )
