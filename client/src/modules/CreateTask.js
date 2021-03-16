@@ -11,9 +11,10 @@ class CreateTask extends Component {
     this.handleCreateTask = this.handleCreateTask.bind(this)
     this.handleChange = this.handleChange.bind(this)
   }
-  handleCreateTask(evt){
+  async handleCreateTask(evt){
     evt.preventDefault()
-    createTask(this.state.newTask, this.props.id, this.state.category)
+    console.log(this.state.category)
+    await createTask(this.state.newTask, this.props.id, this.state.category)
     this.setState({newTask: ''})
     this.props.action()
   }
@@ -27,7 +28,7 @@ class CreateTask extends Component {
         </option>
       )
     return (
-      <div>
+      <div style={{"margin": "20px 0"}}>
         <h3 style={{"textAlign": "center"}}>
           Add new Tasks
         </h3>
@@ -41,7 +42,8 @@ class CreateTask extends Component {
               {allCategoriesMap}
             </select>
           </div>
-          <button style={{"background": "rgb(32, 113, 153)", "width": "100%", "color": "#fff", "borderRadius": "5px", "height": "30px"}}>Add new task: </button>
+          <button style={{"background": "rgb(32, 113, 153)", 
+          "width": "100%", "color": "#fff", "borderRadius": "5px", "height": "30px"}}>Add</button>
         </form>
       </div>
     )

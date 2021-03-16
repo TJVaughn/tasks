@@ -12,12 +12,14 @@ const middleware = [auth]
 //CREATE
 router.post('/tasks', middleware, async (req, res) => {
     try {
+        console.log(req.body)
         let taskCategory
         if(!req.body.category){
             taskCategory = await Category.findOne({creator: req.user._id, title: 'To Check Off', project: req.body.project})
         } else {
             taskCategory = await Category.findOne({_id: req.body.category, creator: req.user._id})
         }
+        // console.log(taskCategory)
         const project = await Project.findOne({_id: req.body.project, creator: req.user._id})
         let isCompleted = false
         if(taskCategory.title === 'Done'){
@@ -30,8 +32,6 @@ router.post('/tasks', middleware, async (req, res) => {
             category: taskCategory,
             completed: isCompleted
         })
-
-    
         await task.save();
         res.status(201).send(task)
     } catch (err) {
@@ -65,52 +65,51 @@ router.get('/tasks', auth, async (req, res) => {
     }
 
     try {
-      let categories = await Category.find({creator: req.user._id, project: req.query.project})
-      if(categories.length === 0 ) {
-        const doneCategory = new Category({
-          title: 'Done',
-          project: req.query.project,
-          creator: req.user._id
+        let categories = await Category.find({creator: req.user._id, project: req.query.project})
+        if(categories.length === 0 ) {
+            const doneCategory = new Category({
+            title: 'Done',
+            project: req.query.project,
+            creator: req.user._id
+            })
+            const todoCategory = new Category({
+            title: 'To Check Off',
+            project: req.query.project,
+            creator: req.user._id
+            })
+            await doneCategory.save()
+            await todoCategory.save()
+            categories.push(todoCategory, doneCategory)
+            let sendData = []
+            categories.forEach((c) => {
+                sendData.push({category: c, tasks: [], settings: false})
+            })
+            // return res.send([{category: todoCategory, tasks: []}, {category: doneCategory, tasks: []}])
+            return res.send(sendData)
+        }
+        let doneCategory = await Category.find({creator: req.user._id, project: req.query.project, title: 'Done'})
+        // let todoCategory = await Category.find({creator: req.user._id, project: req.query.project, title: 'To Check Off'})
+        categories.reverse()
+        let allTasks = await Task.find({creator: req.user._id, project: req.query.project})
+
+        let sendData = []
+        categories.forEach((c) => {
+            sendData.push({category: c, tasks: [], settings: false})
         })
-        const todoCategory = new Category({
-          title: 'To Check Off',
-          project: req.query.project,
-          creator: req.user._id
-        })
-        await doneCategory.save()
-        await todoCategory.save()
-        categories.push(todoCategory, doneCategory)
-        return res.send([{category: todoCategory}, {category: doneCategory}])
-      }
-    //   console.log(req.query.project)
-    //   categories.tasks = []
-    let doneCategory = await Category.find({creator: req.user._id, project: req.query.project, title: 'Done'})
-    let todoCategory = await Category.find({creator: req.user._id, project: req.query.project, title: 'To Check Off'})
-    // console.log(doneCategory)
-    categories.reverse()
-      let allTasks = await Task.find({creator: req.user._id, project: req.query.project})
-      let sendData = []
-      categories.forEach((c) => {
-          sendData.push({category: c, tasks: []})
-      })
-      for(let t = 0; t < allTasks.length; t++) {
-          if(allTasks[t].completed){
+        
+        for(let t = 0; t < allTasks.length; t++) {
+            if(allTasks[t].completed){
                 allTasks[t].category = doneCategory[0]._id
-          } else {
-                allTasks[t].category = todoCategory[0]._id
-          }
-          allTasks[t].save()
-        for(let c = 0; c < categories.length; c++) {
-            // console.log(allTasks[t])
-            // console.log(categories[c])
-            if(allTasks[t].category.toString() === categories[c]._id.toString()){
-                
-                sendData[c].tasks.unshift(allTasks[t])
+            } 
+            allTasks[t].save()
+            for(let c = 0; c < categories.length; c++) {
+                if(allTasks[t].category.toString() === categories[c]._id.toString()){
+                    sendData[c].tasks.unshift(allTasks[t])
+                }
             }
         }
-      }
-
-      res.send(sendData)
+        // console.log(sendData)
+        res.send(sendData)
 
         // await req.user.populate({
         //     path: 'tasks',
@@ -180,25 +179,25 @@ router.patch('/tasks/:id', auth, async (req, res) => {
     try {
         // const task = await Task.findById(req.params.id);
         const task = await Task.findOne({ _id: req.params.id, creator: req.user._id })
-        const categories = await Category.find({ creator: req.user._id })
+        // const categories = await Category.find({ creator: req.user._id })
         if(!task) {
             return res.status(404).send({error: "Task not found!"})
         }
-        console.log(task.category)
-        // console.log(categories)
-        if(!task.category) {
-          if(categories.length < 1){
-            const todoCategory = new Category({
-              title: 'To Check Off',
-              project: task.project,
-              creator: req.user._id
-            })
-            await todoCategory.save()
-            task.category = todoCategory._id
-          } else {
-              task.category = categories[0]._id
-          }
-        }
+        // console.log(task.category)
+        // // console.log(categories)
+        // if(!task.category) {
+        //   if(categories.length < 1){
+        //     const todoCategory = new Category({
+        //       title: 'To Check Off',
+        //       project: task.project,
+        //       creator: req.user._id
+        //     })
+        //     await todoCategory.save()
+        //     task.category = todoCategory._id
+        //   } else {
+        //       task.category = categories[0]._id
+        //   }
+        // }
 
         updates.forEach((update) => {
             task[update] = req.body[update]
@@ -229,27 +228,27 @@ router.delete('/tasks/:id', auth, async (req, res) => {
     }
 })
 
-router.get('/api/tasks/update-old-to-new', auth, async (req, res) => {
-    try {
-        // if(!req.query.project){
-        //     return res.send({error: "Project is required as query"})
-        // }
-        let jsonPath = path.join(__dirname, '../assets/incomplete-tasks-no_category.json')
-        let oldTasks = fs.readFileSync(jsonPath)
-        oldTasks = JSON.parse(oldTasks)
-        oldTasks.forEach((t) => {
-            console.log(t.project.$oid)
-            let task = new Task({
-                description: t.description,
-                project: t.project.$oid,
-                creator: req.user._id,
-                completed: false
-            })
-            task.save()
-        })
-        res.send(oldTasks)
-    } catch (error) {
-        res.send({error: "Error in update old to new: " + error})
-    }
-})
+// router.get('/api/tasks/update-old-to-new', auth, async (req, res) => {
+//     try {
+//         // if(!req.query.project){
+//         //     return res.send({error: "Project is required as query"})
+//         // }
+//         let jsonPath = path.join(__dirname, '../assets/incomplete-tasks-no_category.json')
+//         let oldTasks = fs.readFileSync(jsonPath)
+//         oldTasks = JSON.parse(oldTasks)
+//         oldTasks.forEach((t) => {
+//             console.log(t.project.$oid)
+//             let task = new Task({
+//                 description: t.description,
+//                 project: t.project.$oid,
+//                 creator: req.user._id,
+//                 completed: false
+//             })
+//             task.save()
+//         })
+//         res.send(oldTasks)
+//     } catch (error) {
+//         res.send({error: "Error in update old to new: " + error})
+//     }
+// })
 module.exports = router;

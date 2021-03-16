@@ -35,4 +35,48 @@ router.get('/api/category/all', auth, async(req, res) => {
         return res.send({error: "in get all categories: " + error})
     }
 })
+
+router.patch('/api/category/:id', auth, async (req, res) => {
+    try {
+        const updates = Object.keys(req.body)
+        const allowedUpdates = ['title']
+        const isValidUpdate = updates.every((item) => {
+            return allowedUpdates.includes(item)
+        })
+        if(!isValidUpdate){
+            return res.send({error: "Illegal update. You can only update category: " + [...allowedUpdates]})
+        }
+        const category = await Category.find({creator: req.user._id, _id: req.params.id})
+        if(!category){
+            return res.send({error: "Category not found"})
+        }
+        if(category.title === "Done" || category.title === 'To Check Off') {
+            return res.send({error: "Sorry, you are not allowed to update this category"})
+        }
+        updates.forEach((update) => {
+            category[update] = req.body[update]
+        })
+        await category.save()
+        return res.send({category})
+    } catch (error) {
+        return res.send({error: "in update category: " + error})
+    }
+})
+
+router.delete('/api/category/:id', auth, async(req, res) => {
+    try {
+        const category = await Category.findOne({creator: req.user._id, _id: req.params.id})
+        if(!category){
+            return res.status(404).send({error: "No category found"})
+        }
+        if(category.title === "Done" || category.title === 'To Check Off'){
+            return res.send({error: "Sorry, you are not allowed to delete this category"})
+        }
+        category.delete()
+        return res.send({category})
+    } catch (error) {
+        return res.send({error: "in delete category: " + error})
+        
+    }
+})
 module.exports = router

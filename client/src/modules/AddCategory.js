@@ -20,9 +20,10 @@ class AddCategory extends Component {
   }
   async handleSubmit(evt){
     evt.preventDefault()
-    this.sendData()
+    await this.sendData()
     this.setState({input: ''})
-    this.props.action()
+    // this.props.action()
+    window.location.reload()
   }
   handleChange(evt){
       this.setState({[evt.target.name]: evt.target.value})
@@ -35,9 +36,9 @@ class AddCategory extends Component {
         </h3>
         <form onSubmit={this.handleSubmit}>
           <div className="Task-add-task-form">
-            <input style={{"padding": "10px 0", "margin": "0px 0"}} name="input" value={this.state.input} 
+            <input style={{"padding": "10px 0", "margin": "0px 0", "width": "100%"}} name="input" value={this.state.input} 
             onChange={this.handleChange} />
-            <button style={{"background": "rgb(32, 113, 153)", "color": "#fff", "borderRadius": "5px", "height": "40px"}}>Add new Category </button>
+            <button style={{"background": "rgb(32, 113, 153)", "color": "#fff", "borderRadius": "5px", "height": "40px"}}>Add</button>
 
           </div>
         </form>

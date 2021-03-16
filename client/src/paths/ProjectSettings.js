@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { updateProject } from './Project-requests/UpdateProject'
 import { getProjectById } from './Project-requests/GetProjects'
 import DeleteProjectForm from './DeleteProjectForm'
+import AddCategory from '../modules/AddCategory';
 
 class ProjectSettings extends Component {
     constructor(props){
@@ -93,6 +94,8 @@ class ProjectSettings extends Component {
                     </div>
                 :''}
                 </div>
+                <p></p>
+                {this.state.toggle ? <AddCategory id={this.props.id} /> : ''}
     		</div>
     	);
     }

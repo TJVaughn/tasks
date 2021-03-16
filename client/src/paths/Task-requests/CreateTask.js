@@ -9,7 +9,7 @@ const createTask = async (description, project, category) => {
         project,
         category
     }
-    await axios.post(`/tasks`, data)
-    // console.log(res.data)
+    let res = await axios.post(`/tasks`, data)
+    console.log(res.data)
 }
 export { createTask }
