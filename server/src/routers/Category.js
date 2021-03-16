@@ -46,7 +46,7 @@ router.patch('/api/category/:id', auth, async (req, res) => {
         if(!isValidUpdate){
             return res.send({error: "Illegal update. You can only update category: " + [...allowedUpdates]})
         }
-        const category = await Category.find({creator: req.user._id, _id: req.params.id})
+        const category = await Category.findOne({creator: req.user._id, _id: req.params.id})
         if(!category){
             return res.send({error: "Category not found"})
         }

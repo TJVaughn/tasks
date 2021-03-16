@@ -5,9 +5,12 @@ import { deleteTask } from '../paths/Task-requests/DeleteTask'
 import { updateTask } from '../paths/Task-requests/UpdateTask'
 import AddCategory from './AddCategory'
 import ProjectSettings from '../paths/ProjectSettings'
+import ChangeCategoryTitle from './ChangeCategoryTitle'
 
 export default function Categories(props) {
 
+  const [deleteHover, setDeleteHover] = useState(false)
+  const [categorySettings, setCategorySettings] = useState([])
   const [allCategories, setAllCategories] = useState([
     {
       tasks: [
@@ -24,18 +27,12 @@ export default function Categories(props) {
       }
     }
   ])
-  const [deleteHover, setDeleteHover] = useState(false)
-  const [categorySettings, setCategorySettings] = useState([])
+
 
   const getAllCategories = async() => {
     let res = await axios.get(`/tasks?project=${props.id}`)
     console.log(res.data)
-    // for(let i = 0; i < res.data.length;i++){
-    //   categorySettings.push(null)
-    //   console.log(i)
-    // }
     setAllCategories(res.data)
-
   }
 
   const handleUpdateTaskCompleted = async (evt) => {
@@ -60,6 +57,7 @@ export default function Categories(props) {
   }
   const handleUpdateCategory = async (evt) => {
     evt.preventDefault()
+    console.log(evt.target.attributes[1].value)
   }
   const handleSettings = async (i) => {
     categorySettings[i] = !categorySettings[i]
@@ -69,7 +67,6 @@ export default function Categories(props) {
   useEffect( () => {
     //component mounts, run this
     getAllCategories()
-    // callGetAllTasks()
   }, [])
 
   return (
@@ -88,7 +85,10 @@ export default function Categories(props) {
                 📝
               </div>
               <ul style={categorySettings[i] ? {"display": "inline", "listStyleType": "none"}:{"display": "none"}}  >
-                  <li value={item.category._id} onClick={handleUpdateCategory}>Rename</li>
+                  {true 
+                  ? <ChangeCategoryTitle action={getAllCategories} input={item.category.title} id={item.category._id} /> 
+                  :<li value={item.category._id} onClick={handleUpdateCategory} style={{"cursor": "pointer"}}>Rename</li>}
+                  
                   <li value={item.category._id} onClick={handleDeleteCategory} style={{"color": "red", "fontWeight": 700, "margin": "10px", "cursor": "pointer"}}>Delete</li>
               </ul>
             </div>
