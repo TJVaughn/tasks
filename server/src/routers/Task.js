@@ -12,7 +12,6 @@ const middleware = [auth]
 //CREATE
 router.post('/tasks', middleware, async (req, res) => {
     try {
-        console.log(req.body)
         let taskCategory
         if(!req.body.category){
             taskCategory = await Category.findOne({creator: req.user._id, title: 'To Check Off', project: req.body.project})
