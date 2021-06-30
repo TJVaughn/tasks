@@ -32,18 +32,17 @@ class CreateTask extends Component {
         <h3 style={{"textAlign": "center"}}>
           Add new Tasks
         </h3>
-        <form onSubmit={this.handleCreateTask}>
+        <form title="Click settings to add a new category" onSubmit={this.handleCreateTask}>
           <div className="Task-add-task-form">
-            <input className="Input" name="newTask" value={this.state.newTask} 
+            <input placeholder="Add new task" className="input" name="newTask" value={this.state.newTask} 
             onChange={this.handleChange} />
 
-            <select name='category' value={this.state.category} onChange={this.handleChange}>
+            <select className="btn" name='category' value={this.state.category} onChange={this.handleChange}>
               <option value={null}>Category</option>
               {allCategoriesMap}
             </select>
           </div>
-          <button style={{"background": "rgb(32, 113, 153)", 
-          "width": "100%", "color": "#fff", "borderRadius": "5px", "height": "30px"}}>Add</button>
+          <button className="btn btn-action" >Add</button>
         </form>
       </div>
     )

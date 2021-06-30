@@ -64,14 +64,15 @@ class ProjectSettings extends Component {
     }
     render(){
     	return(
-    		<div className="Project-header">
+            <div>
+    		    <div className="Project-header">
                 {/* <div onClick={this.handleTitleClick} className="Project-title Pointer green"> */}
                     <div className="Project-title Pointer green">
                     {this.state.titleToggle
                     ? <h2>
                         <form onSubmit={this.handleUpdateSubmit}>
-                            <input onChange={this.handleProjectTitleInputChange} value={this.state.projectTitleInput} />
-                            <button>Update</button>
+                            <input className="input" onChange={this.handleProjectTitleInputChange} value={this.state.projectTitleInput} />
+                            <button className="btn btn-action">Update</button>
                         </form>
                     </h2>
                     :<h2>
@@ -79,7 +80,7 @@ class ProjectSettings extends Component {
                     </h2>}
                     
                 </div>
-                <div className="Project-settings">
+                <div className="Project-settings btn">
                     
                     <h4 className="Pointer white" onClick={this.handleToggle}>Settings</h4>
 
@@ -95,6 +96,7 @@ class ProjectSettings extends Component {
                 :''}
                 </div>
                 <p></p>
+                </div>
                 {this.state.toggle ? <AddCategory id={this.props.id} /> : ''}
     		</div>
     	);

@@ -13,7 +13,8 @@ class ProjectRouter extends Component {
             singleProject: {},
             projectID: '',
             error: '',
-            loading: true
+            loading: true,
+            newProject: false
         }
         this.handleTitleChange = this.handleTitleChange.bind(this)
         this.handleCreateProject = this.handleCreateProject.bind(this)
@@ -58,18 +59,29 @@ class ProjectRouter extends Component {
             )
     	return(
     		<div>
-                {allProjectsMap.length > 0 
-                ?<p><strong>Select an existing project</strong></p>
-                :''}
+                <div className="float">
+                    <h1>Projects</h1>
+                    {allProjectsMap.length > 0 
+                    ?<div></div>
+                    :<div>Add a new project =&gt;</div>}
+                    <div>
+                        <button onClick={() => {this.setState({newProject: !this.state.newProject})}} 
+                        title="Add a new project" className="btn">Add</button>
+                    </div>
+                </div>
+                {this.state.newProject
+                ?<form onSubmit={this.handleCreateProject}>
+                    <h2>Create New Project</h2>
+                    <input className="input" placeholder="New project" onChange={this.handleTitleChange} type="text" value={this.state.title} />
+                    <button className="btn btn-action">Create</button>
+                </form>
+                :""}
                 
                 <div className="All-projects-titles-container">
                     {this.state.loading ? "...loading" : allProjectsMap }
                 </div>
-                <form onSubmit={this.handleCreateProject}>
-                    <label>Create a new project: </label>
-                    <input onChange={this.handleTitleChange} type="text" value={this.state.title} />
-                    <button>Add Project</button>
-                </form>
+                
+                
                 
                 <div>
                     {this.state.error}

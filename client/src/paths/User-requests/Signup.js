@@ -66,13 +66,13 @@ class Signup extends Component {
     		<div>
                 <h2>Sign up</h2>
                 <form onSubmit={this.handleSubmit}>
-                    <label>Name</label><br />
-                    <input type="text" value={this.state.inputName} onChange={this.handleChangeName} /><br />
-                    <label>Email</label><br />
-                    <input type="email" value={this.state.inputEmail} onChange={this.handleChangeEmail} /><br />
-                    <label>Pass</label><br />
-                    <input type="password" value={this.state.inputPass} onChange={this.handleChangePass} /><br />
-                    <button>Sign up</button>
+                    {/* <label>Name</label><br /> */}
+                    <input className="input" placeholder="Name" type="text" value={this.state.inputName} onChange={this.handleChangeName} /><br />
+                    {/* <label>Email</label><br /> */}
+                    <input className="input" placeholder="Email" type="email" value={this.state.inputEmail} onChange={this.handleChangeEmail} /><br />
+                    {/* <label>Pass</label><br /> */}
+                    <input className="input" placeholder="Password" type="password" value={this.state.inputPass} onChange={this.handleChangePass} /><br />
+                    <button className="btn btn-action">Register</button>
                 </form>
                 {this.state.errmsg}
 

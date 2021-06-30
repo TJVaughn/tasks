@@ -30,15 +30,15 @@ class AddCategory extends Component {
   }
   render() {
     return (
-      <div>
+      <div id="add-category">
         <h3 style={{"textAlign": "center"}}>
           Add Category
         </h3>
         <form onSubmit={this.handleSubmit}>
-          <div className="Task-add-task-form">
-            <input style={{"padding": "10px 0", "margin": "0px 0", "width": "100%"}} name="input" value={this.state.input} 
+          <div>
+            <input placeholder="Add new category" className="input" name="input" value={this.state.input} 
             onChange={this.handleChange} />
-            <button style={{"background": "rgb(32, 113, 153)", "color": "#fff", "borderRadius": "5px", "height": "40px"}}>Add</button>
+            <button className="btn btn-action">Add</button>
 
           </div>
         </form>

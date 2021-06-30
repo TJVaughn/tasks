@@ -65,11 +65,11 @@ class Login extends Component {
 				{/* <RecaptchaComponent /> */}
 				<h2>Log In</h2>
     			<form onSubmit={this.handleSubmit}>
-					<label>Email</label><br />
-					<input type="email" value={this.state.email} onChange={this.handleEmailChange} /><br />
-					<label>Password</label><br />
-					<input type="password" value={this.state.pass} onChange={this.handlePassChange} /><br />
-					<button>Sign in</button>
+					{/* <label>Email</label><br /> */}
+					<input className="input" placeholder="email" type="email" value={this.state.email} onChange={this.handleEmailChange} /><br />
+					{/* <label>Password</label><br /> */}
+					<input className="input" placeholder="password" type="password" value={this.state.pass} onChange={this.handlePassChange} /><br />
+					<button className="btn-action btn">Login</button>
 				</form>
 				{this.state.errormsg}
 				<p className="Pointer green" onClick={this.forgotPassHandler}>Forgot Password?</p>

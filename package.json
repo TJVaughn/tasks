@@ -9,7 +9,7 @@
     "client": "cd client && yarn start",
     "server": "env-cmd -f ./server/config/dev.env nodemon index.js",
     "database": "cd ~/Documents/mongodb/mongodb-org-server_4.4.1_amd64/data/usr/bin && mongod --dbpath=mongodb-data",
-    "dev": "concurrently \"yarn server\" \"yarn client\"",
+    "dev": "concurrently \"yarn server\" \"yarn client\"  ",
     "test": "env-cmd -f ./config/test.env jest --watch --runInBand",
     "heroku-postbuild": "cd client && npm install && npm install --only=dev --no-shrinkwrap && npm run build"
   },

@@ -6,6 +6,7 @@ const multer = require('multer')
 const { sendWelcome, sendGoodbye, sendNewPass } = require('../email/account')
 const router = new express.Router();
 const { setExpireTime } = require('../utils/SetExpire')
+const expireTime = 365
 
 //CREATE
 router.post('/users', async (req, res) => {
@@ -15,7 +16,7 @@ router.post('/users', async (req, res) => {
         secure = 'secure'
     }
     try {
-        const expires = setExpireTime(14)
+        const expires = setExpireTime(expireTime)
         const userIP = req.connection.remoteAddress
         const token = await user.generateAuthToken()
         await user.save();
@@ -38,7 +39,7 @@ router.post('/users/login', async (req, res) => {
         secure = 'secure'
     }
     try {
-        const expires = setExpireTime(14)
+        const expires = setExpireTime(expireTime)
         const user = await User.findByCredentials(req.body.email, req.body.password);
         const token = await user.generateAuthToken()
         res.setHeader('Set-Cookie', `AuthToken=${token};HttpOnly;expires=${expires};path=/;${secure};`)

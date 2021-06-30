@@ -1,3 +1,5 @@
+import { setCookie } from "../../utils/cookies"
+
 const logoutUser = async () => {
     await fetch('/users/logout', {
         method: 'POST',
@@ -6,6 +8,9 @@ const logoutUser = async () => {
         },
         redirect: 'follow'
     })
+    setCookie("isLoggedIn", false)
+    window.location.reload()
+
 }
 const logoutUserFromAll = async () => {
     await fetch('/users/logout-all', {
@@ -15,5 +20,7 @@ const logoutUserFromAll = async () => {
         },
         redirect: 'follow'
     })
+    setCookie("isLoggedIn", false)
+    window.location.reload()
 }
 export { logoutUser, logoutUserFromAll }

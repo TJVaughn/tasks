@@ -3,7 +3,6 @@ import CreateTask from './CreateTask'
 import axios from 'axios'
 import { deleteTask } from '../paths/Task-requests/DeleteTask'
 import { updateTask } from '../paths/Task-requests/UpdateTask'
-import AddCategory from './AddCategory'
 import ProjectSettings from '../paths/ProjectSettings'
 import ChangeCategoryTitle from './ChangeCategoryTitle'
 

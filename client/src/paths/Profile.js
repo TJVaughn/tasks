@@ -1,8 +1,7 @@
 import React, { Component } from 'react';
-import { BrowserRouter as Switch, Link } from "react-router-dom";
 import { getUser } from './User-requests/GetUser'
-import { updateUserName } from './User-requests/UpdateUser'
-import profilePicture from '../logo.svg'
+import { logoutUserFromAll } from './User-requests/LogoutUser';
+import { checkOldPass, createNewPass, updateUserName } from './User-requests/UpdateUser'
 
 class Profile extends Component {
     constructor(props){
@@ -10,69 +9,91 @@ class Profile extends Component {
         this.state = {
             profile: {},
             loggedIn: true,
-            showUpdateProfile: false,
-            updateName: '',
-            errmsg: ''
+            viewSettings: false,
+            name: '',
+            errmsg: '',
+            oldPass: '',
+            newPass: ''
         }
-        this.handleUpdateProfileBtn = this.handleUpdateProfileBtn.bind(this)
+        this.handleChange = this.handleChange.bind(this)
         this.handleUpdateName = this.handleUpdateName.bind(this)
-        this.handleNameChange = this.handleNameChange.bind(this)
+        this.handlePasswordChange = this.handlePasswordChange.bind(this)
+    }
 
+    async handleLogOutFromAll(){
+        await logoutUserFromAll()
     }
     async callGetUser(){
         const user = await getUser()
-        this.setState({profile: user})
+        this.setState({profile: user, name: user.name})
     }
     componentDidMount(){
         this.setState({loggedIn: true})
         this.callGetUser()
     }
-
-    handleUpdateProfileBtn(){
-        if(!this.state.showUpdateProfile){
-            return this.setState({showUpdateProfile: true, updateName: this.state.profile.name})
-        }
-        this.setState({showUpdateProfile: false})
-    }
     async handleUpdateName(evt){
         evt.preventDefault()
-        await updateUserName(this.state.updateName)
+        await updateUserName(this.state.name)
         this.callGetUser()
-        this.setState({updateName: '', showUpdateProfile: false})
+        this.setState({name: '', showUpdateProfile: false})
     }
-    handleNameChange(evt){
-        this.setState({updateName: evt.target.value})
+    handleChange(evt){
+        console.log(evt.target.value)
+        this.setState({[evt.target.name]: evt.target.value})
     }
-
+    async handlePasswordChange(evt){
+        evt.preventDefault()
+        const profile = await getUser()
+        console.log(profile)
+        const res = await checkOldPass(profile.email, this.state.oldPass)
+        if(!res){
+            return this.setState({errmsg: 'Incorrect Pass'})
+        }
+        await createNewPass(this.state.newPass)
+        this.setState({oldPass: '', newPass: '', errmsg: 'Success!'})
+    }
     render(){
         const updateName = 
         <form onSubmit={this.handleUpdateName}>
-            <h3>
-                <input type="text" value={this.state.updateName} onChange={this.handleNameChange} />
-                <button>Update</button>
+            <h3> Update Name
+                <input name="name" className="input" type="text" value={this.state.name} onChange={this.handleChange} />
+                <button className="btn btn-action">Update</button>
             </h3>
         </form>
+
+        const updatePass = <div>
+            
+            <form onSubmit={this.handlePasswordChange}>
+                <h3>Update Password: </h3>
+                <label >Old password: </label><br />
+                <input className="input" placeholder="Old Password" name="oldPass" type='password'
+                 value={this.state.oldPass} onChange={this.handleChange} />
+                <label>New password: </label><br />
+                <input className="input" placeholder="New Password" name="newPass" type='password'
+                 value={this.state.newPass} onChange={this.handleChange} />
+                <button className="btn btn-action">Update Password</button>
+            </form>
+            {this.state.errmsg}
+        </div>
         
     	return(
     		<div>
-                <div className="Profile-container">
-                    <div>
-                        <img className="Profile-picture" alt='Profile' src={profilePicture} />
-                    </div>
-                    <div className="Profile-info">
-                        {this.state.showUpdateProfile
-                        ? updateName
-                        :<h3 title="Click to change" 
-                            className="Pointer green" 
-                            onClick={this.handleUpdateProfileBtn}>
-                            {this.state.profile.name}
-                        </h3>}
-                        
-                        <h4>{this.state.profile.email}</h4>
+                <div className="jumbo">
+                    <h1 className="title">{this.state.profile.name}</h1>
+                    <div className="row">
+                        <p className="col">{this.state.profile.email} </p>
                     </div>
                 </div>
-                <Switch />
-                <Link to='/profile-settings/'>Settings</Link>
+                <div>
+                <h3 className="Pointer green" onClick={()=>{this.setState({viewSettings: !this.state.viewSettings})}} >Settings</h3>
+                {this.state.viewSettings
+                ?<div>
+                    {updateName}
+                    {updatePass}
+                    <h3 className="Pointer green" onClick={()=>{logoutUserFromAll()}}>Log out from all devices</h3>
+                </div>:''
+                }
+    		</div>
     		</div>
     	);
     }
