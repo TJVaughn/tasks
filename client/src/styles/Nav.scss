@@ -1,3 +1,9 @@
+.Nav {
+    position: sticky;
+    top: 0;
+    z-index: 200;
+    background-color: #000;
+}
 #Site-title {
     text-decoration: none;
     text-emphasis: none;
@@ -9,6 +15,7 @@ a{
     color: rgb(23, 199, 0);
 }
 .Site-Navigation {
+    position: relative;
     display: flex;
     justify-content: space-between;
     align-items: center;

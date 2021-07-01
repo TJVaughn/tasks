@@ -14,18 +14,20 @@ import './styles/Tasks.scss'
 import './styles/LoginSignup.scss'
 import './styles/Profile.scss'
 import './styles/Project.scss'
+import './styles/Landing.scss'
+
 const isAuthenticated = loggedIn()
 
 function Index(){
     return (
-        <div>
+        <div className="App">
             {isAuthenticated ? <ProjectRouter /> : <Redirect to={'/land'} /> }
         </div>
     )
 }
 function SingleProjectRouter(props){
     return (
-        <div>
+        <div className="App">
             <Categories id={props.match.params.id}/>
         </div>
     )
@@ -33,7 +35,7 @@ function SingleProjectRouter(props){
 
 function ProfileRouter(){
     return(
-        <div>
+        <div className="App">
             {isAuthenticated 
             ? <div>
                 <Profile />
@@ -45,7 +47,7 @@ function ProfileRouter(){
 
 function LoginSignupRouter(){
     return (
-        <div>
+        <div className="App">
             <LoginSignupContainer />
         </div>
     )
@@ -56,32 +58,31 @@ class App extends Component {
 
     navbarMenu(){
         return (
-            <div className="Site-Navigation">
-                <div>
-
-                    <Link to={'/'} ><h2 id="Site-title">Check Off</h2></Link>
+            <div className="Nav" >
+                <div className="Site-Navigation App">
+                    <div>
+                        <Link to={'/'} ><h2 id="Site-title">Could Do List</h2></Link>
+                    </div>
+                    {isAuthenticated
+                    ? <div>
+                        <Link to={'/profile/'} >Profile</Link>
+                        <button onClick={() => {logoutUserFromAll()}} className="btn">Logout</button>
+                    </div>
+                    :<div>
+                        <Link className="btn btn-action" to={'/login-signup/'}>Signup / Login</Link>
+                    </div>}
                 </div>
-                {isAuthenticated
-                ? <div>
-                    <Link to={'/profile/'} >Profile</Link>
-                    <button onClick={() => {logoutUserFromAll()}} className="btn">Logout</button>
-
-                </div>
-                :<div>
-                    <Link to={'/login-signup/'}>Login/signup</Link>
-                </div>}
-
-
+                <hr />
             </div>
         )
     }
 
     render(){
         return (
-            <div className="App">
+            <div className="">
                 <Router>
                     {this.navbarMenu()}
-                    <hr />
+                    
                     <Switch>
                         <Route path={'/'} exact component={Index} />
                         <Route path={'/profile/'} component={ProfileRouter} />

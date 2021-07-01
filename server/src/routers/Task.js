@@ -14,7 +14,7 @@ router.post('/tasks', middleware, async (req, res) => {
     try {
         let taskCategory
         if(!req.body.category){
-            taskCategory = await Category.findOne({creator: req.user._id, title: 'To Check Off', project: req.body.project})
+            taskCategory = await Category.findOne({creator: req.user._id, title: 'Could Do', project: req.body.project})
         } else {
             taskCategory = await Category.findOne({_id: req.body.category, creator: req.user._id})
         }
@@ -72,7 +72,7 @@ router.get('/tasks', auth, async (req, res) => {
             creator: req.user._id
             })
             const todoCategory = new Category({
-            title: 'To Check Off',
+            title: 'Could Do',
             project: req.query.project,
             creator: req.user._id
             })

@@ -50,7 +50,7 @@ router.patch('/api/category/:id', auth, async (req, res) => {
         if(!category){
             return res.send({error: "Category not found"})
         }
-        if(category.title === "Done" || category.title === 'To Check Off') {
+        if(category.title === "Done" || category.title === 'Could Do') {
             return res.send({error: "Sorry, you are not allowed to update this category"})
         }
         updates.forEach((update) => {
@@ -69,7 +69,7 @@ router.delete('/api/category/:id', auth, async(req, res) => {
         if(!category){
             return res.status(404).send({error: "No category found"})
         }
-        if(category.title === "Done" || category.title === 'To Check Off'){
+        if(category.title === "Done" || category.title === 'Could Do'){
             return res.send({error: "Sorry, you are not allowed to delete this category"})
         }
         category.delete()
