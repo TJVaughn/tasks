@@ -30,7 +30,7 @@ export default function Landing() {
     }
 
     useEffect(() => {
-        gsap.to('.scene-1', setAnimOptions('.scene-1', '.scene-2'))
+        // gsap.to('.scene-1', setAnimOptions('.scene-1', '.scene-2'))
         gsap.to('.scene-2', setAnimOptions('.scene-2', '.scene-3'))
         gsap.to('.scene-3', setAnimOptions('.scene-3', '.scene-4'))
         gsap.to('.scene-4', setAnimOptions('.scene-4', '.scene-5'))
@@ -77,14 +77,17 @@ export default function Landing() {
                     <img className="img" alt="add categories and tasks" src={tasksImg} />
                 </div>
             </div>
-            <div className="scene-6 jumbo">
+            <div className="scene scene-6 jumbo">
+                <h2>
+                    It's Free and Open Source!
+                </h2>
                 <h2>
                     Give the app a try!
                 </h2>
                 <Link className="btn btn-action" to="/login-signup">Signup</Link>
             </div>
             <div>
-                <h2>Free and Open Source Software Task Application</h2>
+                <h2 className=""> Links</h2>
                 <ul>
                     <li>
                         <a target="_blank" rel="noopener noreferrer" href="https://github.com/TJVaughn/tasks">github</a>
